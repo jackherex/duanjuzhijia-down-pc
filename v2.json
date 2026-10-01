@@ -1,28 +1,28 @@
 {
-  "version": "1.0.18+19",
-  "versionName": "1.0.18",
-  "build": 19,
-  "versionCode": 10018,
+  "version": "1.0.19+20",
+  "versionName": "1.0.19",
+  "build": 20,
+  "versionCode": 10019,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-01T09:48:34Z",
-  "notes": "**电脑版 1.0.18+19**\n\n- 改：在线更新走电脑版自己的下载通道，与电视版 / 手机版分开，各自更新、版本号互不影响\n- 改：更新说明里不再混入电视版 / 手机版的内容\n\n> ⚠️ 本次是**电脑版独立通道的第一次发布**。装过旧版（读旧通道）的电脑，需要**手动装一次**这个包；之后就能正常自动更新了。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v1.0.18-19",
+  "publishedAt": "2026-10-01T10:34:23Z",
+  "notes": "**电脑版 1.0.19+20**\n\n- 修：**切集卡一下** —— 以前每次换集前都要先把当前画面截下来存着，这张截图要从显卡读回一整帧、还挡在换集流程里。现在整个机制去掉了，换集利索多了。\n- 改：更新走电脑版自己的下载通道，与电视版 / 手机版分开，各自更新、互不影响\n\n> ⚠️ 装过旧版的电脑需要**手动装一次**这个包；之后就能自动更新了。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v1.0.19-20",
   "assets": [
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-1.0.18+19-windows-x64.zip",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.18-19/duanjuzhijia2-1.0.18%2B19-windows-x64.zip",
+      "name": "duanjuzhijia2-1.0.19+20-windows-x64.zip",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.19-20/duanjuzhijia2-1.0.19%2B20-windows-x64.zip",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.18-19/duanjuzhijia2-1.0.18%2B19-windows-x64.zip",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.18-19/duanjuzhijia2-1.0.18%2B19-windows-x64.zip",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.18-19/duanjuzhijia2-1.0.18%2B19-windows-x64.zip",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.18-19/duanjuzhijia2-1.0.18%2B19-windows-x64.zip"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.19-20/duanjuzhijia2-1.0.19%2B20-windows-x64.zip",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.19-20/duanjuzhijia2-1.0.19%2B20-windows-x64.zip",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.19-20/duanjuzhijia2-1.0.19%2B20-windows-x64.zip",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.19-20/duanjuzhijia2-1.0.19%2B20-windows-x64.zip"
       ],
-      "size": 95068453,
-      "sha256": "b171e9573040b7e77557d584c32228ab0b741e35eed65f921a1edfccb0ef2b38",
-      "notes": "**电脑版 1.0.18+19**\n\n- 改：在线更新走电脑版自己的下载通道，与电视版 / 手机版分开，各自更新、版本号互不影响\n- 改：更新说明里不再混入电视版 / 手机版的内容\n\n> ⚠️ 本次是**电脑版独立通道的第一次发布**。装过旧版（读旧通道）的电脑，需要**手动装一次**这个包；之后就能正常自动更新了。"
+      "size": 94989884,
+      "sha256": "097ca102608a1a9597fa9c0bc0a573c1b65c3d655bfdd8d62d2af58e543edfb6",
+      "notes": "**电脑版 1.0.19+20**\n\n- 修：**切集卡一下** —— 以前每次换集前都要先把当前画面截下来存着，这张截图要从显卡读回一整帧、还挡在换集流程里。现在整个机制去掉了，换集利索多了。\n- 改：更新走电脑版自己的下载通道，与电视版 / 手机版分开，各自更新、互不影响\n\n> ⚠️ 装过旧版的电脑需要**手动装一次**这个包；之后就能自动更新了。"
     }
   ]
 }
