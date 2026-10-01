@@ -1,28 +1,28 @@
 {
-  "version": "1.0.20+21",
-  "versionName": "1.0.20",
-  "build": 21,
-  "versionCode": 10020,
+  "version": "1.0.21+22",
+  "versionName": "1.0.21",
+  "build": 22,
+  "versionCode": 10021,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-01T12:30:28Z",
-  "notes": "**电脑版 1.0.20+21**\n\n- 修：**4K 屏 + 高缩放（175%）下首页滚动掉帧** —— 以前在 3840×2160 上按满分辨率渲染，每帧要处理 830 万像素，超出 60fps 的预算，所以滚起来一格一格地顿。现在把渲染分辨率上限压到 1.25 倍（像素量降到约一半），**界面元素大小和排版完全不变**，只是渲染精度略降。\n\n> ⚠️ 如果你的显示器不是 4K、或者系统缩放是 100%，这一版对**画面没有任何变化**（只在高分辨率高缩放的机器上才生效）。\n\n- 修：**切集卡一下** —— 以前每次换集前都要先把当前画面截下来存着，这张截图要从显卡读回一整帧、还挡在换集流程里。现在整个机制去掉了，换集利索多了。\n- 改：更新走电脑版自己的下载通道，与电视版 / 手机版分开，各自更新、互不影响",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v1.0.20-21",
+  "publishedAt": "2026-10-01T12:49:01Z",
+  "notes": "**电脑版 1.0.21+22**\n\n- 修：**一键更新点了下不动** —— 以前只会从「github 直连」这一个地址下载，而那个地址在国内经常连不上（它会跳转到另一个域名），于是每次都报「下载安装包失败」。现在会**自动依次换地址重试**，某个地址下完才停；全部失败才报错，并且会把每个地址失败在哪一步列出来。\n\n- 新增：**下载时能看到进度了** —— 进度条、百分比、已下载/总大小、**下载速度**、**剩余时间**，以及「下载地址 2/5」这样的提示（多地址重试是自动的，不显示的话进度条突然归零会让人以为出错）。\n\n- 修：**4K 屏 + 高缩放（175%）下首页滚动掉帧** —— 以前在 3840×2160 上按满分辨率渲染，每帧要处理 830 万像素，超出 60fps 的预算。现在把渲染分辨率上限压到 1.25 倍（像素量降到约一半），**界面元素大小和排版完全不变**。\n\n> ⚠️ 如果你的显示器不是 4K、或者系统缩放是 100%，上面这条对**画面没有任何变化**。\n\n- 修：**切集卡一下** —— 换集前那次「截图存着」的机制整个去掉了。\n- 改：更新走电脑版自己的下载通道，与电视版 / 手机版分开，各自更新、互不影响",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v1.0.21-22",
   "assets": [
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-1.0.20+21-windows-x64.zip",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.20-21/duanjuzhijia2-1.0.20%2B21-windows-x64.zip",
+      "name": "duanjuzhijia2-1.0.21+22-windows-x64.zip",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.21-22/duanjuzhijia2-1.0.21%2B22-windows-x64.zip",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.20-21/duanjuzhijia2-1.0.20%2B21-windows-x64.zip",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.20-21/duanjuzhijia2-1.0.20%2B21-windows-x64.zip",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.20-21/duanjuzhijia2-1.0.20%2B21-windows-x64.zip",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.20-21/duanjuzhijia2-1.0.20%2B21-windows-x64.zip"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.21-22/duanjuzhijia2-1.0.21%2B22-windows-x64.zip",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.21-22/duanjuzhijia2-1.0.21%2B22-windows-x64.zip",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.21-22/duanjuzhijia2-1.0.21%2B22-windows-x64.zip",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.21-22/duanjuzhijia2-1.0.21%2B22-windows-x64.zip"
       ],
-      "size": 94989923,
-      "sha256": "ab96652aa666aa42404bcf402ae20653865635a633c688ee6c1bdf5b84d8c352",
-      "notes": "**电脑版 1.0.20+21**\n\n- 修：**4K 屏 + 高缩放（175%）下首页滚动掉帧** —— 以前在 3840×2160 上按满分辨率渲染，每帧要处理 830 万像素，超出 60fps 的预算，所以滚起来一格一格地顿。现在把渲染分辨率上限压到 1.25 倍（像素量降到约一半），**界面元素大小和排版完全不变**，只是渲染精度略降。\n\n> ⚠️ 如果你的显示器不是 4K、或者系统缩放是 100%，这一版对**画面没有任何变化**（只在高分辨率高缩放的机器上才生效）。\n\n- 修：**切集卡一下** —— 以前每次换集前都要先把当前画面截下来存着，这张截图要从显卡读回一整帧、还挡在换集流程里。现在整个机制去掉了，换集利索多了。\n- 改：更新走电脑版自己的下载通道，与电视版 / 手机版分开，各自更新、互不影响"
+      "size": 94999712,
+      "sha256": "01c5843338b94be7b2dc1ceda1d9d0daa867a6175733804494a500b9433d7aa9",
+      "notes": "**电脑版 1.0.21+22**\n\n- 修：**一键更新点了下不动** —— 以前只会从「github 直连」这一个地址下载，而那个地址在国内经常连不上（它会跳转到另一个域名），于是每次都报「下载安装包失败」。现在会**自动依次换地址重试**，某个地址下完才停；全部失败才报错，并且会把每个地址失败在哪一步列出来。\n\n- 新增：**下载时能看到进度了** —— 进度条、百分比、已下载/总大小、**下载速度**、**剩余时间**，以及「下载地址 2/5」这样的提示（多地址重试是自动的，不显示的话进度条突然归零会让人以为出错）。\n\n- 修：**4K 屏 + 高缩放（175%）下首页滚动掉帧** —— 以前在 3840×2160 上按满分辨率渲染，每帧要处理 830 万像素，超出 60fps 的预算。现在把渲染分辨率上限压到 1.25 倍（像素量降到约一半），**界面元素大小和排版完全不变**。\n\n> ⚠️ 如果你的显示器不是 4K、或者系统缩放是 100%，上面这条对**画面没有任何变化**。\n\n- 修：**切集卡一下** —— 换集前那次「截图存着」的机制整个去掉了。\n- 改：更新走电脑版自己的下载通道，与电视版 / 手机版分开，各自更新、互不影响"
     }
   ]
 }
