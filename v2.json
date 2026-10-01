@@ -1,43 +1,43 @@
 {
-  "version": "1.0.22+23",
-  "versionName": "1.0.22",
-  "build": 23,
-  "versionCode": 10022,
+  "version": "1.0.23+24",
+  "versionName": "1.0.23",
+  "build": 24,
+  "versionCode": 10023,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-01T13:24:28Z",
-  "notes": "**电脑版 1.0.22+23**\n\n- 新增：**电脑版有安装包了** —— 以后可以像正常软件那样安装：**能选装到哪**、**自动在桌面建快捷方式**、控制面板里有**卸载**项。安装包比原来的压缩包还小（65 MB vs 95 MB）。\n\n- 改：**自动更新改用安装包静默安装** —— 以前是「下载压缩包 → 软件自己退出 → 批处理解压替换」，现在是「下载安装包 → 静默安装 → 自动重新打开」。这条新路子顺带解决了三个老问题：\n  - **能看到解压/安装进度了**（以前软件已经退出了，只能盯着黑窗口）\n  - **不容易被安全软件拦**（批处理是重点拦截对象）\n  - **出错会回滚**，不会装到一半留下打不开的程序\n\n> ⚠️ **从这一版开始**，自动更新才走新路子。装了更早版本（1.0.21+22 及以前）的，需要手动装一次这个安装包；之后就能自动更新了。\n\n- 修：**一键更新点了下不动** —— 以前只会从「github 直连」这一个地址下载，而那个地址在国内经常连不上。现在会**自动依次换地址重试**；全部失败才报错，并列出每个地址失败在哪一步。\n\n- 新增：**下载进度、速度、剩余时间** —— 进度条 + 百分比 + 已下载/总大小 + 速度 + 剩余时间，以及「下载地址 2/5」提示。\n\n- 修：**4K 屏 + 高缩放（175%）下首页滚动掉帧** —— 以前按满分辨率渲染，每帧要处理 830 万像素。现在把渲染分辨率上限压到 1.25 倍，**界面元素大小和排版完全不变**。\n\n> ⚠️ 显示器不是 4K、或系统缩放是 100% 的，上面这条对**画面没有任何变化**。\n\n- 修：**切集卡一下** —— 换集前那次「截图存着」的机制整个去掉了。\n- 改：更新走电脑版自己的下载通道，与电视版 / 手机版分开，各自更新、互不影响",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v1.0.22-23",
+  "publishedAt": "2026-10-01T13:39:23Z",
+  "notes": "**电脑版 1.0.23+24**\n\n- 改：这一版专门用来验证**新的自动更新流程**。点「一键更新」后应该看到：\n\n  1. **自动依次尝试下载地址**（会显示「下载地址 2/4」——第一条是 github 直连，国内常连不上，会自动跳到能用的那条）\n  2. **进度条 + 百分比 + 已下载/总大小 + 速度 + 剩余时间**\n  3. 软件**自动关闭** → **静默安装**（不弹任何界面）→ **自动重新打开**\n\n  功能上与上一版没有区别。\n\n- 上一版（1.0.22+23）起支持的能力（这一版继承）：\n  - **电脑版有安装包了** —— 能选装到哪、自动建桌面快捷方式、控制面板里有卸载项\n  - **一键更新会自动换地址重试**，不再卡在连不上的第一条\n  - **4K 屏 + 高缩放（175%）下首页滚动掉帧**已修（渲染分辨率上限压到 1.25 倍，界面大小和排版不变）\n  - **切集卡一下**已修（换集前那次「截图存着」的机制整个去掉了）",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v1.0.23-24",
   "assets": [
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-1.0.22+23-setup.exe",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.22-23/duanjuzhijia2-1.0.22%2B23-setup.exe",
+      "name": "duanjuzhijia2-1.0.23+24-setup.exe",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.23-24/duanjuzhijia2-1.0.23%2B24-setup.exe",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.22-23/duanjuzhijia2-1.0.22%2B23-setup.exe",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.22-23/duanjuzhijia2-1.0.22%2B23-setup.exe",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.22-23/duanjuzhijia2-1.0.22%2B23-setup.exe",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.22-23/duanjuzhijia2-1.0.22%2B23-setup.exe"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.23-24/duanjuzhijia2-1.0.23%2B24-setup.exe",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.23-24/duanjuzhijia2-1.0.23%2B24-setup.exe",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.23-24/duanjuzhijia2-1.0.23%2B24-setup.exe",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.23-24/duanjuzhijia2-1.0.23%2B24-setup.exe"
       ],
-      "size": 68449267,
-      "sha256": "e3a6f9dd1ac8ab5bd7cd8da6938afddcb77f0e3d05d10f927d99a7b3288639e2",
-      "notes": "**电脑版 1.0.22+23**\n\n- 新增：**电脑版有安装包了** —— 以后可以像正常软件那样安装：**能选装到哪**、**自动在桌面建快捷方式**、控制面板里有**卸载**项。安装包比原来的压缩包还小（65 MB vs 95 MB）。\n\n- 改：**自动更新改用安装包静默安装** —— 以前是「下载压缩包 → 软件自己退出 → 批处理解压替换」，现在是「下载安装包 → 静默安装 → 自动重新打开」。这条新路子顺带解决了三个老问题：\n  - **能看到解压/安装进度了**（以前软件已经退出了，只能盯着黑窗口）\n  - **不容易被安全软件拦**（批处理是重点拦截对象）\n  - **出错会回滚**，不会装到一半留下打不开的程序\n\n> ⚠️ **从这一版开始**，自动更新才走新路子。装了更早版本（1.0.21+22 及以前）的，需要手动装一次这个安装包；之后就能自动更新了。\n\n- 修：**一键更新点了下不动** —— 以前只会从「github 直连」这一个地址下载，而那个地址在国内经常连不上。现在会**自动依次换地址重试**；全部失败才报错，并列出每个地址失败在哪一步。\n\n- 新增：**下载进度、速度、剩余时间** —— 进度条 + 百分比 + 已下载/总大小 + 速度 + 剩余时间，以及「下载地址 2/5」提示。\n\n- 修：**4K 屏 + 高缩放（175%）下首页滚动掉帧** —— 以前按满分辨率渲染，每帧要处理 830 万像素。现在把渲染分辨率上限压到 1.25 倍，**界面元素大小和排版完全不变**。\n\n> ⚠️ 显示器不是 4K、或系统缩放是 100% 的，上面这条对**画面没有任何变化**。\n\n- 修：**切集卡一下** —— 换集前那次「截图存着」的机制整个去掉了。\n- 改：更新走电脑版自己的下载通道，与电视版 / 手机版分开，各自更新、互不影响"
+      "size": 68450616,
+      "sha256": "90a32900e24c79c2888dc6fabf8d77dd997a16880e932aa4eaf992a86f7952f2",
+      "notes": "**电脑版 1.0.23+24**\n\n- 改：这一版专门用来验证**新的自动更新流程**。点「一键更新」后应该看到：\n\n  1. **自动依次尝试下载地址**（会显示「下载地址 2/4」——第一条是 github 直连，国内常连不上，会自动跳到能用的那条）\n  2. **进度条 + 百分比 + 已下载/总大小 + 速度 + 剩余时间**\n  3. 软件**自动关闭** → **静默安装**（不弹任何界面）→ **自动重新打开**\n\n  功能上与上一版没有区别。\n\n- 上一版（1.0.22+23）起支持的能力（这一版继承）：\n  - **电脑版有安装包了** —— 能选装到哪、自动建桌面快捷方式、控制面板里有卸载项\n  - **一键更新会自动换地址重试**，不再卡在连不上的第一条\n  - **4K 屏 + 高缩放（175%）下首页滚动掉帧**已修（渲染分辨率上限压到 1.25 倍，界面大小和排版不变）\n  - **切集卡一下**已修（换集前那次「截图存着」的机制整个去掉了）"
     },
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-1.0.22+23-windows-x64.zip",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.22-23/duanjuzhijia2-1.0.22%2B23-windows-x64.zip",
+      "name": "duanjuzhijia2-1.0.23+24-windows-x64.zip",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.23-24/duanjuzhijia2-1.0.23%2B24-windows-x64.zip",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.22-23/duanjuzhijia2-1.0.22%2B23-windows-x64.zip",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.22-23/duanjuzhijia2-1.0.22%2B23-windows-x64.zip",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.22-23/duanjuzhijia2-1.0.22%2B23-windows-x64.zip",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.22-23/duanjuzhijia2-1.0.22%2B23-windows-x64.zip"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.23-24/duanjuzhijia2-1.0.23%2B24-windows-x64.zip",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.23-24/duanjuzhijia2-1.0.23%2B24-windows-x64.zip",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.23-24/duanjuzhijia2-1.0.23%2B24-windows-x64.zip",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.23-24/duanjuzhijia2-1.0.23%2B24-windows-x64.zip"
       ],
-      "size": 95002396,
-      "sha256": "737dbb731493d83a0228aa6813ba4398eebde64e01bea68f1e43854b766a0984",
-      "notes": "**电脑版 1.0.22+23**\n\n- 新增：**电脑版有安装包了** —— 以后可以像正常软件那样安装：**能选装到哪**、**自动在桌面建快捷方式**、控制面板里有**卸载**项。安装包比原来的压缩包还小（65 MB vs 95 MB）。\n\n- 改：**自动更新改用安装包静默安装** —— 以前是「下载压缩包 → 软件自己退出 → 批处理解压替换」，现在是「下载安装包 → 静默安装 → 自动重新打开」。这条新路子顺带解决了三个老问题：\n  - **能看到解压/安装进度了**（以前软件已经退出了，只能盯着黑窗口）\n  - **不容易被安全软件拦**（批处理是重点拦截对象）\n  - **出错会回滚**，不会装到一半留下打不开的程序\n\n> ⚠️ **从这一版开始**，自动更新才走新路子。装了更早版本（1.0.21+22 及以前）的，需要手动装一次这个安装包；之后就能自动更新了。\n\n- 修：**一键更新点了下不动** —— 以前只会从「github 直连」这一个地址下载，而那个地址在国内经常连不上。现在会**自动依次换地址重试**；全部失败才报错，并列出每个地址失败在哪一步。\n\n- 新增：**下载进度、速度、剩余时间** —— 进度条 + 百分比 + 已下载/总大小 + 速度 + 剩余时间，以及「下载地址 2/5」提示。\n\n- 修：**4K 屏 + 高缩放（175%）下首页滚动掉帧** —— 以前按满分辨率渲染，每帧要处理 830 万像素。现在把渲染分辨率上限压到 1.25 倍，**界面元素大小和排版完全不变**。\n\n> ⚠️ 显示器不是 4K、或系统缩放是 100% 的，上面这条对**画面没有任何变化**。\n\n- 修：**切集卡一下** —— 换集前那次「截图存着」的机制整个去掉了。\n- 改：更新走电脑版自己的下载通道，与电视版 / 手机版分开，各自更新、互不影响"
+      "size": 95002381,
+      "sha256": "b08d46f243c2001362fe18b1c918fbda59a8fd5809ce06de0748ff0530339cda",
+      "notes": "**电脑版 1.0.23+24**\n\n- 改：这一版专门用来验证**新的自动更新流程**。点「一键更新」后应该看到：\n\n  1. **自动依次尝试下载地址**（会显示「下载地址 2/4」——第一条是 github 直连，国内常连不上，会自动跳到能用的那条）\n  2. **进度条 + 百分比 + 已下载/总大小 + 速度 + 剩余时间**\n  3. 软件**自动关闭** → **静默安装**（不弹任何界面）→ **自动重新打开**\n\n  功能上与上一版没有区别。\n\n- 上一版（1.0.22+23）起支持的能力（这一版继承）：\n  - **电脑版有安装包了** —— 能选装到哪、自动建桌面快捷方式、控制面板里有卸载项\n  - **一键更新会自动换地址重试**，不再卡在连不上的第一条\n  - **4K 屏 + 高缩放（175%）下首页滚动掉帧**已修（渲染分辨率上限压到 1.25 倍，界面大小和排版不变）\n  - **切集卡一下**已修（换集前那次「截图存着」的机制整个去掉了）"
     }
   ]
 }
