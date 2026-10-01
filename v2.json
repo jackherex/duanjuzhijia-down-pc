@@ -1,28 +1,28 @@
 {
-  "version": "1.0.19+20",
-  "versionName": "1.0.19",
-  "build": 20,
-  "versionCode": 10019,
+  "version": "1.0.20+21",
+  "versionName": "1.0.20",
+  "build": 21,
+  "versionCode": 10020,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-01T10:34:23Z",
-  "notes": "**电脑版 1.0.19+20**\n\n- 修：**切集卡一下** —— 以前每次换集前都要先把当前画面截下来存着，这张截图要从显卡读回一整帧、还挡在换集流程里。现在整个机制去掉了，换集利索多了。\n- 改：更新走电脑版自己的下载通道，与电视版 / 手机版分开，各自更新、互不影响\n\n> ⚠️ 装过旧版的电脑需要**手动装一次**这个包；之后就能自动更新了。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v1.0.19-20",
+  "publishedAt": "2026-10-01T12:30:28Z",
+  "notes": "**电脑版 1.0.20+21**\n\n- 修：**4K 屏 + 高缩放（175%）下首页滚动掉帧** —— 以前在 3840×2160 上按满分辨率渲染，每帧要处理 830 万像素，超出 60fps 的预算，所以滚起来一格一格地顿。现在把渲染分辨率上限压到 1.25 倍（像素量降到约一半），**界面元素大小和排版完全不变**，只是渲染精度略降。\n\n> ⚠️ 如果你的显示器不是 4K、或者系统缩放是 100%，这一版对**画面没有任何变化**（只在高分辨率高缩放的机器上才生效）。\n\n- 修：**切集卡一下** —— 以前每次换集前都要先把当前画面截下来存着，这张截图要从显卡读回一整帧、还挡在换集流程里。现在整个机制去掉了，换集利索多了。\n- 改：更新走电脑版自己的下载通道，与电视版 / 手机版分开，各自更新、互不影响",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v1.0.20-21",
   "assets": [
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-1.0.19+20-windows-x64.zip",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.19-20/duanjuzhijia2-1.0.19%2B20-windows-x64.zip",
+      "name": "duanjuzhijia2-1.0.20+21-windows-x64.zip",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.20-21/duanjuzhijia2-1.0.20%2B21-windows-x64.zip",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.19-20/duanjuzhijia2-1.0.19%2B20-windows-x64.zip",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.19-20/duanjuzhijia2-1.0.19%2B20-windows-x64.zip",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.19-20/duanjuzhijia2-1.0.19%2B20-windows-x64.zip",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.19-20/duanjuzhijia2-1.0.19%2B20-windows-x64.zip"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.20-21/duanjuzhijia2-1.0.20%2B21-windows-x64.zip",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.20-21/duanjuzhijia2-1.0.20%2B21-windows-x64.zip",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.20-21/duanjuzhijia2-1.0.20%2B21-windows-x64.zip",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.20-21/duanjuzhijia2-1.0.20%2B21-windows-x64.zip"
       ],
-      "size": 94989884,
-      "sha256": "097ca102608a1a9597fa9c0bc0a573c1b65c3d655bfdd8d62d2af58e543edfb6",
-      "notes": "**电脑版 1.0.19+20**\n\n- 修：**切集卡一下** —— 以前每次换集前都要先把当前画面截下来存着，这张截图要从显卡读回一整帧、还挡在换集流程里。现在整个机制去掉了，换集利索多了。\n- 改：更新走电脑版自己的下载通道，与电视版 / 手机版分开，各自更新、互不影响\n\n> ⚠️ 装过旧版的电脑需要**手动装一次**这个包；之后就能自动更新了。"
+      "size": 94989923,
+      "sha256": "ab96652aa666aa42404bcf402ae20653865635a633c688ee6c1bdf5b84d8c352",
+      "notes": "**电脑版 1.0.20+21**\n\n- 修：**4K 屏 + 高缩放（175%）下首页滚动掉帧** —— 以前在 3840×2160 上按满分辨率渲染，每帧要处理 830 万像素，超出 60fps 的预算，所以滚起来一格一格地顿。现在把渲染分辨率上限压到 1.25 倍（像素量降到约一半），**界面元素大小和排版完全不变**，只是渲染精度略降。\n\n> ⚠️ 如果你的显示器不是 4K、或者系统缩放是 100%，这一版对**画面没有任何变化**（只在高分辨率高缩放的机器上才生效）。\n\n- 修：**切集卡一下** —— 以前每次换集前都要先把当前画面截下来存着，这张截图要从显卡读回一整帧、还挡在换集流程里。现在整个机制去掉了，换集利索多了。\n- 改：更新走电脑版自己的下载通道，与电视版 / 手机版分开，各自更新、互不影响"
     }
   ]
 }
