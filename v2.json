@@ -1,43 +1,43 @@
 {
-  "version": "1.0.26+27",
-  "versionName": "1.0.26",
-  "build": 27,
-  "versionCode": 10026,
+  "version": "1.0.27+28",
+  "versionName": "1.0.27",
+  "build": 28,
+  "versionCode": 10027,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-01T15:12:40Z",
-  "notes": "**电脑版 1.0.24+25**\n\n- 修：**换集时会黑屏一下** —— 上一版为了解决卡顿，把「换集时把上一帧保留住」的机制整个删掉了。结果换集的瞬间画面会黑。现在把它改回来了，而且**只在该用的时候才截那一帧**（只有预加载命中、能无感换集时才截），所以不会重新带来卡顿。\n\n> ⚠️ 说人话：换集会顺滑地过渡，不再黑一下。\n\n- 上一版（1.0.22+23）起支持的能力（这一版继承）：\n  - **有安装包了** —— 能选装到哪、自动建桌面快捷方式、控制面板里有卸载项\n  - **自动更新走安装包静默安装** —— 下载 → 自动关闭 → 静默安装 → 自动重开\n  - **一键更新会自动换地址重试**，不再卡在连不上的第一条\n  - **下载时有进度条、速度、剩余时间**\n  - **4K 屏 + 高缩放（175%）下首页滚动掉帧**已修（渲染分辨率上限压到 1.25 倍，界面大小和排版不变）",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v1.0.26-27",
+  "publishedAt": "2026-10-02T06:02:42Z",
+  "notes": "**电脑版 1.0.27+28**\n\n- 修：**自动播放下一集时还会黑一下** —— 上一版没修干净。这次找到了真正的原因（一共三处，都出在我们自己的代码里，不是播放器的问题）：\n  1. 自动切下一集时，程序会当成「不是无缝切换」来处理，于是**弹出一个加载转圈遮罩**、并且**主动把画面清掉**。这两下就是黑屏本身。现在只要是换集，一律按无缝处理。\n  2. 换集前要截一张「上一集最后一帧」用来盖住切换瞬间，但**截图时机太晚** —— 那时画面已经黑了，截到的是一张黑图。等于白截。现在改成**在离片尾 3 秒、画面还亮着的时候**提前截好。\n  3. 什么时候撤掉这张盖上去的图，判据也不对（只看播放进度，不看画面是否真的画出来了）。现在改成**等新画面真的渲染出来再撤**，并留了 2 秒兜底。\n\n> ✅ 说人话：一集播完会自动接着播下一集，**中间不再黑**，是顺滑过渡。\n\n- 这一版继承的既有能力：\n  - **有安装包** —— 能选装到哪、自动建桌面快捷方式、控制面板里有卸载项\n  - **自动更新走安装包静默安装** —— 下载 → 自动关闭 → 静默安装 → 自动重开\n  - **一键更新会自动换地址重试**，不再卡在连不上的第一条\n  - **下载时有进度条、速度、剩余时间**\n  - **4K 屏 + 高缩放（175%）下首页滚动掉帧**已修（渲染分辨率上限压到 1.25 倍，界面大小和排版不变）",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v1.0.27-28",
   "assets": [
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-1.0.26+27-setup.exe",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.26-27/duanjuzhijia2-1.0.26%2B27-setup.exe",
+      "name": "duanjuzhijia2-1.0.27+28-setup.exe",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.27-28/duanjuzhijia2-1.0.27%2B28-setup.exe",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.26-27/duanjuzhijia2-1.0.26%2B27-setup.exe",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.26-27/duanjuzhijia2-1.0.26%2B27-setup.exe",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.26-27/duanjuzhijia2-1.0.26%2B27-setup.exe",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.26-27/duanjuzhijia2-1.0.26%2B27-setup.exe"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.27-28/duanjuzhijia2-1.0.27%2B28-setup.exe",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.27-28/duanjuzhijia2-1.0.27%2B28-setup.exe",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.27-28/duanjuzhijia2-1.0.27%2B28-setup.exe",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.27-28/duanjuzhijia2-1.0.27%2B28-setup.exe"
       ],
-      "size": 68503273,
-      "sha256": "ca42514e867306405b194ea57e6ff2553495b13c2e3a12688b5c0829ea76817d",
-      "notes": "**电脑版 1.0.24+25**\n\n- 修：**换集时会黑屏一下** —— 上一版为了解决卡顿，把「换集时把上一帧保留住」的机制整个删掉了。结果换集的瞬间画面会黑。现在把它改回来了，而且**只在该用的时候才截那一帧**（只有预加载命中、能无感换集时才截），所以不会重新带来卡顿。\n\n> ⚠️ 说人话：换集会顺滑地过渡，不再黑一下。\n\n- 上一版（1.0.22+23）起支持的能力（这一版继承）：\n  - **有安装包了** —— 能选装到哪、自动建桌面快捷方式、控制面板里有卸载项\n  - **自动更新走安装包静默安装** —— 下载 → 自动关闭 → 静默安装 → 自动重开\n  - **一键更新会自动换地址重试**，不再卡在连不上的第一条\n  - **下载时有进度条、速度、剩余时间**\n  - **4K 屏 + 高缩放（175%）下首页滚动掉帧**已修（渲染分辨率上限压到 1.25 倍，界面大小和排版不变）"
+      "size": 68499814,
+      "sha256": "b7632a97f4610a55c869919ebcf5340bcc7d91f16504f545e5a84ccfca01f4b5",
+      "notes": "**电脑版 1.0.27+28**\n\n- 修：**自动播放下一集时还会黑一下** —— 上一版没修干净。这次找到了真正的原因（一共三处，都出在我们自己的代码里，不是播放器的问题）：\n  1. 自动切下一集时，程序会当成「不是无缝切换」来处理，于是**弹出一个加载转圈遮罩**、并且**主动把画面清掉**。这两下就是黑屏本身。现在只要是换集，一律按无缝处理。\n  2. 换集前要截一张「上一集最后一帧」用来盖住切换瞬间，但**截图时机太晚** —— 那时画面已经黑了，截到的是一张黑图。等于白截。现在改成**在离片尾 3 秒、画面还亮着的时候**提前截好。\n  3. 什么时候撤掉这张盖上去的图，判据也不对（只看播放进度，不看画面是否真的画出来了）。现在改成**等新画面真的渲染出来再撤**，并留了 2 秒兜底。\n\n> ✅ 说人话：一集播完会自动接着播下一集，**中间不再黑**，是顺滑过渡。\n\n- 这一版继承的既有能力：\n  - **有安装包** —— 能选装到哪、自动建桌面快捷方式、控制面板里有卸载项\n  - **自动更新走安装包静默安装** —— 下载 → 自动关闭 → 静默安装 → 自动重开\n  - **一键更新会自动换地址重试**，不再卡在连不上的第一条\n  - **下载时有进度条、速度、剩余时间**\n  - **4K 屏 + 高缩放（175%）下首页滚动掉帧**已修（渲染分辨率上限压到 1.25 倍，界面大小和排版不变）"
     },
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-1.0.26+27-windows-x64.zip",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.26-27/duanjuzhijia2-1.0.26%2B27-windows-x64.zip",
+      "name": "duanjuzhijia2-1.0.27+28-windows-x64.zip",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.27-28/duanjuzhijia2-1.0.27%2B28-windows-x64.zip",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.26-27/duanjuzhijia2-1.0.26%2B27-windows-x64.zip",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.26-27/duanjuzhijia2-1.0.26%2B27-windows-x64.zip",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.26-27/duanjuzhijia2-1.0.26%2B27-windows-x64.zip",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.26-27/duanjuzhijia2-1.0.26%2B27-windows-x64.zip"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.27-28/duanjuzhijia2-1.0.27%2B28-windows-x64.zip",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.27-28/duanjuzhijia2-1.0.27%2B28-windows-x64.zip",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.27-28/duanjuzhijia2-1.0.27%2B28-windows-x64.zip",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.27-28/duanjuzhijia2-1.0.27%2B28-windows-x64.zip"
       ],
-      "size": 95082336,
-      "sha256": "78545c316cba8fb85009051ea6afd45c73c346f4eb15ad6f753405671f49e794",
-      "notes": "**电脑版 1.0.24+25**\n\n- 修：**换集时会黑屏一下** —— 上一版为了解决卡顿，把「换集时把上一帧保留住」的机制整个删掉了。结果换集的瞬间画面会黑。现在把它改回来了，而且**只在该用的时候才截那一帧**（只有预加载命中、能无感换集时才截），所以不会重新带来卡顿。\n\n> ⚠️ 说人话：换集会顺滑地过渡，不再黑一下。\n\n- 上一版（1.0.22+23）起支持的能力（这一版继承）：\n  - **有安装包了** —— 能选装到哪、自动建桌面快捷方式、控制面板里有卸载项\n  - **自动更新走安装包静默安装** —— 下载 → 自动关闭 → 静默安装 → 自动重开\n  - **一键更新会自动换地址重试**，不再卡在连不上的第一条\n  - **下载时有进度条、速度、剩余时间**\n  - **4K 屏 + 高缩放（175%）下首页滚动掉帧**已修（渲染分辨率上限压到 1.25 倍，界面大小和排版不变）"
+      "size": 95080694,
+      "sha256": "9c64e20762fb4bb70243a7d424382d781ddc30b34582982d81c3060505e77b8a",
+      "notes": "**电脑版 1.0.27+28**\n\n- 修：**自动播放下一集时还会黑一下** —— 上一版没修干净。这次找到了真正的原因（一共三处，都出在我们自己的代码里，不是播放器的问题）：\n  1. 自动切下一集时，程序会当成「不是无缝切换」来处理，于是**弹出一个加载转圈遮罩**、并且**主动把画面清掉**。这两下就是黑屏本身。现在只要是换集，一律按无缝处理。\n  2. 换集前要截一张「上一集最后一帧」用来盖住切换瞬间，但**截图时机太晚** —— 那时画面已经黑了，截到的是一张黑图。等于白截。现在改成**在离片尾 3 秒、画面还亮着的时候**提前截好。\n  3. 什么时候撤掉这张盖上去的图，判据也不对（只看播放进度，不看画面是否真的画出来了）。现在改成**等新画面真的渲染出来再撤**，并留了 2 秒兜底。\n\n> ✅ 说人话：一集播完会自动接着播下一集，**中间不再黑**，是顺滑过渡。\n\n- 这一版继承的既有能力：\n  - **有安装包** —— 能选装到哪、自动建桌面快捷方式、控制面板里有卸载项\n  - **自动更新走安装包静默安装** —— 下载 → 自动关闭 → 静默安装 → 自动重开\n  - **一键更新会自动换地址重试**，不再卡在连不上的第一条\n  - **下载时有进度条、速度、剩余时间**\n  - **4K 屏 + 高缩放（175%）下首页滚动掉帧**已修（渲染分辨率上限压到 1.25 倍，界面大小和排版不变）"
     }
   ]
 }
