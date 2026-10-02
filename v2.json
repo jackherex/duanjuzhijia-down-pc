@@ -1,43 +1,43 @@
 {
-  "version": "1.0.30+31",
-  "versionName": "1.0.30",
-  "build": 31,
-  "versionCode": 10030,
+  "version": "1.0.31+32",
+  "versionName": "1.0.31",
+  "build": 32,
+  "versionCode": 10031,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-02T09:52:19Z",
-  "notes": "**电脑版 1.0.30+31**\n\n- 新：**一键追踪下一季** —— 整部剧看完时自动查一次有没有下一季，找到就弹一条提示，点「去观看」直接跳到下一季。查不到就安静地算了（断网不会弹错误框）。\n- 修：**换集黑屏** —— 一集播完接着下一集时不再黑一片：改成在片尾画面还亮着的时候提前把这一帧留住，盖住换集的空档。同时去掉了原先「每集都先截一张图」的做法，换集更利索。\n\n- 这一版继承的既有能力：\n  - **有安装包** —— 能选装到哪、自动建桌面快捷方式、控制面板里有卸载项\n  - **自动更新走安装包静默安装** —— 下载 → 自动关闭 → 静默安装 → 自动重开\n  - **一键更新会自动换地址重试**，不再卡在连不上的第一条\n  - **下载时有进度条、速度、剩余时间**\n  - **4K 屏 + 高缩放（175%）下首页滚动掉帧**已修（渲染分辨率上限压到 1.25 倍，界面大小和排版不变）\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v1.0.30-31",
+  "publishedAt": "2026-10-02T11:24:17Z",
+  "notes": "**电脑版 1.0.31+32**\n\n- 新：**预约列表跟着 WebDAV 走** —— 预约不再是本机独有了，跟收藏 / 观看记录一起同步到 WebDAV。在手机上约了下季，电脑这边同步一次就能看到。\n- 新：**预约下季之后立刻同步** —— 不再等定时器轮询，点完预约马上就把这次改动推上去。\n- 新：**一键追踪下一季** —— 整部剧看完时自动查一次有没有下一季，找到就弹一条提示，点「去观看」直接跳到下一季。查不到就安静地算了（断网不会弹错误框）。\n- 修：**换集黑屏** —— 一集播完接着下一集时不再黑一片：改成在片尾画面还亮着的时候提前把这一帧留住，盖住换集的空档。同时去掉了原先「每集都先截一张图」的做法，换集更利索。\n\n- 这一版继承的既有能力：\n  - **有安装包** —— 能选装到哪、自动建桌面快捷方式、控制面板里有卸载项\n  - **自动更新走安装包静默安装** —— 下载 → 自动关闭 → 静默安装 → 自动重开\n  - **一键更新会自动换地址重试**，不再卡在连不上的第一条\n  - **下载时有进度条、速度、剩余时间**\n  - **4K 屏 + 高缩放（175%）下首页滚动掉帧**已修（渲染分辨率上限压到 1.25 倍，界面大小和排版不变）\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v1.0.31-32",
   "assets": [
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-1.0.30+31-setup.exe",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.30-31/duanjuzhijia2-1.0.30%2B31-setup.exe",
+      "name": "duanjuzhijia2-1.0.31+32-setup.exe",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.31-32/duanjuzhijia2-1.0.31%2B32-setup.exe",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.30-31/duanjuzhijia2-1.0.30%2B31-setup.exe",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.30-31/duanjuzhijia2-1.0.30%2B31-setup.exe",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.30-31/duanjuzhijia2-1.0.30%2B31-setup.exe",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.30-31/duanjuzhijia2-1.0.30%2B31-setup.exe"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.31-32/duanjuzhijia2-1.0.31%2B32-setup.exe",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.31-32/duanjuzhijia2-1.0.31%2B32-setup.exe",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.31-32/duanjuzhijia2-1.0.31%2B32-setup.exe",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.31-32/duanjuzhijia2-1.0.31%2B32-setup.exe"
       ],
-      "size": 68515149,
-      "sha256": "3796df3194eceac7109d745f8b3e16269ea96ff90daea6bf34ba63857c259fda",
-      "notes": "**电脑版 1.0.30+31**\n\n- 新：**一键追踪下一季** —— 整部剧看完时自动查一次有没有下一季，找到就弹一条提示，点「去观看」直接跳到下一季。查不到就安静地算了（断网不会弹错误框）。\n- 修：**换集黑屏** —— 一集播完接着下一集时不再黑一片：改成在片尾画面还亮着的时候提前把这一帧留住，盖住换集的空档。同时去掉了原先「每集都先截一张图」的做法，换集更利索。\n\n- 这一版继承的既有能力：\n  - **有安装包** —— 能选装到哪、自动建桌面快捷方式、控制面板里有卸载项\n  - **自动更新走安装包静默安装** —— 下载 → 自动关闭 → 静默安装 → 自动重开\n  - **一键更新会自动换地址重试**，不再卡在连不上的第一条\n  - **下载时有进度条、速度、剩余时间**\n  - **4K 屏 + 高缩放（175%）下首页滚动掉帧**已修（渲染分辨率上限压到 1.25 倍，界面大小和排版不变）\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
+      "size": 68520471,
+      "sha256": "b408e4fa48d7a25a97b9b38b9791a0c6b5fd8e762b61f80fb775c7a388980cfd",
+      "notes": "**电脑版 1.0.31+32**\n\n- 新：**预约列表跟着 WebDAV 走** —— 预约不再是本机独有了，跟收藏 / 观看记录一起同步到 WebDAV。在手机上约了下季，电脑这边同步一次就能看到。\n- 新：**预约下季之后立刻同步** —— 不再等定时器轮询，点完预约马上就把这次改动推上去。\n- 新：**一键追踪下一季** —— 整部剧看完时自动查一次有没有下一季，找到就弹一条提示，点「去观看」直接跳到下一季。查不到就安静地算了（断网不会弹错误框）。\n- 修：**换集黑屏** —— 一集播完接着下一集时不再黑一片：改成在片尾画面还亮着的时候提前把这一帧留住，盖住换集的空档。同时去掉了原先「每集都先截一张图」的做法，换集更利索。\n\n- 这一版继承的既有能力：\n  - **有安装包** —— 能选装到哪、自动建桌面快捷方式、控制面板里有卸载项\n  - **自动更新走安装包静默安装** —— 下载 → 自动关闭 → 静默安装 → 自动重开\n  - **一键更新会自动换地址重试**，不再卡在连不上的第一条\n  - **下载时有进度条、速度、剩余时间**\n  - **4K 屏 + 高缩放（175%）下首页滚动掉帧**已修（渲染分辨率上限压到 1.25 倍，界面大小和排版不变）\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
     },
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-1.0.30+31-windows-x64.zip",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.30-31/duanjuzhijia2-1.0.30%2B31-windows-x64.zip",
+      "name": "duanjuzhijia2-1.0.31+32-windows-x64.zip",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.31-32/duanjuzhijia2-1.0.31%2B32-windows-x64.zip",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.30-31/duanjuzhijia2-1.0.30%2B31-windows-x64.zip",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.30-31/duanjuzhijia2-1.0.30%2B31-windows-x64.zip",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.30-31/duanjuzhijia2-1.0.30%2B31-windows-x64.zip",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.30-31/duanjuzhijia2-1.0.30%2B31-windows-x64.zip"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.31-32/duanjuzhijia2-1.0.31%2B32-windows-x64.zip",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.31-32/duanjuzhijia2-1.0.31%2B32-windows-x64.zip",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.31-32/duanjuzhijia2-1.0.31%2B32-windows-x64.zip",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.31-32/duanjuzhijia2-1.0.31%2B32-windows-x64.zip"
       ],
-      "size": 95103502,
-      "sha256": "40615a69568c93548ccb121a13c7e7d5e546ca4875764c4a0d03bd08573459be",
-      "notes": "**电脑版 1.0.30+31**\n\n- 新：**一键追踪下一季** —— 整部剧看完时自动查一次有没有下一季，找到就弹一条提示，点「去观看」直接跳到下一季。查不到就安静地算了（断网不会弹错误框）。\n- 修：**换集黑屏** —— 一集播完接着下一集时不再黑一片：改成在片尾画面还亮着的时候提前把这一帧留住，盖住换集的空档。同时去掉了原先「每集都先截一张图」的做法，换集更利索。\n\n- 这一版继承的既有能力：\n  - **有安装包** —— 能选装到哪、自动建桌面快捷方式、控制面板里有卸载项\n  - **自动更新走安装包静默安装** —— 下载 → 自动关闭 → 静默安装 → 自动重开\n  - **一键更新会自动换地址重试**，不再卡在连不上的第一条\n  - **下载时有进度条、速度、剩余时间**\n  - **4K 屏 + 高缩放（175%）下首页滚动掉帧**已修（渲染分辨率上限压到 1.25 倍，界面大小和排版不变）\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
+      "size": 95108587,
+      "sha256": "ca371c75e6e0f6086ebd8d4b3076d6525c21e33126d95aa6c197404d5a81bf37",
+      "notes": "**电脑版 1.0.31+32**\n\n- 新：**预约列表跟着 WebDAV 走** —— 预约不再是本机独有了，跟收藏 / 观看记录一起同步到 WebDAV。在手机上约了下季，电脑这边同步一次就能看到。\n- 新：**预约下季之后立刻同步** —— 不再等定时器轮询，点完预约马上就把这次改动推上去。\n- 新：**一键追踪下一季** —— 整部剧看完时自动查一次有没有下一季，找到就弹一条提示，点「去观看」直接跳到下一季。查不到就安静地算了（断网不会弹错误框）。\n- 修：**换集黑屏** —— 一集播完接着下一集时不再黑一片：改成在片尾画面还亮着的时候提前把这一帧留住，盖住换集的空档。同时去掉了原先「每集都先截一张图」的做法，换集更利索。\n\n- 这一版继承的既有能力：\n  - **有安装包** —— 能选装到哪、自动建桌面快捷方式、控制面板里有卸载项\n  - **自动更新走安装包静默安装** —— 下载 → 自动关闭 → 静默安装 → 自动重开\n  - **一键更新会自动换地址重试**，不再卡在连不上的第一条\n  - **下载时有进度条、速度、剩余时间**\n  - **4K 屏 + 高缩放（175%）下首页滚动掉帧**已修（渲染分辨率上限压到 1.25 倍，界面大小和排版不变）\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
     }
   ]
 }
