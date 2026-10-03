@@ -1,43 +1,43 @@
 {
-  "version": "1.0.35+36",
-  "versionName": "1.0.35",
-  "build": 36,
-  "versionCode": 10035,
+  "version": "1.0.36+37",
+  "versionName": "1.0.36",
+  "build": 37,
+  "versionCode": 10036,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-03T14:58:11Z",
-  "notes": "**电脑版 1.0.35+36**\n\n- 新：更新提示界面重新排版 —— 版本号单独一行并高亮，说明改成圆点列表\n- 改：更新说明重写 —— 每条一行、只说你会看到什么\n- 修：WebDAV「最近同步」时间不再卡住不动（同步成功后曾被旧配置覆盖回去）\n- 修：首页分类轨道不再时有时无（分类表加载比列表慢时会只剩两条）\n- 新：预约跟着 WebDAV 同步，取消预约也能跨设备生效\n- 修：自动连播时不再闪一条 `0:00 / 0:00` 进度条\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v1.0.35-36",
+  "publishedAt": "2026-10-03T15:51:28Z",
+  "notes": "**电脑版 1.0.36+37**\n\n- 新：「已看完」独立成页 —— 追剧页多了个入口，专门放看完的剧；同系列（第一季 / 第二季…）自动归到一组\n- 新：预约列表改成卡片 —— 封面 + 季数胶囊 + 状态圆点，一眼看清约了哪几部、上线没有\n- 改：设置、下载、本地媒体、站源等 15 个页面的顶栏统一成自绘样式\n- 改：加载时用骨架屏代替转圈；下载页与本地媒体页支持下拉刷新\n- 改：搜索缺季提示改成一次性小弹窗；首页刷新提示会自动收起\n- 改：字号与圆角统一\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v1.0.36-37",
   "assets": [
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-1.0.35+36-setup.exe",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.35-36/duanjuzhijia2-1.0.35%2B36-setup.exe",
+      "name": "duanjuzhijia2-1.0.36+37-setup.exe",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.36-37/duanjuzhijia2-1.0.36%2B37-setup.exe",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.35-36/duanjuzhijia2-1.0.35%2B36-setup.exe",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.35-36/duanjuzhijia2-1.0.35%2B36-setup.exe",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.35-36/duanjuzhijia2-1.0.35%2B36-setup.exe",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.35-36/duanjuzhijia2-1.0.35%2B36-setup.exe"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.36-37/duanjuzhijia2-1.0.36%2B37-setup.exe",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.36-37/duanjuzhijia2-1.0.36%2B37-setup.exe",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.36-37/duanjuzhijia2-1.0.36%2B37-setup.exe",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.36-37/duanjuzhijia2-1.0.36%2B37-setup.exe"
       ],
-      "size": 68464566,
-      "sha256": "345f33f6c61208a3ad0cb92e1b068193024a02fe0ded138bb297823aa4cfceb2",
-      "notes": "**电脑版 1.0.35+36**\n\n- 新：更新提示界面重新排版 —— 版本号单独一行并高亮，说明改成圆点列表\n- 改：更新说明重写 —— 每条一行、只说你会看到什么\n- 修：WebDAV「最近同步」时间不再卡住不动（同步成功后曾被旧配置覆盖回去）\n- 修：首页分类轨道不再时有时无（分类表加载比列表慢时会只剩两条）\n- 新：预约跟着 WebDAV 同步，取消预约也能跨设备生效\n- 修：自动连播时不再闪一条 `0:00 / 0:00` 进度条\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
+      "size": 68473086,
+      "sha256": "3953deb4765c34ca370ae802c83ea9a651d8acaa19453207a4e49cf87e599f4c",
+      "notes": "**电脑版 1.0.36+37**\n\n- 新：「已看完」独立成页 —— 追剧页多了个入口，专门放看完的剧；同系列（第一季 / 第二季…）自动归到一组\n- 新：预约列表改成卡片 —— 封面 + 季数胶囊 + 状态圆点，一眼看清约了哪几部、上线没有\n- 改：设置、下载、本地媒体、站源等 15 个页面的顶栏统一成自绘样式\n- 改：加载时用骨架屏代替转圈；下载页与本地媒体页支持下拉刷新\n- 改：搜索缺季提示改成一次性小弹窗；首页刷新提示会自动收起\n- 改：字号与圆角统一\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
     },
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-1.0.35+36-windows-x64.zip",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.35-36/duanjuzhijia2-1.0.35%2B36-windows-x64.zip",
+      "name": "duanjuzhijia2-1.0.36+37-windows-x64.zip",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.36-37/duanjuzhijia2-1.0.36%2B37-windows-x64.zip",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.35-36/duanjuzhijia2-1.0.35%2B36-windows-x64.zip",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.35-36/duanjuzhijia2-1.0.35%2B36-windows-x64.zip",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.35-36/duanjuzhijia2-1.0.35%2B36-windows-x64.zip",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.35-36/duanjuzhijia2-1.0.35%2B36-windows-x64.zip"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.36-37/duanjuzhijia2-1.0.36%2B37-windows-x64.zip",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.36-37/duanjuzhijia2-1.0.36%2B37-windows-x64.zip",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.36-37/duanjuzhijia2-1.0.36%2B37-windows-x64.zip",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.36-37/duanjuzhijia2-1.0.36%2B37-windows-x64.zip"
       ],
-      "size": 95037199,
-      "sha256": "be35f2c90b7e2d190e9b4dccf48d12e2d23e3e84aaafac57043231972bd85c58",
-      "notes": "**电脑版 1.0.35+36**\n\n- 新：更新提示界面重新排版 —— 版本号单独一行并高亮，说明改成圆点列表\n- 改：更新说明重写 —— 每条一行、只说你会看到什么\n- 修：WebDAV「最近同步」时间不再卡住不动（同步成功后曾被旧配置覆盖回去）\n- 修：首页分类轨道不再时有时无（分类表加载比列表慢时会只剩两条）\n- 新：预约跟着 WebDAV 同步，取消预约也能跨设备生效\n- 修：自动连播时不再闪一条 `0:00 / 0:00` 进度条\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
+      "size": 95057156,
+      "sha256": "937bbd45f749f7aa9c1e1fdf8bf9a95becbb20c1892b62934344dac7f2baee4f",
+      "notes": "**电脑版 1.0.36+37**\n\n- 新：「已看完」独立成页 —— 追剧页多了个入口，专门放看完的剧；同系列（第一季 / 第二季…）自动归到一组\n- 新：预约列表改成卡片 —— 封面 + 季数胶囊 + 状态圆点，一眼看清约了哪几部、上线没有\n- 改：设置、下载、本地媒体、站源等 15 个页面的顶栏统一成自绘样式\n- 改：加载时用骨架屏代替转圈；下载页与本地媒体页支持下拉刷新\n- 改：搜索缺季提示改成一次性小弹窗；首页刷新提示会自动收起\n- 改：字号与圆角统一\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
     }
   ]
 }
