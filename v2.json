@@ -1,43 +1,43 @@
 {
-  "version": "1.0.34+35",
-  "versionName": "1.0.34",
-  "build": 35,
-  "versionCode": 10034,
+  "version": "1.0.35+36",
+  "versionName": "1.0.35",
+  "build": 36,
+  "versionCode": 10035,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-03T05:28:07Z",
-  "notes": "**电脑版 1.0.34+35**\n\n- 修：**WebDAV「最近同步」的时间一直停着不动** —— 明明同步是成功的（网盘上文件确实更新了），首页那条状态条和设置页里的时间却永远停在同一个时刻。根因：同步分两条腿（观看记录 / 预约），第二条腿收尾时把**同步开始那一刻的旧配置**整份写了回去，顺手把第一条腿刚写好的时间覆盖成同步前的值 —— 每跑一轮覆盖一次，所以时间再也不会前进。现在收尾改为读当前配置，时间正常前进。\n- 新：**预约列表跟着 WebDAV 走** —— 预约不再是本机独有了，跟收藏 / 观看记录一起同步到 WebDAV。在手机上约了下季，电脑这边同步一次就能看到。\n- 新：**预约下季之后立刻同步** —— 不再等定时器轮询，点完预约马上就把这次改动推上去。\n- 新：**一键追踪下一季** —— 整部剧看完时自动查一次有没有下一季，找到就弹一条提示，点「去观看」直接跳到下一季。查不到就安静地算了（断网不会弹错误框）。\n- 新：**预约入口显示「已预约 N 部」** —— 不再用红色数字角标（太抢眼），改成跟界面同色系的一枚标签，一眼看清约了几部。\n- 修：**首页分类轨道** —— 以前首页有时只剩「热门剧 / 其他推荐」两条，漫剧 / 真人剧 / AI剧 要碰运气才出来。原因是分类表走网络、加载比列表慢，先到的那一帧把轨道铺成了两条，之后就不再重铺。现已修复，分类稳定齐全。\n- 修：**取消预约能跨设备同步了** —— 以前在手机上取消预约，电脑同步时不但取消不过来，还会把这部再上传一次，两边来回\"复活\"。现在取消是一项可同步的更改，取消后同步到哪台，哪台就真的取消。\n- 修：**自动连播时闪一条进度条** —— 一集播完、自动接下一集时，画面中间会闪一下进度条（显示 `0:00 / 0:00`，约 1 秒）。根因是换集前那次「存一帧画面」要读回显存，耗时窗口里上一集已报播完、下一集还没开始播，控制条就自己弹出来了。现已把这次截图整个去掉，进度条不再出现；换集时的闪黑改由播放器自身的「保留最后一帧」承担，更干脆。\n\n- 这一版继承的既有能力：\n  - **有安装包** —— 能选装到哪、自动建桌面快捷方式、控制面板里有卸载项\n  - **自动更新走安装包静默安装** —— 下载 → 自动关闭 → 静默安装 → 自动重开\n  - **一键更新会自动换地址重试**，不再卡在连不上的第一条\n  - **下载时有进度条、速度、剩余时间**\n  - **4K 屏 + 高缩放（175%）下首页滚动掉帧**已修（渲染分辨率上限压到 1.25 倍，界面大小和排版不变）\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v1.0.34-35",
+  "publishedAt": "2026-10-03T14:58:11Z",
+  "notes": "**电脑版 1.0.35+36**\n\n- 新：更新提示界面重新排版 —— 版本号单独一行并高亮，说明改成圆点列表\n- 改：更新说明重写 —— 每条一行、只说你会看到什么\n- 修：WebDAV「最近同步」时间不再卡住不动（同步成功后曾被旧配置覆盖回去）\n- 修：首页分类轨道不再时有时无（分类表加载比列表慢时会只剩两条）\n- 新：预约跟着 WebDAV 同步，取消预约也能跨设备生效\n- 修：自动连播时不再闪一条 `0:00 / 0:00` 进度条\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v1.0.35-36",
   "assets": [
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-1.0.34+35-setup.exe",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.34-35/duanjuzhijia2-1.0.34%2B35-setup.exe",
+      "name": "duanjuzhijia2-1.0.35+36-setup.exe",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.35-36/duanjuzhijia2-1.0.35%2B36-setup.exe",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.34-35/duanjuzhijia2-1.0.34%2B35-setup.exe",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.34-35/duanjuzhijia2-1.0.34%2B35-setup.exe",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.34-35/duanjuzhijia2-1.0.34%2B35-setup.exe",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.34-35/duanjuzhijia2-1.0.34%2B35-setup.exe"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.35-36/duanjuzhijia2-1.0.35%2B36-setup.exe",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.35-36/duanjuzhijia2-1.0.35%2B36-setup.exe",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.35-36/duanjuzhijia2-1.0.35%2B36-setup.exe",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.35-36/duanjuzhijia2-1.0.35%2B36-setup.exe"
       ],
-      "size": 68469974,
-      "sha256": "01987b39a5324e3946e27a8ddb6894381c3936dae269de828fef25d0690894bb",
-      "notes": "**电脑版 1.0.34+35**\n\n- 修：**WebDAV「最近同步」的时间一直停着不动** —— 明明同步是成功的（网盘上文件确实更新了），首页那条状态条和设置页里的时间却永远停在同一个时刻。根因：同步分两条腿（观看记录 / 预约），第二条腿收尾时把**同步开始那一刻的旧配置**整份写了回去，顺手把第一条腿刚写好的时间覆盖成同步前的值 —— 每跑一轮覆盖一次，所以时间再也不会前进。现在收尾改为读当前配置，时间正常前进。\n- 新：**预约列表跟着 WebDAV 走** —— 预约不再是本机独有了，跟收藏 / 观看记录一起同步到 WebDAV。在手机上约了下季，电脑这边同步一次就能看到。\n- 新：**预约下季之后立刻同步** —— 不再等定时器轮询，点完预约马上就把这次改动推上去。\n- 新：**一键追踪下一季** —— 整部剧看完时自动查一次有没有下一季，找到就弹一条提示，点「去观看」直接跳到下一季。查不到就安静地算了（断网不会弹错误框）。\n- 新：**预约入口显示「已预约 N 部」** —— 不再用红色数字角标（太抢眼），改成跟界面同色系的一枚标签，一眼看清约了几部。\n- 修：**首页分类轨道** —— 以前首页有时只剩「热门剧 / 其他推荐」两条，漫剧 / 真人剧 / AI剧 要碰运气才出来。原因是分类表走网络、加载比列表慢，先到的那一帧把轨道铺成了两条，之后就不再重铺。现已修复，分类稳定齐全。\n- 修：**取消预约能跨设备同步了** —— 以前在手机上取消预约，电脑同步时不但取消不过来，还会把这部再上传一次，两边来回\"复活\"。现在取消是一项可同步的更改，取消后同步到哪台，哪台就真的取消。\n- 修：**自动连播时闪一条进度条** —— 一集播完、自动接下一集时，画面中间会闪一下进度条（显示 `0:00 / 0:00`，约 1 秒）。根因是换集前那次「存一帧画面」要读回显存，耗时窗口里上一集已报播完、下一集还没开始播，控制条就自己弹出来了。现已把这次截图整个去掉，进度条不再出现；换集时的闪黑改由播放器自身的「保留最后一帧」承担，更干脆。\n\n- 这一版继承的既有能力：\n  - **有安装包** —— 能选装到哪、自动建桌面快捷方式、控制面板里有卸载项\n  - **自动更新走安装包静默安装** —— 下载 → 自动关闭 → 静默安装 → 自动重开\n  - **一键更新会自动换地址重试**，不再卡在连不上的第一条\n  - **下载时有进度条、速度、剩余时间**\n  - **4K 屏 + 高缩放（175%）下首页滚动掉帧**已修（渲染分辨率上限压到 1.25 倍，界面大小和排版不变）\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
+      "size": 68464566,
+      "sha256": "345f33f6c61208a3ad0cb92e1b068193024a02fe0ded138bb297823aa4cfceb2",
+      "notes": "**电脑版 1.0.35+36**\n\n- 新：更新提示界面重新排版 —— 版本号单独一行并高亮，说明改成圆点列表\n- 改：更新说明重写 —— 每条一行、只说你会看到什么\n- 修：WebDAV「最近同步」时间不再卡住不动（同步成功后曾被旧配置覆盖回去）\n- 修：首页分类轨道不再时有时无（分类表加载比列表慢时会只剩两条）\n- 新：预约跟着 WebDAV 同步，取消预约也能跨设备生效\n- 修：自动连播时不再闪一条 `0:00 / 0:00` 进度条\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
     },
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-1.0.34+35-windows-x64.zip",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.34-35/duanjuzhijia2-1.0.34%2B35-windows-x64.zip",
+      "name": "duanjuzhijia2-1.0.35+36-windows-x64.zip",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.35-36/duanjuzhijia2-1.0.35%2B36-windows-x64.zip",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.34-35/duanjuzhijia2-1.0.34%2B35-windows-x64.zip",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.34-35/duanjuzhijia2-1.0.34%2B35-windows-x64.zip",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.34-35/duanjuzhijia2-1.0.34%2B35-windows-x64.zip",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.34-35/duanjuzhijia2-1.0.34%2B35-windows-x64.zip"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.35-36/duanjuzhijia2-1.0.35%2B36-windows-x64.zip",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.35-36/duanjuzhijia2-1.0.35%2B36-windows-x64.zip",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.35-36/duanjuzhijia2-1.0.35%2B36-windows-x64.zip",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.35-36/duanjuzhijia2-1.0.35%2B36-windows-x64.zip"
       ],
-      "size": 95035231,
-      "sha256": "85a0c1ab3b744210469a65d4d7a6ee102cd1c628f9caa12455a7698671e060a1",
-      "notes": "**电脑版 1.0.34+35**\n\n- 修：**WebDAV「最近同步」的时间一直停着不动** —— 明明同步是成功的（网盘上文件确实更新了），首页那条状态条和设置页里的时间却永远停在同一个时刻。根因：同步分两条腿（观看记录 / 预约），第二条腿收尾时把**同步开始那一刻的旧配置**整份写了回去，顺手把第一条腿刚写好的时间覆盖成同步前的值 —— 每跑一轮覆盖一次，所以时间再也不会前进。现在收尾改为读当前配置，时间正常前进。\n- 新：**预约列表跟着 WebDAV 走** —— 预约不再是本机独有了，跟收藏 / 观看记录一起同步到 WebDAV。在手机上约了下季，电脑这边同步一次就能看到。\n- 新：**预约下季之后立刻同步** —— 不再等定时器轮询，点完预约马上就把这次改动推上去。\n- 新：**一键追踪下一季** —— 整部剧看完时自动查一次有没有下一季，找到就弹一条提示，点「去观看」直接跳到下一季。查不到就安静地算了（断网不会弹错误框）。\n- 新：**预约入口显示「已预约 N 部」** —— 不再用红色数字角标（太抢眼），改成跟界面同色系的一枚标签，一眼看清约了几部。\n- 修：**首页分类轨道** —— 以前首页有时只剩「热门剧 / 其他推荐」两条，漫剧 / 真人剧 / AI剧 要碰运气才出来。原因是分类表走网络、加载比列表慢，先到的那一帧把轨道铺成了两条，之后就不再重铺。现已修复，分类稳定齐全。\n- 修：**取消预约能跨设备同步了** —— 以前在手机上取消预约，电脑同步时不但取消不过来，还会把这部再上传一次，两边来回\"复活\"。现在取消是一项可同步的更改，取消后同步到哪台，哪台就真的取消。\n- 修：**自动连播时闪一条进度条** —— 一集播完、自动接下一集时，画面中间会闪一下进度条（显示 `0:00 / 0:00`，约 1 秒）。根因是换集前那次「存一帧画面」要读回显存，耗时窗口里上一集已报播完、下一集还没开始播，控制条就自己弹出来了。现已把这次截图整个去掉，进度条不再出现；换集时的闪黑改由播放器自身的「保留最后一帧」承担，更干脆。\n\n- 这一版继承的既有能力：\n  - **有安装包** —— 能选装到哪、自动建桌面快捷方式、控制面板里有卸载项\n  - **自动更新走安装包静默安装** —— 下载 → 自动关闭 → 静默安装 → 自动重开\n  - **一键更新会自动换地址重试**，不再卡在连不上的第一条\n  - **下载时有进度条、速度、剩余时间**\n  - **4K 屏 + 高缩放（175%）下首页滚动掉帧**已修（渲染分辨率上限压到 1.25 倍，界面大小和排版不变）\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
+      "size": 95037199,
+      "sha256": "be35f2c90b7e2d190e9b4dccf48d12e2d23e3e84aaafac57043231972bd85c58",
+      "notes": "**电脑版 1.0.35+36**\n\n- 新：更新提示界面重新排版 —— 版本号单独一行并高亮，说明改成圆点列表\n- 改：更新说明重写 —— 每条一行、只说你会看到什么\n- 修：WebDAV「最近同步」时间不再卡住不动（同步成功后曾被旧配置覆盖回去）\n- 修：首页分类轨道不再时有时无（分类表加载比列表慢时会只剩两条）\n- 新：预约跟着 WebDAV 同步，取消预约也能跨设备生效\n- 修：自动连播时不再闪一条 `0:00 / 0:00` 进度条\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
     }
   ]
 }
