@@ -1,43 +1,43 @@
 {
-  "version": "1.0.41+42",
-  "versionName": "1.0.41",
-  "build": 42,
-  "versionCode": 10041,
+  "version": "1.0.42+43",
+  "versionName": "1.0.42",
+  "build": 43,
+  "versionCode": 10042,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-04T14:14:47Z",
-  "notes": "**电脑版 1.0.41+42**\n\n- 新：预约的剧上线后，通知弹窗会显示封面和剧名 —— 一眼看出是哪一部\n- 修：首次打开时窗口又小又贴在左上角，要再开一次才正常 —— 已修掉\n- 修：全屏时点顶栏最左边的「最小化」没反应 —— 现在会先退出全屏再最小化\n- 新：「已看完」独立成页 —— 追剧页多了个入口，专门放看完的剧；同系列自动归到一组\n- 改：加载时用骨架屏代替转圈；搜索缺季提示改成一次性小弹窗\n- 新：画质增强会显示当前显卡与硬件解码状态，并给出增强开销；显卡不支持计时器的会改报帧率\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v1.0.41-42",
+  "publishedAt": "2026-10-04T14:43:38Z",
+  "notes": "**电脑版 1.0.42+43**\n\n- 新：电脑版打开即全屏，不用再按 F11\n- 新：预约的剧上线后，通知弹窗会显示封面和剧名 —— 一眼看出是哪一部\n- 修：首次打开时窗口又小又贴在左上角，要再开一次才正常 —— 已修掉\n- 新：「已看完」独立成页 —— 追剧页多了个入口，专门放看完的剧；同系列自动归到一组\n- 改：加载时用骨架屏代替转圈；搜索缺季提示改成一次性小弹窗\n- 新：画质增强会显示当前显卡与硬件解码状态，并给出增强开销；显卡不支持计时器的会改报帧率\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v1.0.42-43",
   "assets": [
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-1.0.41+42-setup.exe",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.41-42/duanjuzhijia2-1.0.41%2B42-setup.exe",
+      "name": "duanjuzhijia2-1.0.42+43-setup.exe",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.42-43/duanjuzhijia2-1.0.42%2B43-setup.exe",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.41-42/duanjuzhijia2-1.0.41%2B42-setup.exe",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.41-42/duanjuzhijia2-1.0.41%2B42-setup.exe",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.41-42/duanjuzhijia2-1.0.41%2B42-setup.exe",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.41-42/duanjuzhijia2-1.0.41%2B42-setup.exe"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.42-43/duanjuzhijia2-1.0.42%2B43-setup.exe",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.42-43/duanjuzhijia2-1.0.42%2B43-setup.exe",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.42-43/duanjuzhijia2-1.0.42%2B43-setup.exe",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.42-43/duanjuzhijia2-1.0.42%2B43-setup.exe"
       ],
-      "size": 68494067,
-      "sha256": "7c467a8cb71d3a31239046db76d6fa218c6a8a1ef7de3d6911d66303d269e0d2",
-      "notes": "**电脑版 1.0.41+42**\n\n- 新：预约的剧上线后，通知弹窗会显示封面和剧名 —— 一眼看出是哪一部\n- 修：首次打开时窗口又小又贴在左上角，要再开一次才正常 —— 已修掉\n- 修：全屏时点顶栏最左边的「最小化」没反应 —— 现在会先退出全屏再最小化\n- 新：「已看完」独立成页 —— 追剧页多了个入口，专门放看完的剧；同系列自动归到一组\n- 改：加载时用骨架屏代替转圈；搜索缺季提示改成一次性小弹窗\n- 新：画质增强会显示当前显卡与硬件解码状态，并给出增强开销；显卡不支持计时器的会改报帧率\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
+      "size": 68482722,
+      "sha256": "6fcd1de3f62502e370b77676f468bb466d1c0f1964bf80f9edf00631c97fea96",
+      "notes": "**电脑版 1.0.42+43**\n\n- 新：电脑版打开即全屏，不用再按 F11\n- 新：预约的剧上线后，通知弹窗会显示封面和剧名 —— 一眼看出是哪一部\n- 修：首次打开时窗口又小又贴在左上角，要再开一次才正常 —— 已修掉\n- 新：「已看完」独立成页 —— 追剧页多了个入口，专门放看完的剧；同系列自动归到一组\n- 改：加载时用骨架屏代替转圈；搜索缺季提示改成一次性小弹窗\n- 新：画质增强会显示当前显卡与硬件解码状态，并给出增强开销；显卡不支持计时器的会改报帧率\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
     },
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-1.0.41+42-windows-x64.zip",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.41-42/duanjuzhijia2-1.0.41%2B42-windows-x64.zip",
+      "name": "duanjuzhijia2-1.0.42+43-windows-x64.zip",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.42-43/duanjuzhijia2-1.0.42%2B43-windows-x64.zip",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.41-42/duanjuzhijia2-1.0.41%2B42-windows-x64.zip",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.41-42/duanjuzhijia2-1.0.41%2B42-windows-x64.zip",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.41-42/duanjuzhijia2-1.0.41%2B42-windows-x64.zip",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.41-42/duanjuzhijia2-1.0.41%2B42-windows-x64.zip"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.42-43/duanjuzhijia2-1.0.42%2B43-windows-x64.zip",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.42-43/duanjuzhijia2-1.0.42%2B43-windows-x64.zip",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.42-43/duanjuzhijia2-1.0.42%2B43-windows-x64.zip",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.42-43/duanjuzhijia2-1.0.42%2B43-windows-x64.zip"
       ],
-      "size": 95062397,
-      "sha256": "cb9fda1b6cedfe08d12c188899f1ae305f655f3d177a9818a00820ecaf0e377e",
-      "notes": "**电脑版 1.0.41+42**\n\n- 新：预约的剧上线后，通知弹窗会显示封面和剧名 —— 一眼看出是哪一部\n- 修：首次打开时窗口又小又贴在左上角，要再开一次才正常 —— 已修掉\n- 修：全屏时点顶栏最左边的「最小化」没反应 —— 现在会先退出全屏再最小化\n- 新：「已看完」独立成页 —— 追剧页多了个入口，专门放看完的剧；同系列自动归到一组\n- 改：加载时用骨架屏代替转圈；搜索缺季提示改成一次性小弹窗\n- 新：画质增强会显示当前显卡与硬件解码状态，并给出增强开销；显卡不支持计时器的会改报帧率\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
+      "size": 95062266,
+      "sha256": "0a49dc6a3c8fb5a5a4b1c05c870cce254076c44d6a666535c7a8be39b5759b6a",
+      "notes": "**电脑版 1.0.42+43**\n\n- 新：电脑版打开即全屏，不用再按 F11\n- 新：预约的剧上线后，通知弹窗会显示封面和剧名 —— 一眼看出是哪一部\n- 修：首次打开时窗口又小又贴在左上角，要再开一次才正常 —— 已修掉\n- 新：「已看完」独立成页 —— 追剧页多了个入口，专门放看完的剧；同系列自动归到一组\n- 改：加载时用骨架屏代替转圈；搜索缺季提示改成一次性小弹窗\n- 新：画质增强会显示当前显卡与硬件解码状态，并给出增强开销；显卡不支持计时器的会改报帧率\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
     }
   ]
 }
