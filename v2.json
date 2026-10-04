@@ -1,43 +1,43 @@
 {
-  "version": "1.0.37+38",
-  "versionName": "1.0.37",
-  "build": 38,
-  "versionCode": 10037,
+  "version": "1.0.38+39",
+  "versionName": "1.0.38",
+  "build": 39,
+  "versionCode": 10038,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-04T12:40:40Z",
-  "notes": "**电脑版 1.0.37+38**\n\n- 新：预约的剧上线后，通知弹窗会显示封面和剧名 —— 一眼看出是哪一部\n- 修：首次打开时窗口又小又贴在左上角，要再开一次才正常 —— 已修掉\n- 修：部分页面底栏会多出一个「设置」格，点到还会跳错页 —— 已修掉\n- 新：「已看完」独立成页 —— 追剧页多了个入口，专门放看完的剧；同系列自动归到一组\n- 改：加载时用骨架屏代替转圈；搜索缺季提示改成一次性小弹窗\n- 新：画质增强面板现在会显示当前用的 GPU 后端、驱动通道、是否走硬件解码\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v1.0.37-38",
+  "publishedAt": "2026-10-04T13:03:22Z",
+  "notes": "**电脑版 1.0.38+39**\n\n- 新：预约的剧上线后，通知弹窗会显示封面和剧名 —— 一眼看出是哪一部\n- 修：首次打开时窗口又小又贴在左上角，要再开一次才正常 —— 已修掉\n- 修：部分页面底栏会多出一个「设置」格，点到还会跳错页 —— 已修掉\n- 新：「已看完」独立成页 —— 追剧页多了个入口，专门放看完的剧；同系列自动归到一组\n- 改：加载时用骨架屏代替转圈；搜索缺季提示改成一次性小弹窗\n- 新：播放器里的画质增强现在会显示正在用哪块显卡、走没走硬件解码、增强花了多少时间\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v1.0.38-39",
   "assets": [
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-1.0.37+38-setup.exe",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.37-38/duanjuzhijia2-1.0.37%2B38-setup.exe",
+      "name": "duanjuzhijia2-1.0.38+39-setup.exe",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.38-39/duanjuzhijia2-1.0.38%2B39-setup.exe",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.37-38/duanjuzhijia2-1.0.37%2B38-setup.exe",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.37-38/duanjuzhijia2-1.0.37%2B38-setup.exe",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.37-38/duanjuzhijia2-1.0.37%2B38-setup.exe",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.37-38/duanjuzhijia2-1.0.37%2B38-setup.exe"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.38-39/duanjuzhijia2-1.0.38%2B39-setup.exe",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.38-39/duanjuzhijia2-1.0.38%2B39-setup.exe",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.38-39/duanjuzhijia2-1.0.38%2B39-setup.exe",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.38-39/duanjuzhijia2-1.0.38%2B39-setup.exe"
       ],
-      "size": 68474195,
-      "sha256": "45490309c9bd4a7a03daffbbbe0df6bfea859979c0c56f9d26c5a17a572193a5",
-      "notes": "**电脑版 1.0.37+38**\n\n- 新：预约的剧上线后，通知弹窗会显示封面和剧名 —— 一眼看出是哪一部\n- 修：首次打开时窗口又小又贴在左上角，要再开一次才正常 —— 已修掉\n- 修：部分页面底栏会多出一个「设置」格，点到还会跳错页 —— 已修掉\n- 新：「已看完」独立成页 —— 追剧页多了个入口，专门放看完的剧；同系列自动归到一组\n- 改：加载时用骨架屏代替转圈；搜索缺季提示改成一次性小弹窗\n- 新：画质增强面板现在会显示当前用的 GPU 后端、驱动通道、是否走硬件解码\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
+      "size": 68479187,
+      "sha256": "a71d6eea20789ba5d065ce05f4b8a28fde1e76e6f6ff605028edf6fd417739ac",
+      "notes": "**电脑版 1.0.38+39**\n\n- 新：预约的剧上线后，通知弹窗会显示封面和剧名 —— 一眼看出是哪一部\n- 修：首次打开时窗口又小又贴在左上角，要再开一次才正常 —— 已修掉\n- 修：部分页面底栏会多出一个「设置」格，点到还会跳错页 —— 已修掉\n- 新：「已看完」独立成页 —— 追剧页多了个入口，专门放看完的剧；同系列自动归到一组\n- 改：加载时用骨架屏代替转圈；搜索缺季提示改成一次性小弹窗\n- 新：播放器里的画质增强现在会显示正在用哪块显卡、走没走硬件解码、增强花了多少时间\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
     },
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-1.0.37+38-windows-x64.zip",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.37-38/duanjuzhijia2-1.0.37%2B38-windows-x64.zip",
+      "name": "duanjuzhijia2-1.0.38+39-windows-x64.zip",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.38-39/duanjuzhijia2-1.0.38%2B39-windows-x64.zip",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.37-38/duanjuzhijia2-1.0.37%2B38-windows-x64.zip",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.37-38/duanjuzhijia2-1.0.37%2B38-windows-x64.zip",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.37-38/duanjuzhijia2-1.0.37%2B38-windows-x64.zip",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.37-38/duanjuzhijia2-1.0.37%2B38-windows-x64.zip"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.38-39/duanjuzhijia2-1.0.38%2B39-windows-x64.zip",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.38-39/duanjuzhijia2-1.0.38%2B39-windows-x64.zip",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.38-39/duanjuzhijia2-1.0.38%2B39-windows-x64.zip",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.38-39/duanjuzhijia2-1.0.38%2B39-windows-x64.zip"
       ],
-      "size": 95060367,
-      "sha256": "0d7485745054d4d0efbfbe224b9438415c88ace4a5793037b4766e0b3d4cbce4",
-      "notes": "**电脑版 1.0.37+38**\n\n- 新：预约的剧上线后，通知弹窗会显示封面和剧名 —— 一眼看出是哪一部\n- 修：首次打开时窗口又小又贴在左上角，要再开一次才正常 —— 已修掉\n- 修：部分页面底栏会多出一个「设置」格，点到还会跳错页 —— 已修掉\n- 新：「已看完」独立成页 —— 追剧页多了个入口，专门放看完的剧；同系列自动归到一组\n- 改：加载时用骨架屏代替转圈；搜索缺季提示改成一次性小弹窗\n- 新：画质增强面板现在会显示当前用的 GPU 后端、驱动通道、是否走硬件解码\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
+      "size": 95061416,
+      "sha256": "198f9f0507b2bd2efc164f9098fe5baca2a56827ab0dda06812b8e425adc1780",
+      "notes": "**电脑版 1.0.38+39**\n\n- 新：预约的剧上线后，通知弹窗会显示封面和剧名 —— 一眼看出是哪一部\n- 修：首次打开时窗口又小又贴在左上角，要再开一次才正常 —— 已修掉\n- 修：部分页面底栏会多出一个「设置」格，点到还会跳错页 —— 已修掉\n- 新：「已看完」独立成页 —— 追剧页多了个入口，专门放看完的剧；同系列自动归到一组\n- 改：加载时用骨架屏代替转圈；搜索缺季提示改成一次性小弹窗\n- 新：播放器里的画质增强现在会显示正在用哪块显卡、走没走硬件解码、增强花了多少时间\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
     }
   ]
 }
