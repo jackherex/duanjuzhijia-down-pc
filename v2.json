@@ -1,43 +1,43 @@
 {
-  "version": "1.0.36+37",
-  "versionName": "1.0.36",
-  "build": 37,
-  "versionCode": 10036,
+  "version": "1.0.37+38",
+  "versionName": "1.0.37",
+  "build": 38,
+  "versionCode": 10037,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-03T15:51:28Z",
-  "notes": "**电脑版 1.0.36+37**\n\n- 新：「已看完」独立成页 —— 追剧页多了个入口，专门放看完的剧；同系列（第一季 / 第二季…）自动归到一组\n- 新：预约列表改成卡片 —— 封面 + 季数胶囊 + 状态圆点，一眼看清约了哪几部、上线没有\n- 改：设置、下载、本地媒体、站源等 15 个页面的顶栏统一成自绘样式\n- 改：加载时用骨架屏代替转圈；下载页与本地媒体页支持下拉刷新\n- 改：搜索缺季提示改成一次性小弹窗；首页刷新提示会自动收起\n- 改：字号与圆角统一\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v1.0.36-37",
+  "publishedAt": "2026-10-04T12:40:40Z",
+  "notes": "**电脑版 1.0.37+38**\n\n- 新：预约的剧上线后，通知弹窗会显示封面和剧名 —— 一眼看出是哪一部\n- 修：首次打开时窗口又小又贴在左上角，要再开一次才正常 —— 已修掉\n- 修：部分页面底栏会多出一个「设置」格，点到还会跳错页 —— 已修掉\n- 新：「已看完」独立成页 —— 追剧页多了个入口，专门放看完的剧；同系列自动归到一组\n- 改：加载时用骨架屏代替转圈；搜索缺季提示改成一次性小弹窗\n- 新：画质增强面板现在会显示当前用的 GPU 后端、驱动通道、是否走硬件解码\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v1.0.37-38",
   "assets": [
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-1.0.36+37-setup.exe",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.36-37/duanjuzhijia2-1.0.36%2B37-setup.exe",
+      "name": "duanjuzhijia2-1.0.37+38-setup.exe",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.37-38/duanjuzhijia2-1.0.37%2B38-setup.exe",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.36-37/duanjuzhijia2-1.0.36%2B37-setup.exe",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.36-37/duanjuzhijia2-1.0.36%2B37-setup.exe",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.36-37/duanjuzhijia2-1.0.36%2B37-setup.exe",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.36-37/duanjuzhijia2-1.0.36%2B37-setup.exe"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.37-38/duanjuzhijia2-1.0.37%2B38-setup.exe",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.37-38/duanjuzhijia2-1.0.37%2B38-setup.exe",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.37-38/duanjuzhijia2-1.0.37%2B38-setup.exe",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.37-38/duanjuzhijia2-1.0.37%2B38-setup.exe"
       ],
-      "size": 68473086,
-      "sha256": "3953deb4765c34ca370ae802c83ea9a651d8acaa19453207a4e49cf87e599f4c",
-      "notes": "**电脑版 1.0.36+37**\n\n- 新：「已看完」独立成页 —— 追剧页多了个入口，专门放看完的剧；同系列（第一季 / 第二季…）自动归到一组\n- 新：预约列表改成卡片 —— 封面 + 季数胶囊 + 状态圆点，一眼看清约了哪几部、上线没有\n- 改：设置、下载、本地媒体、站源等 15 个页面的顶栏统一成自绘样式\n- 改：加载时用骨架屏代替转圈；下载页与本地媒体页支持下拉刷新\n- 改：搜索缺季提示改成一次性小弹窗；首页刷新提示会自动收起\n- 改：字号与圆角统一\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
+      "size": 68474195,
+      "sha256": "45490309c9bd4a7a03daffbbbe0df6bfea859979c0c56f9d26c5a17a572193a5",
+      "notes": "**电脑版 1.0.37+38**\n\n- 新：预约的剧上线后，通知弹窗会显示封面和剧名 —— 一眼看出是哪一部\n- 修：首次打开时窗口又小又贴在左上角，要再开一次才正常 —— 已修掉\n- 修：部分页面底栏会多出一个「设置」格，点到还会跳错页 —— 已修掉\n- 新：「已看完」独立成页 —— 追剧页多了个入口，专门放看完的剧；同系列自动归到一组\n- 改：加载时用骨架屏代替转圈；搜索缺季提示改成一次性小弹窗\n- 新：画质增强面板现在会显示当前用的 GPU 后端、驱动通道、是否走硬件解码\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
     },
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-1.0.36+37-windows-x64.zip",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.36-37/duanjuzhijia2-1.0.36%2B37-windows-x64.zip",
+      "name": "duanjuzhijia2-1.0.37+38-windows-x64.zip",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.37-38/duanjuzhijia2-1.0.37%2B38-windows-x64.zip",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.36-37/duanjuzhijia2-1.0.36%2B37-windows-x64.zip",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.36-37/duanjuzhijia2-1.0.36%2B37-windows-x64.zip",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.36-37/duanjuzhijia2-1.0.36%2B37-windows-x64.zip",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.36-37/duanjuzhijia2-1.0.36%2B37-windows-x64.zip"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.37-38/duanjuzhijia2-1.0.37%2B38-windows-x64.zip",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.37-38/duanjuzhijia2-1.0.37%2B38-windows-x64.zip",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.37-38/duanjuzhijia2-1.0.37%2B38-windows-x64.zip",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.37-38/duanjuzhijia2-1.0.37%2B38-windows-x64.zip"
       ],
-      "size": 95057156,
-      "sha256": "937bbd45f749f7aa9c1e1fdf8bf9a95becbb20c1892b62934344dac7f2baee4f",
-      "notes": "**电脑版 1.0.36+37**\n\n- 新：「已看完」独立成页 —— 追剧页多了个入口，专门放看完的剧；同系列（第一季 / 第二季…）自动归到一组\n- 新：预约列表改成卡片 —— 封面 + 季数胶囊 + 状态圆点，一眼看清约了哪几部、上线没有\n- 改：设置、下载、本地媒体、站源等 15 个页面的顶栏统一成自绘样式\n- 改：加载时用骨架屏代替转圈；下载页与本地媒体页支持下拉刷新\n- 改：搜索缺季提示改成一次性小弹窗；首页刷新提示会自动收起\n- 改：字号与圆角统一\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
+      "size": 95060367,
+      "sha256": "0d7485745054d4d0efbfbe224b9438415c88ace4a5793037b4766e0b3d4cbce4",
+      "notes": "**电脑版 1.0.37+38**\n\n- 新：预约的剧上线后，通知弹窗会显示封面和剧名 —— 一眼看出是哪一部\n- 修：首次打开时窗口又小又贴在左上角，要再开一次才正常 —— 已修掉\n- 修：部分页面底栏会多出一个「设置」格，点到还会跳错页 —— 已修掉\n- 新：「已看完」独立成页 —— 追剧页多了个入口，专门放看完的剧；同系列自动归到一组\n- 改：加载时用骨架屏代替转圈；搜索缺季提示改成一次性小弹窗\n- 新：画质增强面板现在会显示当前用的 GPU 后端、驱动通道、是否走硬件解码\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
     }
   ]
 }
