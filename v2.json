@@ -1,43 +1,43 @@
 {
-  "version": "1.0.46+47",
-  "versionName": "1.0.46",
-  "build": 47,
-  "versionCode": 10046,
+  "version": "1.0.47+48",
+  "versionName": "1.0.47",
+  "build": 48,
+  "versionCode": 10047,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-05T15:01:12Z",
-  "notes": "**电脑版 1.0.46+47**\n\n- 新：设置页新增「生成同步二维码」—— 已有配置一键变成二维码，给手机扫（二维码含密码，页面会提醒，用完可以点「遮住」）\n- 新：WebDAV 设置页多了一个「不知道怎么填？看配置教程」—— 坚果云怎么生成应用密码、群晖和 OpenList 怎么填，有图有步骤\n- 新：首页那条同步状态条重做了 —— 连上以后左边会有一颗会呼吸的绿点，一眼看出同步是好的；设备互联和 WebDAV 各有自己的图标\n- 修：坚果云（以及同类网盘）的 WebDAV 一直提示连不上、同步不了 —— 现在能正常同步了\n- 修：两台设备（比如手机和电脑）轮流同步时，其中一台会提示「设备返回的文字字段无效」并卡住 —— 现在两台都能正常同步了\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v1.0.46-47",
+  "publishedAt": "2026-10-05T15:30:48Z",
+  "notes": "**电脑版 1.0.47+48**\n\n- 修：「其中一个设备同步了、另一个就同步不了」，并提示「设备返回的文字字段无效」—— 起因是坚果云对部分文件不返回 ETag（文件版本号），旧版本把它当成文件损坏直接中断了整次同步。现在不返回也照常同步\n- 修：这条提示会让整次同步直接失败、两台设备永远错开 —— 现在单份文件有问题不会拖垮整轮\n- 新：设置页新增「生成同步二维码」—— 已有配置一键变成二维码，给手机扫（二维码含密码，页面会提醒，用完可以点「遮住」）\n- 新：WebDAV 设置页多了「不知道怎么填？看配置教程」—— 坚果云怎么生成应用密码、群晖和 OpenList 怎么填，有图有步骤\n- 新：首页同步状态条重做 —— 连上后左边有一颗会呼吸的绿点，一眼看出同步是好的\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v1.0.47-48",
   "assets": [
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-1.0.46+47-setup.exe",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.46-47/duanjuzhijia2-1.0.46%2B47-setup.exe",
+      "name": "duanjuzhijia2-1.0.47+48-setup.exe",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.47-48/duanjuzhijia2-1.0.47%2B48-setup.exe",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.46-47/duanjuzhijia2-1.0.46%2B47-setup.exe",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.46-47/duanjuzhijia2-1.0.46%2B47-setup.exe",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.46-47/duanjuzhijia2-1.0.46%2B47-setup.exe",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.46-47/duanjuzhijia2-1.0.46%2B47-setup.exe"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.47-48/duanjuzhijia2-1.0.47%2B48-setup.exe",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.47-48/duanjuzhijia2-1.0.47%2B48-setup.exe",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.47-48/duanjuzhijia2-1.0.47%2B48-setup.exe",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.47-48/duanjuzhijia2-1.0.47%2B48-setup.exe"
       ],
-      "size": 68531791,
-      "sha256": "1e64f72d698783b197d936ec6a73ac00b4563fed56eb99b8a3e963987610aa3f",
-      "notes": "**电脑版 1.0.46+47**\n\n- 新：设置页新增「生成同步二维码」—— 已有配置一键变成二维码，给手机扫（二维码含密码，页面会提醒，用完可以点「遮住」）\n- 新：WebDAV 设置页多了一个「不知道怎么填？看配置教程」—— 坚果云怎么生成应用密码、群晖和 OpenList 怎么填，有图有步骤\n- 新：首页那条同步状态条重做了 —— 连上以后左边会有一颗会呼吸的绿点，一眼看出同步是好的；设备互联和 WebDAV 各有自己的图标\n- 修：坚果云（以及同类网盘）的 WebDAV 一直提示连不上、同步不了 —— 现在能正常同步了\n- 修：两台设备（比如手机和电脑）轮流同步时，其中一台会提示「设备返回的文字字段无效」并卡住 —— 现在两台都能正常同步了\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
+      "size": 68510239,
+      "sha256": "50ff42a26bff1a48dd68850fbd156d86f8cc8f4f174504994fa3573c945e43c6",
+      "notes": "**电脑版 1.0.47+48**\n\n- 修：「其中一个设备同步了、另一个就同步不了」，并提示「设备返回的文字字段无效」—— 起因是坚果云对部分文件不返回 ETag（文件版本号），旧版本把它当成文件损坏直接中断了整次同步。现在不返回也照常同步\n- 修：这条提示会让整次同步直接失败、两台设备永远错开 —— 现在单份文件有问题不会拖垮整轮\n- 新：设置页新增「生成同步二维码」—— 已有配置一键变成二维码，给手机扫（二维码含密码，页面会提醒，用完可以点「遮住」）\n- 新：WebDAV 设置页多了「不知道怎么填？看配置教程」—— 坚果云怎么生成应用密码、群晖和 OpenList 怎么填，有图有步骤\n- 新：首页同步状态条重做 —— 连上后左边有一颗会呼吸的绿点，一眼看出同步是好的\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
     },
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-1.0.46+47-windows-x64.zip",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.46-47/duanjuzhijia2-1.0.46%2B47-windows-x64.zip",
+      "name": "duanjuzhijia2-1.0.47+48-windows-x64.zip",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.47-48/duanjuzhijia2-1.0.47%2B48-windows-x64.zip",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.46-47/duanjuzhijia2-1.0.46%2B47-windows-x64.zip",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.46-47/duanjuzhijia2-1.0.46%2B47-windows-x64.zip",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.46-47/duanjuzhijia2-1.0.46%2B47-windows-x64.zip",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.46-47/duanjuzhijia2-1.0.46%2B47-windows-x64.zip"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.47-48/duanjuzhijia2-1.0.47%2B48-windows-x64.zip",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.47-48/duanjuzhijia2-1.0.47%2B48-windows-x64.zip",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.47-48/duanjuzhijia2-1.0.47%2B48-windows-x64.zip",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.47-48/duanjuzhijia2-1.0.47%2B48-windows-x64.zip"
       ],
-      "size": 95100769,
-      "sha256": "66fcd6cc679080cd0a64dc3dfd53118be18448c54477f009303a0895ab136221",
-      "notes": "**电脑版 1.0.46+47**\n\n- 新：设置页新增「生成同步二维码」—— 已有配置一键变成二维码，给手机扫（二维码含密码，页面会提醒，用完可以点「遮住」）\n- 新：WebDAV 设置页多了一个「不知道怎么填？看配置教程」—— 坚果云怎么生成应用密码、群晖和 OpenList 怎么填，有图有步骤\n- 新：首页那条同步状态条重做了 —— 连上以后左边会有一颗会呼吸的绿点，一眼看出同步是好的；设备互联和 WebDAV 各有自己的图标\n- 修：坚果云（以及同类网盘）的 WebDAV 一直提示连不上、同步不了 —— 现在能正常同步了\n- 修：两台设备（比如手机和电脑）轮流同步时，其中一台会提示「设备返回的文字字段无效」并卡住 —— 现在两台都能正常同步了\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
+      "size": 95100965,
+      "sha256": "249b8ba9cedf468f1bd96b7a376ca44015c28e64af7ae115c2c0bce1d80fc22a",
+      "notes": "**电脑版 1.0.47+48**\n\n- 修：「其中一个设备同步了、另一个就同步不了」，并提示「设备返回的文字字段无效」—— 起因是坚果云对部分文件不返回 ETag（文件版本号），旧版本把它当成文件损坏直接中断了整次同步。现在不返回也照常同步\n- 修：这条提示会让整次同步直接失败、两台设备永远错开 —— 现在单份文件有问题不会拖垮整轮\n- 新：设置页新增「生成同步二维码」—— 已有配置一键变成二维码，给手机扫（二维码含密码，页面会提醒，用完可以点「遮住」）\n- 新：WebDAV 设置页多了「不知道怎么填？看配置教程」—— 坚果云怎么生成应用密码、群晖和 OpenList 怎么填，有图有步骤\n- 新：首页同步状态条重做 —— 连上后左边有一颗会呼吸的绿点，一眼看出同步是好的\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
     }
   ]
 }
