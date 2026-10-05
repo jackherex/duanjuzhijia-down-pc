@@ -1,43 +1,43 @@
 {
-  "version": "1.0.41+42",
-  "versionName": "1.0.41",
-  "build": 42,
-  "versionCode": 10041,
+  "version": "1.0.44+45",
+  "versionName": "1.0.44",
+  "build": 45,
+  "versionCode": 10044,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-04T14:14:47Z",
-  "notes": "**电脑版 1.0.41+42**\n\n- 新：预约的剧上线后，通知弹窗会显示封面和剧名 —— 一眼看出是哪一部\n- 修：首次打开时窗口又小又贴在左上角，要再开一次才正常 —— 已修掉\n- 新：「已看完」独立成页 —— 追剧页多了个入口，专门放看完的剧；同系列自动归到一组\n- 改：加载时用骨架屏代替转圈；搜索缺季提示改成一次性小弹窗\n- 新：画质增强会显示当前显卡与硬件解码状态，并给出增强开销；显卡不支持计时器的会改报帧率\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v1.0.41-42",
+  "publishedAt": "2026-10-05T13:25:42Z",
+  "notes": "**电脑版 1.0.44+45**\n\n- 新：WebDAV 设置页多了一个「不知道怎么填？看配置教程」—— 坚果云怎么生成应用密码、群晖和 OpenList 怎么填，有图有步骤\n- 新：首页那条同步状态条重做了 —— 连上以后左边会有一颗会呼吸的绿点，一眼看出同步是好的；设备互联和 WebDAV 各有自己的图标\n- 新：新增「远端开关」，服务端可以要求强制更新或提示停服（设置过一次就一直有效，不会被下次发版冲掉）\n- 修：坚果云（以及同类网盘）的 WebDAV 一直提示连不上、同步不了 —— 现在能正常同步了\n- 修：「测试连接」以前只看得到目录、看不到能不能写 —— 现在会真的写一个文件试一下，不会再给假的「连接正常」\n- 修：首次打开时窗口又小又贴在左上角，要再开一次才正常 —— 已修掉\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v1.0.44-45",
   "assets": [
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-1.0.41+42-setup.exe",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.41-42/duanjuzhijia2-1.0.41%2B42-setup.exe",
+      "name": "duanjuzhijia2-1.0.44+45-setup.exe",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.44-45/duanjuzhijia2-1.0.44%2B45-setup.exe",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.41-42/duanjuzhijia2-1.0.41%2B42-setup.exe",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.41-42/duanjuzhijia2-1.0.41%2B42-setup.exe",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.41-42/duanjuzhijia2-1.0.41%2B42-setup.exe",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.41-42/duanjuzhijia2-1.0.41%2B42-setup.exe"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.44-45/duanjuzhijia2-1.0.44%2B45-setup.exe",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.44-45/duanjuzhijia2-1.0.44%2B45-setup.exe",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.44-45/duanjuzhijia2-1.0.44%2B45-setup.exe",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.44-45/duanjuzhijia2-1.0.44%2B45-setup.exe"
       ],
-      "size": 68494067,
-      "sha256": "7c467a8cb71d3a31239046db76d6fa218c6a8a1ef7de3d6911d66303d269e0d2",
-      "notes": "**电脑版 1.0.41+42**\n\n- 新：预约的剧上线后，通知弹窗会显示封面和剧名 —— 一眼看出是哪一部\n- 修：首次打开时窗口又小又贴在左上角，要再开一次才正常 —— 已修掉\n- 新：「已看完」独立成页 —— 追剧页多了个入口，专门放看完的剧；同系列自动归到一组\n- 改：加载时用骨架屏代替转圈；搜索缺季提示改成一次性小弹窗\n- 新：画质增强会显示当前显卡与硬件解码状态，并给出增强开销；显卡不支持计时器的会改报帧率\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
+      "size": 68499521,
+      "sha256": "274e29e8383b8c924cf7a460521e7f7a004edbb3881d90cee8be890639b64d53",
+      "notes": "**电脑版 1.0.44+45**\n\n- 新：WebDAV 设置页多了一个「不知道怎么填？看配置教程」—— 坚果云怎么生成应用密码、群晖和 OpenList 怎么填，有图有步骤\n- 新：首页那条同步状态条重做了 —— 连上以后左边会有一颗会呼吸的绿点，一眼看出同步是好的；设备互联和 WebDAV 各有自己的图标\n- 新：新增「远端开关」，服务端可以要求强制更新或提示停服（设置过一次就一直有效，不会被下次发版冲掉）\n- 修：坚果云（以及同类网盘）的 WebDAV 一直提示连不上、同步不了 —— 现在能正常同步了\n- 修：「测试连接」以前只看得到目录、看不到能不能写 —— 现在会真的写一个文件试一下，不会再给假的「连接正常」\n- 修：首次打开时窗口又小又贴在左上角，要再开一次才正常 —— 已修掉\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
     },
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-1.0.41+42-windows-x64.zip",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.41-42/duanjuzhijia2-1.0.41%2B42-windows-x64.zip",
+      "name": "duanjuzhijia2-1.0.44+45-windows-x64.zip",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.44-45/duanjuzhijia2-1.0.44%2B45-windows-x64.zip",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.41-42/duanjuzhijia2-1.0.41%2B42-windows-x64.zip",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.41-42/duanjuzhijia2-1.0.41%2B42-windows-x64.zip",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.41-42/duanjuzhijia2-1.0.41%2B42-windows-x64.zip",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.41-42/duanjuzhijia2-1.0.41%2B42-windows-x64.zip"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.44-45/duanjuzhijia2-1.0.44%2B45-windows-x64.zip",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.44-45/duanjuzhijia2-1.0.44%2B45-windows-x64.zip",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.44-45/duanjuzhijia2-1.0.44%2B45-windows-x64.zip",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.44-45/duanjuzhijia2-1.0.44%2B45-windows-x64.zip"
       ],
-      "size": 95062397,
-      "sha256": "cb9fda1b6cedfe08d12c188899f1ae305f655f3d177a9818a00820ecaf0e377e",
-      "notes": "**电脑版 1.0.41+42**\n\n- 新：预约的剧上线后，通知弹窗会显示封面和剧名 —— 一眼看出是哪一部\n- 修：首次打开时窗口又小又贴在左上角，要再开一次才正常 —— 已修掉\n- 新：「已看完」独立成页 —— 追剧页多了个入口，专门放看完的剧；同系列自动归到一组\n- 改：加载时用骨架屏代替转圈；搜索缺季提示改成一次性小弹窗\n- 新：画质增强会显示当前显卡与硬件解码状态，并给出增强开销；显卡不支持计时器的会改报帧率\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
+      "size": 95073437,
+      "sha256": "3343d4770ebcb2874a1eec5e0d47e3c2704873e1a0e3b8500eb71dbee5ed186e",
+      "notes": "**电脑版 1.0.44+45**\n\n- 新：WebDAV 设置页多了一个「不知道怎么填？看配置教程」—— 坚果云怎么生成应用密码、群晖和 OpenList 怎么填，有图有步骤\n- 新：首页那条同步状态条重做了 —— 连上以后左边会有一颗会呼吸的绿点，一眼看出同步是好的；设备互联和 WebDAV 各有自己的图标\n- 新：新增「远端开关」，服务端可以要求强制更新或提示停服（设置过一次就一直有效，不会被下次发版冲掉）\n- 修：坚果云（以及同类网盘）的 WebDAV 一直提示连不上、同步不了 —— 现在能正常同步了\n- 修：「测试连接」以前只看得到目录、看不到能不能写 —— 现在会真的写一个文件试一下，不会再给假的「连接正常」\n- 修：首次打开时窗口又小又贴在左上角，要再开一次才正常 —— 已修掉\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
     }
   ]
 }
