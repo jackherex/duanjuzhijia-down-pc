@@ -4,20 +4,19 @@
 
 **免费使用 · 当前版本 1.0.47+48**
 
-[**⬇ 下载 Windows 安装程序（推荐）**](https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.47-48/duanjuzhijia2-1.0.47%2B48-setup.exe)　｜　[免安装版 ZIP](https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.47-48/duanjuzhijia2-1.0.47%2B48-windows-x64.zip)　｜　[全部版本](https://github.com/jackherex/duanjuzhijia-down-pc/releases)
+[**⬇ 下载 Windows 安装程序（推荐）**](https://github.com/jackherex/duanjuzhijia-down-pc/releases/latest)　｜　[全部版本](https://github.com/jackherex/duanjuzhijia-down-pc/releases)
 
 适用于 **Windows 10 / 11（64 位）**，安装程序约 **65.3 MB**，免安装版约 **90.7 MB**。
 普通使用**只需要下载 `.exe`**（或 `.zip`），不需要下载页面里的其它文件。
 
-> 想确认有没有更新版本？[看最新版](https://github.com/jackherex/duanjuzhijia-down-pc/releases/latest)。装好之后软件自己也会提示更新。
+> 上面的按钮**始终指向最新版**，以后发新版不用回来改链接。
 
 ## 三步开始使用
 
-1. 点上面的按钮，下载 `duanjuzhijia2-1.0.47+48-setup.exe`。
+1. 点上面的按钮，打开最新版下载页，下载带 `setup.exe` 的那个文件（**推荐**）。
+   想要免安装版就下带 `.zip` 的那个 —— 解压到任意文件夹，双击里面的 `duanjuzhijia2.exe` 就能用，不用安装。别的文件不用管。
 2. 双击运行。Windows 可能弹出蓝色提示「Windows 已保护你的电脑」—— 点「更多信息」→「仍要运行」即可。（本软件没有购买微软的代码签名证书，所以会这样提示，属正常现象。）
 3. 装好后打开，搜索剧名，或从首页点进去播放。
-
-> 不想安装就用免安装版：下载 `.zip`，解压到任意文件夹，双击里面的 `duanjuzhijia2.exe`。
 
 ## 常见问题
 
@@ -56,6 +55,9 @@
 ```
 
 这两串数字用来核对文件有没有下载完整，**不能代替身份认证**。
+
+> ⚠️ 上面这组校验值对应的是**本次说明写就时的最新版**。如果下载页上已经有更新的版本，
+> 请以页面上的为准（按钮永远指向最新版）。
 
 [本次版本说明](https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v1.0.47-48) · [全部版本](https://github.com/jackherex/duanjuzhijia-down-pc/releases)
 
