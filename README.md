@@ -9,6 +9,8 @@
 适用于 **Windows 10 / 11（64 位）**，安装程序约 **65.3 MB**，免安装版约 **90.7 MB**。
 普通使用**只需要下载 `.exe`**（或 `.zip`），不需要下载页面里的其它文件。
 
+> 想确认有没有更新版本？[看最新版](https://github.com/jackherex/duanjuzhijia-down-pc/releases/latest)。装好之后软件自己也会提示更新。
+
 ## 三步开始使用
 
 1. 点上面的按钮，下载 `duanjuzhijia2-1.0.47+48-setup.exe`。
