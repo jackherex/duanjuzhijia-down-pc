@@ -2,11 +2,11 @@
 
 在 Windows 电脑上找剧、接着上次看。支持搜索、收藏、选集、倍速、自动连播、下载缓存，也能和手机版互相同步收藏与观看进度。
 
-**免费使用 · 当前版本 1.0.57+58**
+**免费使用 · 当前版本 1.0.58+59**
 
 [**⬇ 下载 Windows 安装程序（推荐）**](https://github.com/jackherex/duanjuzhijia-down-pc/releases/latest)　｜　[全部版本](https://github.com/jackherex/duanjuzhijia-down-pc/releases)
 
-适用于 **Windows 10 / 11（64 位）**，安装程序约 **65.3 MB**，免安装版约 **90.7 MB**。
+适用于 **Windows 10 / 11（64 位）**，安装程序约 **65.4 MB**，免安装版约 **90.7 MB**。
 普通使用**只需要下载 `.exe`**（或 `.zip`），不需要下载页面里的其它文件。
 
 > 上面的按钮**始终指向最新版**，以后发新版不用回来改链接。
@@ -38,20 +38,20 @@
 
 ## 下载与安装说明
 
-### `duanjuzhijia2-1.0.57+58-setup.exe`（安装程序，推荐）
+### `duanjuzhijia2-1.0.58+59-setup.exe`（安装程序，推荐）
 
-大小 `68523571` 字节。SHA-256：
-
-```
-8281ce4697ae83734e3f5dd4fd82cc51b21a5f85463db51cd890e154f2dce8a7
-```
-
-### `duanjuzhijia2-1.0.57+58-windows-x64.zip`（免安装版）
-
-大小 `95106131` 字节。SHA-256：
+大小 `68525802` 字节。SHA-256：
 
 ```
-61317f77ce42036a884860efade2f48c0f0bef13b972e4f79a5a161be8b96d25
+9878e0e00c3758c2553352837c1eb90cb350af55efa35be473ee4a45964f8bb0
+```
+
+### `duanjuzhijia2-1.0.58+59-windows-x64.zip`（免安装版）
+
+大小 `95106126` 字节。SHA-256：
+
+```
+6d90b5a58810873c4b7c47bea0173dc85247477fb6522569e964ba879cb9e615
 ```
 
 这两串数字用来核对文件有没有下载完整，**不能代替身份认证**。
