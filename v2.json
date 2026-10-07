@@ -1,43 +1,43 @@
 {
-  "version": "1.0.57+58",
-  "versionName": "1.0.57",
-  "build": 58,
-  "versionCode": 10057,
+  "version": "1.0.58+59",
+  "versionName": "1.0.58",
+  "build": 59,
+  "versionCode": 10058,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-07T11:45:36Z",
-  "notes": "**电脑版 1.0.57+58**\n\n- 修：**弹幕有时候一直显示「这段暂无弹幕」** —— 其实是那一刻没取到，之前会被当成「这集本来就没有弹幕」，而且几分钟内都不再尝试；现在会自己重试，能取到就正常显示\n- 修：**短时间内连续切集、来回拖进度条之后，弹幕会有一段时间取不到** —— 现在遇到这种情况会先歇一会儿再试，不会越试越取不到\n- 改：**下载剧集时同步保存的弹幕更不容易抓漏** —— 每一页之间放慢一点\n- 改：**多了一条备用线路** —— 某条线路连不上时会自动换下一条\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v1.0.57-58",
+  "publishedAt": "2026-10-07T12:41:54Z",
+  "notes": "**电脑版 1.0.58+59**\n\n- 改：**弹幕取不到时的提示改成「暂时取不到，可手动重试」** —— 面板里那颗「重试弹幕」点一下就立刻再试，不用等\n- 改：**取不到时不再每隔十几秒自动重试** —— 改成先歇 5 分钟；反复请求反而会让取不到的时间更长（连续切集、来回拖进度条之后最容易遇到）\n- 修：**弹幕有时候一直显示「这段暂无弹幕」** —— 其实是那一刻没取到，以前会被当成「这集本来就没有弹幕」并且几分钟内都不再尝试；现在会如实提示并保留重试入口\n- 改：**下载剧集时同步保存的弹幕更不容易抓漏** —— 每一页之间放慢一点\n- 改：**多了一条备用线路** —— 某条线路连不上时会自动换下一条\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v1.0.58-59",
   "assets": [
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-1.0.57+58-setup.exe",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.57-58/duanjuzhijia2-1.0.57%2B58-setup.exe",
+      "name": "duanjuzhijia2-1.0.58+59-setup.exe",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.58-59/duanjuzhijia2-1.0.58%2B59-setup.exe",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.57-58/duanjuzhijia2-1.0.57%2B58-setup.exe",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.57-58/duanjuzhijia2-1.0.57%2B58-setup.exe",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.57-58/duanjuzhijia2-1.0.57%2B58-setup.exe",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.57-58/duanjuzhijia2-1.0.57%2B58-setup.exe"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.58-59/duanjuzhijia2-1.0.58%2B59-setup.exe",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.58-59/duanjuzhijia2-1.0.58%2B59-setup.exe",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.58-59/duanjuzhijia2-1.0.58%2B59-setup.exe",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.58-59/duanjuzhijia2-1.0.58%2B59-setup.exe"
       ],
-      "size": 68523571,
-      "sha256": "8281ce4697ae83734e3f5dd4fd82cc51b21a5f85463db51cd890e154f2dce8a7",
-      "notes": "**电脑版 1.0.57+58**\n\n- 修：**弹幕有时候一直显示「这段暂无弹幕」** —— 其实是那一刻没取到，之前会被当成「这集本来就没有弹幕」，而且几分钟内都不再尝试；现在会自己重试，能取到就正常显示\n- 修：**短时间内连续切集、来回拖进度条之后，弹幕会有一段时间取不到** —— 现在遇到这种情况会先歇一会儿再试，不会越试越取不到\n- 改：**下载剧集时同步保存的弹幕更不容易抓漏** —— 每一页之间放慢一点\n- 改：**多了一条备用线路** —— 某条线路连不上时会自动换下一条\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
+      "size": 68525802,
+      "sha256": "9878e0e00c3758c2553352837c1eb90cb350af55efa35be473ee4a45964f8bb0",
+      "notes": "**电脑版 1.0.58+59**\n\n- 改：**弹幕取不到时的提示改成「暂时取不到，可手动重试」** —— 面板里那颗「重试弹幕」点一下就立刻再试，不用等\n- 改：**取不到时不再每隔十几秒自动重试** —— 改成先歇 5 分钟；反复请求反而会让取不到的时间更长（连续切集、来回拖进度条之后最容易遇到）\n- 修：**弹幕有时候一直显示「这段暂无弹幕」** —— 其实是那一刻没取到，以前会被当成「这集本来就没有弹幕」并且几分钟内都不再尝试；现在会如实提示并保留重试入口\n- 改：**下载剧集时同步保存的弹幕更不容易抓漏** —— 每一页之间放慢一点\n- 改：**多了一条备用线路** —— 某条线路连不上时会自动换下一条\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
     },
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-1.0.57+58-windows-x64.zip",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.57-58/duanjuzhijia2-1.0.57%2B58-windows-x64.zip",
+      "name": "duanjuzhijia2-1.0.58+59-windows-x64.zip",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.58-59/duanjuzhijia2-1.0.58%2B59-windows-x64.zip",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.57-58/duanjuzhijia2-1.0.57%2B58-windows-x64.zip",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.57-58/duanjuzhijia2-1.0.57%2B58-windows-x64.zip",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.57-58/duanjuzhijia2-1.0.57%2B58-windows-x64.zip",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.57-58/duanjuzhijia2-1.0.57%2B58-windows-x64.zip"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.58-59/duanjuzhijia2-1.0.58%2B59-windows-x64.zip",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.58-59/duanjuzhijia2-1.0.58%2B59-windows-x64.zip",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.58-59/duanjuzhijia2-1.0.58%2B59-windows-x64.zip",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.58-59/duanjuzhijia2-1.0.58%2B59-windows-x64.zip"
       ],
-      "size": 95106131,
-      "sha256": "61317f77ce42036a884860efade2f48c0f0bef13b972e4f79a5a161be8b96d25",
-      "notes": "**电脑版 1.0.57+58**\n\n- 修：**弹幕有时候一直显示「这段暂无弹幕」** —— 其实是那一刻没取到，之前会被当成「这集本来就没有弹幕」，而且几分钟内都不再尝试；现在会自己重试，能取到就正常显示\n- 修：**短时间内连续切集、来回拖进度条之后，弹幕会有一段时间取不到** —— 现在遇到这种情况会先歇一会儿再试，不会越试越取不到\n- 改：**下载剧集时同步保存的弹幕更不容易抓漏** —— 每一页之间放慢一点\n- 改：**多了一条备用线路** —— 某条线路连不上时会自动换下一条\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
+      "size": 95106126,
+      "sha256": "6d90b5a58810873c4b7c47bea0173dc85247477fb6522569e964ba879cb9e615",
+      "notes": "**电脑版 1.0.58+59**\n\n- 改：**弹幕取不到时的提示改成「暂时取不到，可手动重试」** —— 面板里那颗「重试弹幕」点一下就立刻再试，不用等\n- 改：**取不到时不再每隔十几秒自动重试** —— 改成先歇 5 分钟；反复请求反而会让取不到的时间更长（连续切集、来回拖进度条之后最容易遇到）\n- 修：**弹幕有时候一直显示「这段暂无弹幕」** —— 其实是那一刻没取到，以前会被当成「这集本来就没有弹幕」并且几分钟内都不再尝试；现在会如实提示并保留重试入口\n- 改：**下载剧集时同步保存的弹幕更不容易抓漏** —— 每一页之间放慢一点\n- 改：**多了一条备用线路** —— 某条线路连不上时会自动换下一条\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
     }
   ]
 }
