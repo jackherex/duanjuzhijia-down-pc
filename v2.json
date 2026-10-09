@@ -1,43 +1,43 @@
 {
-  "version": "1.0.58+59",
-  "versionName": "1.0.58",
-  "build": 59,
-  "versionCode": 10058,
+  "version": "2.0.0+76",
+  "versionName": "2.0.0",
+  "build": 76,
+  "versionCode": 20000,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-07T12:41:54Z",
-  "notes": "**电脑版 1.0.58+59**\n\n- 改：**弹幕取不到时的提示改成「暂时取不到，可手动重试」** —— 面板里那颗「重试弹幕」点一下就立刻再试，不用等\n- 改：**取不到时不再每隔十几秒自动重试** —— 改成先歇 5 分钟；反复请求反而会让取不到的时间更长（连续切集、来回拖进度条之后最容易遇到）\n- 修：**弹幕有时候一直显示「这段暂无弹幕」** —— 其实是那一刻没取到，以前会被当成「这集本来就没有弹幕」并且几分钟内都不再尝试；现在会如实提示并保留重试入口\n- 改：**下载剧集时同步保存的弹幕更不容易抓漏** —— 每一页之间放慢一点\n- 改：**多了一条备用线路** —— 某条线路连不上时会自动换下一条\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v1.0.58-59",
+  "publishedAt": "2026-10-09T16:19:03Z",
+  "notes": "**电脑版 2.0.0+76**\n\n- 新：**预加载下一集史诗级加强** —— 播放时就把下一集整集提前存到本地，播完自动切集**真正做到无感加载**，连播更顺畅、不用再等\n- 新：**缓存占用可以自己设上限**（默认 500MB），超了自动删最旧的，**正在播放的那一集不会被删**\n- 新：**缓存每天自动清理一次**；设置里也能手动清空（设置 → 网络与资源）\n- 修：**切到下一集之后不再继续预加载再下一集**\n- 修：**下一集不再显示「本地」**，弹幕也恢复正常\n- 修：**播放页那行状态文字不再来回闪**\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v2.0.0-76",
   "assets": [
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-1.0.58+59-setup.exe",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.58-59/duanjuzhijia2-1.0.58%2B59-setup.exe",
+      "name": "duanjuzhijia2-2.0.0+76-setup.exe",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.0-76/duanjuzhijia2-2.0.0%2B76-setup.exe",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.58-59/duanjuzhijia2-1.0.58%2B59-setup.exe",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.58-59/duanjuzhijia2-1.0.58%2B59-setup.exe",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.58-59/duanjuzhijia2-1.0.58%2B59-setup.exe",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.58-59/duanjuzhijia2-1.0.58%2B59-setup.exe"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.0-76/duanjuzhijia2-2.0.0%2B76-setup.exe",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.0-76/duanjuzhijia2-2.0.0%2B76-setup.exe",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.0-76/duanjuzhijia2-2.0.0%2B76-setup.exe",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.0-76/duanjuzhijia2-2.0.0%2B76-setup.exe"
       ],
-      "size": 68525802,
-      "sha256": "9878e0e00c3758c2553352837c1eb90cb350af55efa35be473ee4a45964f8bb0",
-      "notes": "**电脑版 1.0.58+59**\n\n- 改：**弹幕取不到时的提示改成「暂时取不到，可手动重试」** —— 面板里那颗「重试弹幕」点一下就立刻再试，不用等\n- 改：**取不到时不再每隔十几秒自动重试** —— 改成先歇 5 分钟；反复请求反而会让取不到的时间更长（连续切集、来回拖进度条之后最容易遇到）\n- 修：**弹幕有时候一直显示「这段暂无弹幕」** —— 其实是那一刻没取到，以前会被当成「这集本来就没有弹幕」并且几分钟内都不再尝试；现在会如实提示并保留重试入口\n- 改：**下载剧集时同步保存的弹幕更不容易抓漏** —— 每一页之间放慢一点\n- 改：**多了一条备用线路** —— 某条线路连不上时会自动换下一条\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
+      "size": 68545986,
+      "sha256": "d31fd2263d6fa857c8a8a645ca2edf4bfa06a22f8305b31968a47d28b5c25305",
+      "notes": "**电脑版 2.0.0+76**\n\n- 新：**预加载下一集史诗级加强** —— 播放时就把下一集整集提前存到本地，播完自动切集**真正做到无感加载**，连播更顺畅、不用再等\n- 新：**缓存占用可以自己设上限**（默认 500MB），超了自动删最旧的，**正在播放的那一集不会被删**\n- 新：**缓存每天自动清理一次**；设置里也能手动清空（设置 → 网络与资源）\n- 修：**切到下一集之后不再继续预加载再下一集**\n- 修：**下一集不再显示「本地」**，弹幕也恢复正常\n- 修：**播放页那行状态文字不再来回闪**\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
     },
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-1.0.58+59-windows-x64.zip",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.58-59/duanjuzhijia2-1.0.58%2B59-windows-x64.zip",
+      "name": "duanjuzhijia2-2.0.0+76-windows-x64.zip",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.0-76/duanjuzhijia2-2.0.0%2B76-windows-x64.zip",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.58-59/duanjuzhijia2-1.0.58%2B59-windows-x64.zip",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.58-59/duanjuzhijia2-1.0.58%2B59-windows-x64.zip",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.58-59/duanjuzhijia2-1.0.58%2B59-windows-x64.zip",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v1.0.58-59/duanjuzhijia2-1.0.58%2B59-windows-x64.zip"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.0-76/duanjuzhijia2-2.0.0%2B76-windows-x64.zip",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.0-76/duanjuzhijia2-2.0.0%2B76-windows-x64.zip",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.0-76/duanjuzhijia2-2.0.0%2B76-windows-x64.zip",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.0-76/duanjuzhijia2-2.0.0%2B76-windows-x64.zip"
       ],
-      "size": 95106126,
-      "sha256": "6d90b5a58810873c4b7c47bea0173dc85247477fb6522569e964ba879cb9e615",
-      "notes": "**电脑版 1.0.58+59**\n\n- 改：**弹幕取不到时的提示改成「暂时取不到，可手动重试」** —— 面板里那颗「重试弹幕」点一下就立刻再试，不用等\n- 改：**取不到时不再每隔十几秒自动重试** —— 改成先歇 5 分钟；反复请求反而会让取不到的时间更长（连续切集、来回拖进度条之后最容易遇到）\n- 修：**弹幕有时候一直显示「这段暂无弹幕」** —— 其实是那一刻没取到，以前会被当成「这集本来就没有弹幕」并且几分钟内都不再尝试；现在会如实提示并保留重试入口\n- 改：**下载剧集时同步保存的弹幕更不容易抓漏** —— 每一页之间放慢一点\n- 改：**多了一条备用线路** —— 某条线路连不上时会自动换下一条\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
+      "size": 95128873,
+      "sha256": "2fe53885c0be52a628dcc33a8ad314ff933979bf9eb4195ad0c2a863ea22c801",
+      "notes": "**电脑版 2.0.0+76**\n\n- 新：**预加载下一集史诗级加强** —— 播放时就把下一集整集提前存到本地，播完自动切集**真正做到无感加载**，连播更顺畅、不用再等\n- 新：**缓存占用可以自己设上限**（默认 500MB），超了自动删最旧的，**正在播放的那一集不会被删**\n- 新：**缓存每天自动清理一次**；设置里也能手动清空（设置 → 网络与资源）\n- 修：**切到下一集之后不再继续预加载再下一集**\n- 修：**下一集不再显示「本地」**，弹幕也恢复正常\n- 修：**播放页那行状态文字不再来回闪**\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
     }
   ]
 }
