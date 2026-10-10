@@ -1,43 +1,43 @@
 {
-  "version": "2.0.0+76",
-  "versionName": "2.0.0",
-  "build": 76,
-  "versionCode": 20000,
+  "version": "2.0.1+77",
+  "versionName": "2.0.1",
+  "build": 77,
+  "versionCode": 20001,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-09T16:19:03Z",
-  "notes": "**电脑版 2.0.0+76**\n\n- 新：**预加载下一集史诗级加强** —— 播放时就把下一集整集提前存到本地，播完自动切集**真正做到无感加载**，连播更顺畅、不用再等\n- 新：**缓存占用可以自己设上限**（默认 500MB），超了自动删最旧的，**正在播放的那一集不会被删**\n- 新：**缓存每天自动清理一次**；设置里也能手动清空（设置 → 网络与资源）\n- 修：**切到下一集之后不再继续预加载再下一集**\n- 修：**下一集不再显示「本地」**，弹幕也恢复正常\n- 修：**播放页那行状态文字不再来回闪**\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v2.0.0-76",
+  "publishedAt": "2026-10-10T09:39:14Z",
+  "notes": "**电脑版 2.0.1+77**\n\n- 修：**连播切下一集不再弹加载圈** —— 之前每次自动切集都会闪一下转圈（约 1 秒），尤其是**看已下载的剧集**时每次都弹。现在上一集的画面会一直留到新画面出来，中途不再出现转圈\n- 新：**小窗播放（画中画）** —— 播放页控制条上多了一颗小窗按钮，点一下窗口就缩成一个小浮窗、**一直浮在其它窗口上面**，可以边看边做别的。**默认只有画面，不挡任何东西**；鼠标移到小浮窗上，顶上才会浮出「播放/暂停」「还原窗口」「关闭」，停两秒自动隐去。窗口会**自动贴合视频比例**，竖屏短剧也不会留黑边。不想用的话，设置里把「小窗播放」关掉，这颗按钮就不出现了\n- 新：**预加载下一集史诗级加强** —— 播放时就把下一集整集提前存到本地，播完自动切集**真正做到无感加载**，连播更顺畅、不用再等\n- 新：**缓存占用可以自己设上限**（默认 500MB），超了自动删最旧的，**正在播放的那一集不会被删**\n- 新：**缓存每天自动清理一次**；设置里也能手动清空（设置 → 网络与资源）\n- 修：**切到下一集之后不再继续预加载再下一集**\n- 修：**下一集不再显示「本地」**，弹幕也恢复正常\n- 修：**播放页那行状态文字不再来回闪**\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v2.0.1-77",
   "assets": [
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-2.0.0+76-setup.exe",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.0-76/duanjuzhijia2-2.0.0%2B76-setup.exe",
+      "name": "duanjuzhijia2-2.0.1+77-setup.exe",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.1-77/duanjuzhijia2-2.0.1%2B77-setup.exe",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.0-76/duanjuzhijia2-2.0.0%2B76-setup.exe",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.0-76/duanjuzhijia2-2.0.0%2B76-setup.exe",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.0-76/duanjuzhijia2-2.0.0%2B76-setup.exe",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.0-76/duanjuzhijia2-2.0.0%2B76-setup.exe"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.1-77/duanjuzhijia2-2.0.1%2B77-setup.exe",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.1-77/duanjuzhijia2-2.0.1%2B77-setup.exe",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.1-77/duanjuzhijia2-2.0.1%2B77-setup.exe",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.1-77/duanjuzhijia2-2.0.1%2B77-setup.exe"
       ],
-      "size": 68545986,
-      "sha256": "d31fd2263d6fa857c8a8a645ca2edf4bfa06a22f8305b31968a47d28b5c25305",
-      "notes": "**电脑版 2.0.0+76**\n\n- 新：**预加载下一集史诗级加强** —— 播放时就把下一集整集提前存到本地，播完自动切集**真正做到无感加载**，连播更顺畅、不用再等\n- 新：**缓存占用可以自己设上限**（默认 500MB），超了自动删最旧的，**正在播放的那一集不会被删**\n- 新：**缓存每天自动清理一次**；设置里也能手动清空（设置 → 网络与资源）\n- 修：**切到下一集之后不再继续预加载再下一集**\n- 修：**下一集不再显示「本地」**，弹幕也恢复正常\n- 修：**播放页那行状态文字不再来回闪**\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
+      "size": 68534840,
+      "sha256": "68427126370c2e58d673a744b93447c6c3274f9c1936fc5c8224dcc4d9b988ec",
+      "notes": "**电脑版 2.0.1+77**\n\n- 修：**连播切下一集不再弹加载圈** —— 之前每次自动切集都会闪一下转圈（约 1 秒），尤其是**看已下载的剧集**时每次都弹。现在上一集的画面会一直留到新画面出来，中途不再出现转圈\n- 新：**小窗播放（画中画）** —— 播放页控制条上多了一颗小窗按钮，点一下窗口就缩成一个小浮窗、**一直浮在其它窗口上面**，可以边看边做别的。**默认只有画面，不挡任何东西**；鼠标移到小浮窗上，顶上才会浮出「播放/暂停」「还原窗口」「关闭」，停两秒自动隐去。窗口会**自动贴合视频比例**，竖屏短剧也不会留黑边。不想用的话，设置里把「小窗播放」关掉，这颗按钮就不出现了\n- 新：**预加载下一集史诗级加强** —— 播放时就把下一集整集提前存到本地，播完自动切集**真正做到无感加载**，连播更顺畅、不用再等\n- 新：**缓存占用可以自己设上限**（默认 500MB），超了自动删最旧的，**正在播放的那一集不会被删**\n- 新：**缓存每天自动清理一次**；设置里也能手动清空（设置 → 网络与资源）\n- 修：**切到下一集之后不再继续预加载再下一集**\n- 修：**下一集不再显示「本地」**，弹幕也恢复正常\n- 修：**播放页那行状态文字不再来回闪**\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
     },
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-2.0.0+76-windows-x64.zip",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.0-76/duanjuzhijia2-2.0.0%2B76-windows-x64.zip",
+      "name": "duanjuzhijia2-2.0.1+77-windows-x64.zip",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.1-77/duanjuzhijia2-2.0.1%2B77-windows-x64.zip",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.0-76/duanjuzhijia2-2.0.0%2B76-windows-x64.zip",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.0-76/duanjuzhijia2-2.0.0%2B76-windows-x64.zip",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.0-76/duanjuzhijia2-2.0.0%2B76-windows-x64.zip",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.0-76/duanjuzhijia2-2.0.0%2B76-windows-x64.zip"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.1-77/duanjuzhijia2-2.0.1%2B77-windows-x64.zip",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.1-77/duanjuzhijia2-2.0.1%2B77-windows-x64.zip",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.1-77/duanjuzhijia2-2.0.1%2B77-windows-x64.zip",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.1-77/duanjuzhijia2-2.0.1%2B77-windows-x64.zip"
       ],
-      "size": 95128873,
-      "sha256": "2fe53885c0be52a628dcc33a8ad314ff933979bf9eb4195ad0c2a863ea22c801",
-      "notes": "**电脑版 2.0.0+76**\n\n- 新：**预加载下一集史诗级加强** —— 播放时就把下一集整集提前存到本地，播完自动切集**真正做到无感加载**，连播更顺畅、不用再等\n- 新：**缓存占用可以自己设上限**（默认 500MB），超了自动删最旧的，**正在播放的那一集不会被删**\n- 新：**缓存每天自动清理一次**；设置里也能手动清空（设置 → 网络与资源）\n- 修：**切到下一集之后不再继续预加载再下一集**\n- 修：**下一集不再显示「本地」**，弹幕也恢复正常\n- 修：**播放页那行状态文字不再来回闪**\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
+      "size": 95135264,
+      "sha256": "dd6efa8070489dc8cf2c75cae316cd28d4208d4b04068d012def812f5b2a4053",
+      "notes": "**电脑版 2.0.1+77**\n\n- 修：**连播切下一集不再弹加载圈** —— 之前每次自动切集都会闪一下转圈（约 1 秒），尤其是**看已下载的剧集**时每次都弹。现在上一集的画面会一直留到新画面出来，中途不再出现转圈\n- 新：**小窗播放（画中画）** —— 播放页控制条上多了一颗小窗按钮，点一下窗口就缩成一个小浮窗、**一直浮在其它窗口上面**，可以边看边做别的。**默认只有画面，不挡任何东西**；鼠标移到小浮窗上，顶上才会浮出「播放/暂停」「还原窗口」「关闭」，停两秒自动隐去。窗口会**自动贴合视频比例**，竖屏短剧也不会留黑边。不想用的话，设置里把「小窗播放」关掉，这颗按钮就不出现了\n- 新：**预加载下一集史诗级加强** —— 播放时就把下一集整集提前存到本地，播完自动切集**真正做到无感加载**，连播更顺畅、不用再等\n- 新：**缓存占用可以自己设上限**（默认 500MB），超了自动删最旧的，**正在播放的那一集不会被删**\n- 新：**缓存每天自动清理一次**；设置里也能手动清空（设置 → 网络与资源）\n- 修：**切到下一集之后不再继续预加载再下一集**\n- 修：**下一集不再显示「本地」**，弹幕也恢复正常\n- 修：**播放页那行状态文字不再来回闪**\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
     }
   ]
 }
