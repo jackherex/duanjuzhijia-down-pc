@@ -1,43 +1,43 @@
 {
-  "version": "2.0.3+79",
-  "versionName": "2.0.3",
-  "build": 79,
-  "versionCode": 20003,
+  "version": "2.0.4+80",
+  "versionName": "2.0.4",
+  "build": 80,
+  "versionCode": 20004,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-16T04:34:46Z",
-  "notes": "**电脑版 2.0.3+79**\n\n- 新：**已下载的集数会打勾** —— 选集里下过的集数右上角有一个勾，一眼看出哪些不用再下\n- 新：**选集可以收起来了** —— 窗口小的时候右侧选集会挡住底部的按钮；现在顶栏有一颗「隐藏选集」，收起来画面更大\n- 新：**烧录的弹幕可以自己调大小** —— 勾上「烧录弹幕」后点「预览并调整」，先看效果再确认；默认字号也调小了一档\n- 新：**补齐弹幕** —— 下载页的「队列操作」和合集菜单里能补齐以前没抓到的弹幕，进度会显示在页面顶部\n- 修：**放本地剧集时投屏失败**（提示「当前环境不支持投屏」），现在能正常投到电视\n- 修：**拖窗口顶栏的空白处没反应** —— 现在整条顶栏都能拖动窗口\n- 修：**合并卡住要手动点「重试」** —— 现在会自动重试（最多 3 次，间隔 5 秒 / 20 秒 / 1 分钟）\n- 修：**有些剧合并特别慢** —— 各集的编码其实一样，却被当成不一样、每集都重新编码；现在这种直接拼接，快很多\n- 修：**播放超过 1 小时只显示分钟**（例如 123 分钟），现在显示成 2:03:20 这样\n- 调：**本地媒体 / 合并队列页面排版重做** —— 合并任务能直接看到「烧录弹幕」标记和成品大小\n- 调：去掉了 Emby 导出（用不上）\n\n- 修：**修复播放错误问题**\n- 修：**连播切下一集不再弹加载圈** —— 之前每次自动切集都会闪一下转圈（约 1 秒），尤其是**看已下载的剧集**时每次都弹。现在上一集的画面会一直留到新画面出来，中途不再出现转圈\n- 新：**小窗播放（画中画）** —— 播放页控制条上多了一颗小窗按钮，点一下窗口就缩成一个小浮窗、**一直浮在其它窗口上面**，可以边看边做别的。**默认只有画面，不挡任何东西**；鼠标移到小浮窗上，顶上才会浮出「播放/暂停」「还原窗口」「关闭」，停两秒自动隐去。窗口会**自动贴合视频比例**，竖屏短剧也不会留黑边。不想用的话，设置里把「小窗播放」关掉，这颗按钮就不出现了\n- 新：**预加载下一集史诗级加强** —— 播放时就把下一集整集提前存到本地，播完自动切集**真正做到无感加载**，连播更顺畅、不用再等\n- 新：**缓存占用可以自己设上限**（默认 500MB），超了自动删最旧的，**正在播放的那一集不会被删**\n- 新：**缓存每天自动清理一次**；设置里也能手动清空（设置 → 网络与资源）\n- 修：**切到下一集之后不再继续预加载再下一集**\n- 修：**下一集不再显示「本地」**，弹幕也恢复正常\n- 修：**播放页那行状态文字不再来回闪**\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v2.0.3-79",
+  "publishedAt": "2026-10-18T15:27:48Z",
+  "notes": "**电脑版 2.0.4+80**\n\n- 修：**窗口右上角第二颗按钮点下去，任务栏还在** —— 现在是真全屏、铺满整屏（想留任务栏按 Win+↑）\n- 修：**小窗口下选集面板顶到播放器、底部全屏键被裁** —— 现在留出间隙，按钮不再被切\n- 修：**投屏配对码要等输错一次才出来** —— 现在直接显示\n- 修：**投本地剧集被拦下**（提示「不是本应用生成的临时文件」）—— 放行下载目录\n- 修：**预约上线通知点「去看看」落回预约列表** —— 现在直接进详情页，并自动加入「想看」",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v2.0.4-80",
   "assets": [
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-2.0.3+79-setup.exe",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.3-79/duanjuzhijia2-2.0.3%2B79-setup.exe",
+      "name": "duanjuzhijia2-2.0.4+80-setup.exe",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.4-80/duanjuzhijia2-2.0.4%2B80-setup.exe",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.3-79/duanjuzhijia2-2.0.3%2B79-setup.exe",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.3-79/duanjuzhijia2-2.0.3%2B79-setup.exe",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.3-79/duanjuzhijia2-2.0.3%2B79-setup.exe",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.3-79/duanjuzhijia2-2.0.3%2B79-setup.exe"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.4-80/duanjuzhijia2-2.0.4%2B80-setup.exe",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.4-80/duanjuzhijia2-2.0.4%2B80-setup.exe",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.4-80/duanjuzhijia2-2.0.4%2B80-setup.exe",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.4-80/duanjuzhijia2-2.0.4%2B80-setup.exe"
       ],
-      "size": 89193561,
-      "sha256": "c58779de9fab1ea68e0f2b79a6f7260db50747a526c329c9ce24a4a2497bacb9",
-      "notes": "**电脑版 2.0.3+79**\n\n- 新：**已下载的集数会打勾** —— 选集里下过的集数右上角有一个勾，一眼看出哪些不用再下\n- 新：**选集可以收起来了** —— 窗口小的时候右侧选集会挡住底部的按钮；现在顶栏有一颗「隐藏选集」，收起来画面更大\n- 新：**烧录的弹幕可以自己调大小** —— 勾上「烧录弹幕」后点「预览并调整」，先看效果再确认；默认字号也调小了一档\n- 新：**补齐弹幕** —— 下载页的「队列操作」和合集菜单里能补齐以前没抓到的弹幕，进度会显示在页面顶部\n- 修：**放本地剧集时投屏失败**（提示「当前环境不支持投屏」），现在能正常投到电视\n- 修：**拖窗口顶栏的空白处没反应** —— 现在整条顶栏都能拖动窗口\n- 修：**合并卡住要手动点「重试」** —— 现在会自动重试（最多 3 次，间隔 5 秒 / 20 秒 / 1 分钟）\n- 修：**有些剧合并特别慢** —— 各集的编码其实一样，却被当成不一样、每集都重新编码；现在这种直接拼接，快很多\n- 修：**播放超过 1 小时只显示分钟**（例如 123 分钟），现在显示成 2:03:20 这样\n- 调：**本地媒体 / 合并队列页面排版重做** —— 合并任务能直接看到「烧录弹幕」标记和成品大小\n- 调：去掉了 Emby 导出（用不上）\n\n- 修：**修复播放错误问题**\n- 修：**连播切下一集不再弹加载圈** —— 之前每次自动切集都会闪一下转圈（约 1 秒），尤其是**看已下载的剧集**时每次都弹。现在上一集的画面会一直留到新画面出来，中途不再出现转圈\n- 新：**小窗播放（画中画）** —— 播放页控制条上多了一颗小窗按钮，点一下窗口就缩成一个小浮窗、**一直浮在其它窗口上面**，可以边看边做别的。**默认只有画面，不挡任何东西**；鼠标移到小浮窗上，顶上才会浮出「播放/暂停」「还原窗口」「关闭」，停两秒自动隐去。窗口会**自动贴合视频比例**，竖屏短剧也不会留黑边。不想用的话，设置里把「小窗播放」关掉，这颗按钮就不出现了\n- 新：**预加载下一集史诗级加强** —— 播放时就把下一集整集提前存到本地，播完自动切集**真正做到无感加载**，连播更顺畅、不用再等\n- 新：**缓存占用可以自己设上限**（默认 500MB），超了自动删最旧的，**正在播放的那一集不会被删**\n- 新：**缓存每天自动清理一次**；设置里也能手动清空（设置 → 网络与资源）\n- 修：**切到下一集之后不再继续预加载再下一集**\n- 修：**下一集不再显示「本地」**，弹幕也恢复正常\n- 修：**播放页那行状态文字不再来回闪**\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
+      "size": 89199026,
+      "sha256": "889fec31b92791eb2af4fc4a4ac8787bb0ac5aae3187b9ebd5d80dc8c7035a11",
+      "notes": "**电脑版 2.0.4+80**\n\n- 修：**窗口右上角第二颗按钮点下去，任务栏还在** —— 现在是真全屏、铺满整屏（想留任务栏按 Win+↑）\n- 修：**小窗口下选集面板顶到播放器、底部全屏键被裁** —— 现在留出间隙，按钮不再被切\n- 修：**投屏配对码要等输错一次才出来** —— 现在直接显示\n- 修：**投本地剧集被拦下**（提示「不是本应用生成的临时文件」）—— 放行下载目录\n- 修：**预约上线通知点「去看看」落回预约列表** —— 现在直接进详情页，并自动加入「想看」"
     },
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-2.0.3+79-windows-x64.zip",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.3-79/duanjuzhijia2-2.0.3%2B79-windows-x64.zip",
+      "name": "duanjuzhijia2-2.0.4+80-windows-x64.zip",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.4-80/duanjuzhijia2-2.0.4%2B80-windows-x64.zip",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.3-79/duanjuzhijia2-2.0.3%2B79-windows-x64.zip",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.3-79/duanjuzhijia2-2.0.3%2B79-windows-x64.zip",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.3-79/duanjuzhijia2-2.0.3%2B79-windows-x64.zip",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.3-79/duanjuzhijia2-2.0.3%2B79-windows-x64.zip"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.4-80/duanjuzhijia2-2.0.4%2B80-windows-x64.zip",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.4-80/duanjuzhijia2-2.0.4%2B80-windows-x64.zip",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.4-80/duanjuzhijia2-2.0.4%2B80-windows-x64.zip",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.4-80/duanjuzhijia2-2.0.4%2B80-windows-x64.zip"
       ],
-      "size": 122852796,
-      "sha256": "cb45e552f75ebb66158ef726fa78b62285a0e05407a44f66b0f6abce58eb0461",
-      "notes": "**电脑版 2.0.3+79**\n\n- 新：**已下载的集数会打勾** —— 选集里下过的集数右上角有一个勾，一眼看出哪些不用再下\n- 新：**选集可以收起来了** —— 窗口小的时候右侧选集会挡住底部的按钮；现在顶栏有一颗「隐藏选集」，收起来画面更大\n- 新：**烧录的弹幕可以自己调大小** —— 勾上「烧录弹幕」后点「预览并调整」，先看效果再确认；默认字号也调小了一档\n- 新：**补齐弹幕** —— 下载页的「队列操作」和合集菜单里能补齐以前没抓到的弹幕，进度会显示在页面顶部\n- 修：**放本地剧集时投屏失败**（提示「当前环境不支持投屏」），现在能正常投到电视\n- 修：**拖窗口顶栏的空白处没反应** —— 现在整条顶栏都能拖动窗口\n- 修：**合并卡住要手动点「重试」** —— 现在会自动重试（最多 3 次，间隔 5 秒 / 20 秒 / 1 分钟）\n- 修：**有些剧合并特别慢** —— 各集的编码其实一样，却被当成不一样、每集都重新编码；现在这种直接拼接，快很多\n- 修：**播放超过 1 小时只显示分钟**（例如 123 分钟），现在显示成 2:03:20 这样\n- 调：**本地媒体 / 合并队列页面排版重做** —— 合并任务能直接看到「烧录弹幕」标记和成品大小\n- 调：去掉了 Emby 导出（用不上）\n\n- 修：**修复播放错误问题**\n- 修：**连播切下一集不再弹加载圈** —— 之前每次自动切集都会闪一下转圈（约 1 秒），尤其是**看已下载的剧集**时每次都弹。现在上一集的画面会一直留到新画面出来，中途不再出现转圈\n- 新：**小窗播放（画中画）** —— 播放页控制条上多了一颗小窗按钮，点一下窗口就缩成一个小浮窗、**一直浮在其它窗口上面**，可以边看边做别的。**默认只有画面，不挡任何东西**；鼠标移到小浮窗上，顶上才会浮出「播放/暂停」「还原窗口」「关闭」，停两秒自动隐去。窗口会**自动贴合视频比例**，竖屏短剧也不会留黑边。不想用的话，设置里把「小窗播放」关掉，这颗按钮就不出现了\n- 新：**预加载下一集史诗级加强** —— 播放时就把下一集整集提前存到本地，播完自动切集**真正做到无感加载**，连播更顺畅、不用再等\n- 新：**缓存占用可以自己设上限**（默认 500MB），超了自动删最旧的，**正在播放的那一集不会被删**\n- 新：**缓存每天自动清理一次**；设置里也能手动清空（设置 → 网络与资源）\n- 修：**切到下一集之后不再继续预加载再下一集**\n- 修：**下一集不再显示「本地」**，弹幕也恢复正常\n- 修：**播放页那行状态文字不再来回闪**\n\n> ⚠️ 本次未做真机运行验证，如仍有异常请反馈现象。"
+      "size": 122860589,
+      "sha256": "29a08dbf48e63a02f2eb6d62d2a1c5cccaea48b35ee39e53b50282eb784bcb51",
+      "notes": "**电脑版 2.0.4+80**\n\n- 修：**窗口右上角第二颗按钮点下去，任务栏还在** —— 现在是真全屏、铺满整屏（想留任务栏按 Win+↑）\n- 修：**小窗口下选集面板顶到播放器、底部全屏键被裁** —— 现在留出间隙，按钮不再被切\n- 修：**投屏配对码要等输错一次才出来** —— 现在直接显示\n- 修：**投本地剧集被拦下**（提示「不是本应用生成的临时文件」）—— 放行下载目录\n- 修：**预约上线通知点「去看看」落回预约列表** —— 现在直接进详情页，并自动加入「想看」"
     }
   ]
 }
