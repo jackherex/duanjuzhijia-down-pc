@@ -1,13 +1,13 @@
 {
-  "version": "2.0.5+81",
-  "versionName": "2.0.5",
-  "build": 81,
-  "versionCode": 20005,
+  "version": "2.0.6+82",
+  "versionName": "2.0.6",
+  "build": 82,
+  "versionCode": 20006,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-19T03:19:01Z",
-  "notes": "**电脑版 2.0.5+81**\n\n- 新：**在线更新的进群密钥改为云端下发** —— 以后换密钥、临时开关门禁都不用等新版，改完立即生效\n- 说明：密钥只是进群门槛；本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报；不想加群也可以去 GitHub 手动下载",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v2.0.5-81",
+  "publishedAt": "2026-10-19T11:29:01Z",
+  "notes": "**电脑版 2.0.6+82**\n\n- 新：**下载合集页重新设计** —— 每部剧显示竖版封面，进度改成进度条，下完的挂绿勾，进行中 / 有失败的一眼就能挑出来\n- 新：下载页顶部直接显示总占用空间（`5 部 · 622 集 · 5.79 GB`）\n- 说明：包名没变，可直接覆盖安装，下载记录都保留；本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v2.0.6-82",
   "gate": {
     "salt": "djzj-2026-10-19-4f1a",
     "hash": "52a7781eed8e4dfb9dc20296e55dd8ad692e4461c86f7ffcafce105640283848",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-2.0.5+81-setup.exe",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.5-81/duanjuzhijia2-2.0.5%2B81-setup.exe",
+      "name": "duanjuzhijia2-2.0.6+82-setup.exe",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.6-82/duanjuzhijia2-2.0.6%2B82-setup.exe",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.5-81/duanjuzhijia2-2.0.5%2B81-setup.exe",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.5-81/duanjuzhijia2-2.0.5%2B81-setup.exe",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.5-81/duanjuzhijia2-2.0.5%2B81-setup.exe",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.5-81/duanjuzhijia2-2.0.5%2B81-setup.exe"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.6-82/duanjuzhijia2-2.0.6%2B82-setup.exe",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.6-82/duanjuzhijia2-2.0.6%2B82-setup.exe",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.6-82/duanjuzhijia2-2.0.6%2B82-setup.exe",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.6-82/duanjuzhijia2-2.0.6%2B82-setup.exe"
       ],
-      "size": 89205842,
-      "sha256": "44f441aeb5563cd024b0e6b7b9fcc092c7fe628c2adff11d9daf766c01a4aa3d",
-      "notes": "**电脑版 2.0.5+81**\n\n- 新：**在线更新的进群密钥改为云端下发** —— 以后换密钥、临时开关门禁都不用等新版，改完立即生效\n- 说明：密钥只是进群门槛；本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报；不想加群也可以去 GitHub 手动下载"
+      "size": 89216597,
+      "sha256": "5881de80c579559bdd5aacd11b3383d8bfcc18dd91ce04bededc53c63f225ee3",
+      "notes": "**电脑版 2.0.6+82**\n\n- 新：**下载合集页重新设计** —— 每部剧显示竖版封面，进度改成进度条，下完的挂绿勾，进行中 / 有失败的一眼就能挑出来\n- 新：下载页顶部直接显示总占用空间（`5 部 · 622 集 · 5.79 GB`）\n- 说明：包名没变，可直接覆盖安装，下载记录都保留；本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报"
     },
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-2.0.5+81-windows-x64.zip",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.5-81/duanjuzhijia2-2.0.5%2B81-windows-x64.zip",
+      "name": "duanjuzhijia2-2.0.6+82-windows-x64.zip",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.6-82/duanjuzhijia2-2.0.6%2B82-windows-x64.zip",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.5-81/duanjuzhijia2-2.0.5%2B81-windows-x64.zip",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.5-81/duanjuzhijia2-2.0.5%2B81-windows-x64.zip",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.5-81/duanjuzhijia2-2.0.5%2B81-windows-x64.zip",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.5-81/duanjuzhijia2-2.0.5%2B81-windows-x64.zip"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.6-82/duanjuzhijia2-2.0.6%2B82-windows-x64.zip",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.6-82/duanjuzhijia2-2.0.6%2B82-windows-x64.zip",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.6-82/duanjuzhijia2-2.0.6%2B82-windows-x64.zip",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.6-82/duanjuzhijia2-2.0.6%2B82-windows-x64.zip"
       ],
-      "size": 122876943,
-      "sha256": "ca473bf6ad20db23591d8641e222ba96345718b089a1d5862bef11fa4872af5b",
-      "notes": "**电脑版 2.0.5+81**\n\n- 新：**在线更新的进群密钥改为云端下发** —— 以后换密钥、临时开关门禁都不用等新版，改完立即生效\n- 说明：密钥只是进群门槛；本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报；不想加群也可以去 GitHub 手动下载"
+      "size": 122878906,
+      "sha256": "de08251791d8bbfe9b3dd451843dd71168f3f9ea9c85582eaf3ead019d49208c",
+      "notes": "**电脑版 2.0.6+82**\n\n- 新：**下载合集页重新设计** —— 每部剧显示竖版封面，进度改成进度条，下完的挂绿勾，进行中 / 有失败的一眼就能挑出来\n- 新：下载页顶部直接显示总占用空间（`5 部 · 622 集 · 5.79 GB`）\n- 说明：包名没变，可直接覆盖安装，下载记录都保留；本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报"
     }
   ]
 }
