@@ -1,43 +1,50 @@
 {
-  "version": "2.0.4+80",
-  "versionName": "2.0.4",
-  "build": 80,
-  "versionCode": 20004,
+  "version": "2.0.5+81",
+  "versionName": "2.0.5",
+  "build": 81,
+  "versionCode": 20005,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-18T15:27:48Z",
-  "notes": "**电脑版 2.0.4+80**\n\n- 修：**窗口右上角第二颗按钮点下去，任务栏还在** —— 现在是真全屏、铺满整屏（想留任务栏按 Win+↑）\n- 修：**小窗口下选集面板顶到播放器、底部全屏键被裁** —— 现在留出间隙，按钮不再被切\n- 修：**投屏配对码要等输错一次才出来** —— 现在直接显示\n- 修：**投本地剧集被拦下**（提示「不是本应用生成的临时文件」）—— 放行下载目录\n- 修：**预约上线通知点「去看看」落回预约列表** —— 现在直接进详情页，并自动加入「想看」",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v2.0.4-80",
+  "publishedAt": "2026-10-19T03:19:01Z",
+  "notes": "**电脑版 2.0.5+81**\n\n- 新：**在线更新的进群密钥改为云端下发** —— 以后换密钥、临时开关门禁都不用等新版，改完立即生效\n- 说明：密钥只是进群门槛；本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报；不想加群也可以去 GitHub 手动下载",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v2.0.5-81",
+  "gate": {
+    "salt": "djzj-2026-10-19-4f1a",
+    "hash": "52a7781eed8e4dfb9dc20296e55dd8ad692e4461c86f7ffcafce105640283848",
+    "iterations": 2000,
+    "group": "https://t.me/duanjuzhijia",
+    "hint": "4 位数字"
+  },
   "assets": [
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-2.0.4+80-setup.exe",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.4-80/duanjuzhijia2-2.0.4%2B80-setup.exe",
+      "name": "duanjuzhijia2-2.0.5+81-setup.exe",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.5-81/duanjuzhijia2-2.0.5%2B81-setup.exe",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.4-80/duanjuzhijia2-2.0.4%2B80-setup.exe",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.4-80/duanjuzhijia2-2.0.4%2B80-setup.exe",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.4-80/duanjuzhijia2-2.0.4%2B80-setup.exe",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.4-80/duanjuzhijia2-2.0.4%2B80-setup.exe"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.5-81/duanjuzhijia2-2.0.5%2B81-setup.exe",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.5-81/duanjuzhijia2-2.0.5%2B81-setup.exe",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.5-81/duanjuzhijia2-2.0.5%2B81-setup.exe",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.5-81/duanjuzhijia2-2.0.5%2B81-setup.exe"
       ],
-      "size": 89199026,
-      "sha256": "889fec31b92791eb2af4fc4a4ac8787bb0ac5aae3187b9ebd5d80dc8c7035a11",
-      "notes": "**电脑版 2.0.4+80**\n\n- 修：**窗口右上角第二颗按钮点下去，任务栏还在** —— 现在是真全屏、铺满整屏（想留任务栏按 Win+↑）\n- 修：**小窗口下选集面板顶到播放器、底部全屏键被裁** —— 现在留出间隙，按钮不再被切\n- 修：**投屏配对码要等输错一次才出来** —— 现在直接显示\n- 修：**投本地剧集被拦下**（提示「不是本应用生成的临时文件」）—— 放行下载目录\n- 修：**预约上线通知点「去看看」落回预约列表** —— 现在直接进详情页，并自动加入「想看」"
+      "size": 89205842,
+      "sha256": "44f441aeb5563cd024b0e6b7b9fcc092c7fe628c2adff11d9daf766c01a4aa3d",
+      "notes": "**电脑版 2.0.5+81**\n\n- 新：**在线更新的进群密钥改为云端下发** —— 以后换密钥、临时开关门禁都不用等新版，改完立即生效\n- 说明：密钥只是进群门槛；本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报；不想加群也可以去 GitHub 手动下载"
     },
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-2.0.4+80-windows-x64.zip",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.4-80/duanjuzhijia2-2.0.4%2B80-windows-x64.zip",
+      "name": "duanjuzhijia2-2.0.5+81-windows-x64.zip",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.5-81/duanjuzhijia2-2.0.5%2B81-windows-x64.zip",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.4-80/duanjuzhijia2-2.0.4%2B80-windows-x64.zip",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.4-80/duanjuzhijia2-2.0.4%2B80-windows-x64.zip",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.4-80/duanjuzhijia2-2.0.4%2B80-windows-x64.zip",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.4-80/duanjuzhijia2-2.0.4%2B80-windows-x64.zip"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.5-81/duanjuzhijia2-2.0.5%2B81-windows-x64.zip",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.5-81/duanjuzhijia2-2.0.5%2B81-windows-x64.zip",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.5-81/duanjuzhijia2-2.0.5%2B81-windows-x64.zip",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.5-81/duanjuzhijia2-2.0.5%2B81-windows-x64.zip"
       ],
-      "size": 122860589,
-      "sha256": "29a08dbf48e63a02f2eb6d62d2a1c5cccaea48b35ee39e53b50282eb784bcb51",
-      "notes": "**电脑版 2.0.4+80**\n\n- 修：**窗口右上角第二颗按钮点下去，任务栏还在** —— 现在是真全屏、铺满整屏（想留任务栏按 Win+↑）\n- 修：**小窗口下选集面板顶到播放器、底部全屏键被裁** —— 现在留出间隙，按钮不再被切\n- 修：**投屏配对码要等输错一次才出来** —— 现在直接显示\n- 修：**投本地剧集被拦下**（提示「不是本应用生成的临时文件」）—— 放行下载目录\n- 修：**预约上线通知点「去看看」落回预约列表** —— 现在直接进详情页，并自动加入「想看」"
+      "size": 122876943,
+      "sha256": "ca473bf6ad20db23591d8641e222ba96345718b089a1d5862bef11fa4872af5b",
+      "notes": "**电脑版 2.0.5+81**\n\n- 新：**在线更新的进群密钥改为云端下发** —— 以后换密钥、临时开关门禁都不用等新版，改完立即生效\n- 说明：密钥只是进群门槛；本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报；不想加群也可以去 GitHub 手动下载"
     }
   ]
 }
