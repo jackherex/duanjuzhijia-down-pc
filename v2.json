@@ -1,13 +1,13 @@
 {
-  "version": "2.0.6+82",
-  "versionName": "2.0.6",
-  "build": 82,
-  "versionCode": 20006,
+  "version": "2.0.8+84",
+  "versionName": "2.0.8",
+  "build": 84,
+  "versionCode": 20008,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-19T11:29:01Z",
-  "notes": "**电脑版 2.0.6+82**\n\n- 新：**下载合集页重新设计** —— 每部剧显示竖版封面，进度改成进度条，下完的挂绿勾，进行中 / 有失败的一眼就能挑出来\n- 新：下载页顶部直接显示总占用空间（`5 部 · 622 集 · 5.79 GB`）\n- 说明：包名没变，可直接覆盖安装，下载记录都保留；本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v2.0.6-82",
+  "publishedAt": "2026-10-21T09:44:18Z",
+  "notes": "**电脑版 2.0.8+84**\n\n- 新：**分类换成官网题材** —— 真人剧、漫剧、AI 剧各自列出官网的题材（真人剧 24 个），点进去就是这个筛选下的全部剧集，滚到底自动续页。\n- 改：分类页按剧种分组，题材用小胶囊横向排，一屏能看几十个；同名题材（比如「玄幻」在漫剧和 AI 剧下都有）各留一份，不会串到一起。\n- 改：去掉原来那些「只过滤已加载剧库」的伪分类 —— 点进去只看到缓存里那几部，看着像分类，其实少一大半。\n- 修：从「全部 X」列表**返回回到分类页**，不再一下跳回首页；刚看过的题材会带勾。\n- 修：「全部 X」列表滚到底只加载一页就不再动的老毛病（重试按钮误显示、自动续页被它挡住），失败时会显示具体原因。\n- 说明：可直接覆盖安装，设置与观看记录都保留；本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v2.0.8-84",
   "gate": {
     "salt": "djzj-2026-10-19-4f1a",
     "hash": "52a7781eed8e4dfb9dc20296e55dd8ad692e4461c86f7ffcafce105640283848",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-2.0.6+82-setup.exe",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.6-82/duanjuzhijia2-2.0.6%2B82-setup.exe",
+      "name": "duanjuzhijia2-2.0.8+84-setup.exe",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.8-84/duanjuzhijia2-2.0.8%2B84-setup.exe",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.6-82/duanjuzhijia2-2.0.6%2B82-setup.exe",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.6-82/duanjuzhijia2-2.0.6%2B82-setup.exe",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.6-82/duanjuzhijia2-2.0.6%2B82-setup.exe",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.6-82/duanjuzhijia2-2.0.6%2B82-setup.exe"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.8-84/duanjuzhijia2-2.0.8%2B84-setup.exe",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.8-84/duanjuzhijia2-2.0.8%2B84-setup.exe",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.8-84/duanjuzhijia2-2.0.8%2B84-setup.exe",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.8-84/duanjuzhijia2-2.0.8%2B84-setup.exe"
       ],
-      "size": 89216597,
-      "sha256": "5881de80c579559bdd5aacd11b3383d8bfcc18dd91ce04bededc53c63f225ee3",
-      "notes": "**电脑版 2.0.6+82**\n\n- 新：**下载合集页重新设计** —— 每部剧显示竖版封面，进度改成进度条，下完的挂绿勾，进行中 / 有失败的一眼就能挑出来\n- 新：下载页顶部直接显示总占用空间（`5 部 · 622 集 · 5.79 GB`）\n- 说明：包名没变，可直接覆盖安装，下载记录都保留；本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报"
+      "size": 89223030,
+      "sha256": "cc538a32fa89a739ea90f47b248225de3829f0219da6536738a53c535962dd16",
+      "notes": "**电脑版 2.0.8+84**\n\n- 新：**分类换成官网题材** —— 真人剧、漫剧、AI 剧各自列出官网的题材（真人剧 24 个），点进去就是这个筛选下的全部剧集，滚到底自动续页。\n- 改：分类页按剧种分组，题材用小胶囊横向排，一屏能看几十个；同名题材（比如「玄幻」在漫剧和 AI 剧下都有）各留一份，不会串到一起。\n- 改：去掉原来那些「只过滤已加载剧库」的伪分类 —— 点进去只看到缓存里那几部，看着像分类，其实少一大半。\n- 修：从「全部 X」列表**返回回到分类页**，不再一下跳回首页；刚看过的题材会带勾。\n- 修：「全部 X」列表滚到底只加载一页就不再动的老毛病（重试按钮误显示、自动续页被它挡住），失败时会显示具体原因。\n- 说明：可直接覆盖安装，设置与观看记录都保留；本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。"
     },
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-2.0.6+82-windows-x64.zip",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.6-82/duanjuzhijia2-2.0.6%2B82-windows-x64.zip",
+      "name": "duanjuzhijia2-2.0.8+84-windows-x64.zip",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.8-84/duanjuzhijia2-2.0.8%2B84-windows-x64.zip",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.6-82/duanjuzhijia2-2.0.6%2B82-windows-x64.zip",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.6-82/duanjuzhijia2-2.0.6%2B82-windows-x64.zip",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.6-82/duanjuzhijia2-2.0.6%2B82-windows-x64.zip",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.6-82/duanjuzhijia2-2.0.6%2B82-windows-x64.zip"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.8-84/duanjuzhijia2-2.0.8%2B84-windows-x64.zip",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.8-84/duanjuzhijia2-2.0.8%2B84-windows-x64.zip",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.8-84/duanjuzhijia2-2.0.8%2B84-windows-x64.zip",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.8-84/duanjuzhijia2-2.0.8%2B84-windows-x64.zip"
       ],
-      "size": 122878906,
-      "sha256": "de08251791d8bbfe9b3dd451843dd71168f3f9ea9c85582eaf3ead019d49208c",
-      "notes": "**电脑版 2.0.6+82**\n\n- 新：**下载合集页重新设计** —— 每部剧显示竖版封面，进度改成进度条，下完的挂绿勾，进行中 / 有失败的一眼就能挑出来\n- 新：下载页顶部直接显示总占用空间（`5 部 · 622 集 · 5.79 GB`）\n- 说明：包名没变，可直接覆盖安装，下载记录都保留；本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报"
+      "size": 122889199,
+      "sha256": "0ac24c7f67cd2a9682eb33c4fdb04f2522488dfa95e007d8a402fb1a2c99e2c9",
+      "notes": "**电脑版 2.0.8+84**\n\n- 新：**分类换成官网题材** —— 真人剧、漫剧、AI 剧各自列出官网的题材（真人剧 24 个），点进去就是这个筛选下的全部剧集，滚到底自动续页。\n- 改：分类页按剧种分组，题材用小胶囊横向排，一屏能看几十个；同名题材（比如「玄幻」在漫剧和 AI 剧下都有）各留一份，不会串到一起。\n- 改：去掉原来那些「只过滤已加载剧库」的伪分类 —— 点进去只看到缓存里那几部，看着像分类，其实少一大半。\n- 修：从「全部 X」列表**返回回到分类页**，不再一下跳回首页；刚看过的题材会带勾。\n- 修：「全部 X」列表滚到底只加载一页就不再动的老毛病（重试按钮误显示、自动续页被它挡住），失败时会显示具体原因。\n- 说明：可直接覆盖安装，设置与观看记录都保留；本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。"
     }
   ]
 }
