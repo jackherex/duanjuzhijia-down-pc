@@ -1,13 +1,13 @@
 {
-  "version": "2.0.8+84",
-  "versionName": "2.0.8",
-  "build": 84,
-  "versionCode": 20008,
+  "version": "2.0.11+87",
+  "versionName": "2.0.11",
+  "build": 87,
+  "versionCode": 20011,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-21T09:44:18Z",
-  "notes": "**电脑版 2.0.8+84**\n\n- 新：**分类换成官网题材** —— 真人剧、漫剧、AI 剧各自列出官网的题材（真人剧 24 个），点进去就是这个筛选下的全部剧集，滚到底自动续页。\n- 改：分类页按剧种分组，题材用小胶囊横向排，一屏能看几十个；同名题材（比如「玄幻」在漫剧和 AI 剧下都有）各留一份，不会串到一起。\n- 改：去掉原来那些「只过滤已加载剧库」的伪分类 —— 点进去只看到缓存里那几部，看着像分类，其实少一大半。\n- 修：从「全部 X」列表**返回回到分类页**，不再一下跳回首页；刚看过的题材会带勾。\n- 修：「全部 X」列表滚到底只加载一页就不再动的老毛病（重试按钮误显示、自动续页被它挡住），失败时会显示具体原因。\n- 说明：可直接覆盖安装，设置与观看记录都保留；本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v2.0.8-84",
+  "publishedAt": "2026-10-22T03:16:47Z",
+  "notes": "**电脑版 2.0.11+87**\n\n- 新：**云预约** —— 详情页「预约」旁边多了一个「云预约」。勾上之后由服务端替你盯着（每 10 分钟一轮），软件关着也能收到上线提醒。单人在云端最多存 20 条，超了会提示你先删掉旧的。\n- 新：**云检测** —— 预约页右上角一键问云端，只要 1 个请求、大约 1 秒，不用逐条去站里搜。\n- 新：**预约页重新排版** —— 顶部加了一条概览（共几条 / 几条已上线 / 几条云端托管），每条卡片左边一道竖线标出状态，云端状态改成带字的徽章：**仅本机检测** / **待上报** / **云端托管**。以前只有一个小图标，分不出「点了但没报上去」和「云端真的收到了」。\n- 新：云预约需要一个访问密码（4 位数字，30 分钟内有效，用一次就作废）。点「云预约」或「云检测」时才会弹出来，弹窗里直接给了进群领密码的二维码和地址。\n- 新：WebDAV 备份现在也一起同步云预约的勾选状态 —— 换电脑之后不用重新勾一遍。\n- 改：**本地检测改成一天最多一次** —— 同一个自然日只自动查一次（当天第一次打开，或者过了 0 点之后的第一次）。以前每次把窗口切回来都会把站源逐条重搜一遍，现在不会了。想立刻查还是点「一键检测」，它不受这个限制。\n- 说明：可直接覆盖安装，设置与观看记录都保留；本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v2.0.11-87",
   "gate": {
     "salt": "djzj-2026-10-19-4f1a",
     "hash": "52a7781eed8e4dfb9dc20296e55dd8ad692e4461c86f7ffcafce105640283848",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-2.0.8+84-setup.exe",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.8-84/duanjuzhijia2-2.0.8%2B84-setup.exe",
+      "name": "duanjuzhijia2-2.0.11+87-setup.exe",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.11-87/duanjuzhijia2-2.0.11%2B87-setup.exe",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.8-84/duanjuzhijia2-2.0.8%2B84-setup.exe",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.8-84/duanjuzhijia2-2.0.8%2B84-setup.exe",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.8-84/duanjuzhijia2-2.0.8%2B84-setup.exe",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.8-84/duanjuzhijia2-2.0.8%2B84-setup.exe"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.11-87/duanjuzhijia2-2.0.11%2B87-setup.exe",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.11-87/duanjuzhijia2-2.0.11%2B87-setup.exe",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.11-87/duanjuzhijia2-2.0.11%2B87-setup.exe",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.11-87/duanjuzhijia2-2.0.11%2B87-setup.exe"
       ],
-      "size": 89223030,
-      "sha256": "cc538a32fa89a739ea90f47b248225de3829f0219da6536738a53c535962dd16",
-      "notes": "**电脑版 2.0.8+84**\n\n- 新：**分类换成官网题材** —— 真人剧、漫剧、AI 剧各自列出官网的题材（真人剧 24 个），点进去就是这个筛选下的全部剧集，滚到底自动续页。\n- 改：分类页按剧种分组，题材用小胶囊横向排，一屏能看几十个；同名题材（比如「玄幻」在漫剧和 AI 剧下都有）各留一份，不会串到一起。\n- 改：去掉原来那些「只过滤已加载剧库」的伪分类 —— 点进去只看到缓存里那几部，看着像分类，其实少一大半。\n- 修：从「全部 X」列表**返回回到分类页**，不再一下跳回首页；刚看过的题材会带勾。\n- 修：「全部 X」列表滚到底只加载一页就不再动的老毛病（重试按钮误显示、自动续页被它挡住），失败时会显示具体原因。\n- 说明：可直接覆盖安装，设置与观看记录都保留；本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。"
+      "size": 89323366,
+      "sha256": "9e2409ce9d29b0d624b312c5ffd213419a9b7ca885a1fb88efbe6f35905d2423",
+      "notes": "**电脑版 2.0.11+87**\n\n- 新：**云预约** —— 详情页「预约」旁边多了一个「云预约」。勾上之后由服务端替你盯着（每 10 分钟一轮），软件关着也能收到上线提醒。单人在云端最多存 20 条，超了会提示你先删掉旧的。\n- 新：**云检测** —— 预约页右上角一键问云端，只要 1 个请求、大约 1 秒，不用逐条去站里搜。\n- 新：**预约页重新排版** —— 顶部加了一条概览（共几条 / 几条已上线 / 几条云端托管），每条卡片左边一道竖线标出状态，云端状态改成带字的徽章：**仅本机检测** / **待上报** / **云端托管**。以前只有一个小图标，分不出「点了但没报上去」和「云端真的收到了」。\n- 新：云预约需要一个访问密码（4 位数字，30 分钟内有效，用一次就作废）。点「云预约」或「云检测」时才会弹出来，弹窗里直接给了进群领密码的二维码和地址。\n- 新：WebDAV 备份现在也一起同步云预约的勾选状态 —— 换电脑之后不用重新勾一遍。\n- 改：**本地检测改成一天最多一次** —— 同一个自然日只自动查一次（当天第一次打开，或者过了 0 点之后的第一次）。以前每次把窗口切回来都会把站源逐条重搜一遍，现在不会了。想立刻查还是点「一键检测」，它不受这个限制。\n- 说明：可直接覆盖安装，设置与观看记录都保留；本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。"
     },
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-2.0.8+84-windows-x64.zip",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.8-84/duanjuzhijia2-2.0.8%2B84-windows-x64.zip",
+      "name": "duanjuzhijia2-2.0.11+87-windows-x64.zip",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.11-87/duanjuzhijia2-2.0.11%2B87-windows-x64.zip",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.8-84/duanjuzhijia2-2.0.8%2B84-windows-x64.zip",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.8-84/duanjuzhijia2-2.0.8%2B84-windows-x64.zip",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.8-84/duanjuzhijia2-2.0.8%2B84-windows-x64.zip",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.8-84/duanjuzhijia2-2.0.8%2B84-windows-x64.zip"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.11-87/duanjuzhijia2-2.0.11%2B87-windows-x64.zip",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.11-87/duanjuzhijia2-2.0.11%2B87-windows-x64.zip",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.11-87/duanjuzhijia2-2.0.11%2B87-windows-x64.zip",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.11-87/duanjuzhijia2-2.0.11%2B87-windows-x64.zip"
       ],
-      "size": 122889199,
-      "sha256": "0ac24c7f67cd2a9682eb33c4fdb04f2522488dfa95e007d8a402fb1a2c99e2c9",
-      "notes": "**电脑版 2.0.8+84**\n\n- 新：**分类换成官网题材** —— 真人剧、漫剧、AI 剧各自列出官网的题材（真人剧 24 个），点进去就是这个筛选下的全部剧集，滚到底自动续页。\n- 改：分类页按剧种分组，题材用小胶囊横向排，一屏能看几十个；同名题材（比如「玄幻」在漫剧和 AI 剧下都有）各留一份，不会串到一起。\n- 改：去掉原来那些「只过滤已加载剧库」的伪分类 —— 点进去只看到缓存里那几部，看着像分类，其实少一大半。\n- 修：从「全部 X」列表**返回回到分类页**，不再一下跳回首页；刚看过的题材会带勾。\n- 修：「全部 X」列表滚到底只加载一页就不再动的老毛病（重试按钮误显示、自动续页被它挡住），失败时会显示具体原因。\n- 说明：可直接覆盖安装，设置与观看记录都保留；本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。"
+      "size": 123029357,
+      "sha256": "03cfffaa0fda5708c617dfdc98e12c325fd8bd30023d73c8705a5b1721d30ce2",
+      "notes": "**电脑版 2.0.11+87**\n\n- 新：**云预约** —— 详情页「预约」旁边多了一个「云预约」。勾上之后由服务端替你盯着（每 10 分钟一轮），软件关着也能收到上线提醒。单人在云端最多存 20 条，超了会提示你先删掉旧的。\n- 新：**云检测** —— 预约页右上角一键问云端，只要 1 个请求、大约 1 秒，不用逐条去站里搜。\n- 新：**预约页重新排版** —— 顶部加了一条概览（共几条 / 几条已上线 / 几条云端托管），每条卡片左边一道竖线标出状态，云端状态改成带字的徽章：**仅本机检测** / **待上报** / **云端托管**。以前只有一个小图标，分不出「点了但没报上去」和「云端真的收到了」。\n- 新：云预约需要一个访问密码（4 位数字，30 分钟内有效，用一次就作废）。点「云预约」或「云检测」时才会弹出来，弹窗里直接给了进群领密码的二维码和地址。\n- 新：WebDAV 备份现在也一起同步云预约的勾选状态 —— 换电脑之后不用重新勾一遍。\n- 改：**本地检测改成一天最多一次** —— 同一个自然日只自动查一次（当天第一次打开，或者过了 0 点之后的第一次）。以前每次把窗口切回来都会把站源逐条重搜一遍，现在不会了。想立刻查还是点「一键检测」，它不受这个限制。\n- 说明：可直接覆盖安装，设置与观看记录都保留；本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。"
     }
   ]
 }
