@@ -1,13 +1,13 @@
 {
-  "version": "2.0.12+88",
-  "versionName": "2.0.12",
-  "build": 88,
-  "versionCode": 20012,
+  "version": "2.0.13+89",
+  "versionName": "2.0.13",
+  "build": 89,
+  "versionCode": 20013,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-22T10:18:25Z",
-  "notes": "**电脑版 2.0.11+87**\n\n- 新：**云预约** —— 详情页「预约」旁边多了一个「云预约」。勾上之后由服务端替你盯着（每 10 分钟一轮），软件关着也能收到上线提醒。单人在云端最多存 20 条，超了会提示你先删掉旧的。\n- 新：**云检测** —— 预约页右上角一键问云端，只要 1 个请求、大约 1 秒，不用逐条去站里搜。\n- 新：**预约页重新排版** —— 顶部加了一条概览（共几条 / 几条已上线 / 几条云端托管），每条卡片左边一道竖线标出状态，云端状态改成带字的徽章：**仅本机检测** / **待上报** / **云端托管**。以前只有一个小图标，分不出「点了但没报上去」和「云端真的收到了」。\n- 新：云预约需要一个访问密码（4 位数字，30 分钟内有效，用一次就作废）。点「云预约」或「云检测」时才会弹出来，弹窗里直接给了进群领密码的二维码和地址。\n- 新：WebDAV 备份现在也一起同步云预约的勾选状态 —— 换电脑之后不用重新勾一遍。\n- 改：**本地检测改成一天最多一次** —— 同一个自然日只自动查一次（当天第一次打开，或者过了 0 点之后的第一次）。以前每次把窗口切回来都会把站源逐条重搜一遍，现在不会了。想立刻查还是点「一键检测」，它不受这个限制。\n- 说明：可直接覆盖安装，设置与观看记录都保留；本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v2.0.12-88",
+  "publishedAt": "2026-10-23T04:40:57Z",
+  "notes": "**电脑版 2.0.13+89**\n\n- 修：**同一部剧的其它季不见了** —— 站里有些长剧是这么起名的：《抽象三国第一季》《抽象三国第二季：子龙很忙》《抽象三国第四季：群雄乱斗》。旧规则只把「第四季」这几个字去掉，剩下的「抽象三国：群雄乱斗」就被当成另一个剧名，跟《抽象三国第一季》对不上，于是同一部剧只显示一季，别的季在详情页里根本翻不到。现在改成从季号一路切到结尾，副标题不再干扰归并。\n- 说明：可直接覆盖安装，设置与观看记录都保留。本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v2.0.13-89",
   "gate": {
     "salt": "djzj-2026-10-19-4f1a",
     "hash": "52a7781eed8e4dfb9dc20296e55dd8ad692e4461c86f7ffcafce105640283848",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-2.0.12+88-setup.exe",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.12-88/duanjuzhijia2-2.0.12%2B88-setup.exe",
+      "name": "duanjuzhijia2-2.0.13+89-setup.exe",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.13-89/duanjuzhijia2-2.0.13%2B89-setup.exe",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.12-88/duanjuzhijia2-2.0.12%2B88-setup.exe",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.12-88/duanjuzhijia2-2.0.12%2B88-setup.exe",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.12-88/duanjuzhijia2-2.0.12%2B88-setup.exe",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.12-88/duanjuzhijia2-2.0.12%2B88-setup.exe"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.13-89/duanjuzhijia2-2.0.13%2B89-setup.exe",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.13-89/duanjuzhijia2-2.0.13%2B89-setup.exe",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.13-89/duanjuzhijia2-2.0.13%2B89-setup.exe",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.13-89/duanjuzhijia2-2.0.13%2B89-setup.exe"
       ],
-      "size": 89323241,
-      "sha256": "fa15ad7b0658140d0fbee4781a1b19b39a098c12eb435ae6f73e4b715e1175d4",
-      "notes": "**电脑版 2.0.11+87**\n\n- 新：**云预约** —— 详情页「预约」旁边多了一个「云预约」。勾上之后由服务端替你盯着（每 10 分钟一轮），软件关着也能收到上线提醒。单人在云端最多存 20 条，超了会提示你先删掉旧的。\n- 新：**云检测** —— 预约页右上角一键问云端，只要 1 个请求、大约 1 秒，不用逐条去站里搜。\n- 新：**预约页重新排版** —— 顶部加了一条概览（共几条 / 几条已上线 / 几条云端托管），每条卡片左边一道竖线标出状态，云端状态改成带字的徽章：**仅本机检测** / **待上报** / **云端托管**。以前只有一个小图标，分不出「点了但没报上去」和「云端真的收到了」。\n- 新：云预约需要一个访问密码（4 位数字，30 分钟内有效，用一次就作废）。点「云预约」或「云检测」时才会弹出来，弹窗里直接给了进群领密码的二维码和地址。\n- 新：WebDAV 备份现在也一起同步云预约的勾选状态 —— 换电脑之后不用重新勾一遍。\n- 改：**本地检测改成一天最多一次** —— 同一个自然日只自动查一次（当天第一次打开，或者过了 0 点之后的第一次）。以前每次把窗口切回来都会把站源逐条重搜一遍，现在不会了。想立刻查还是点「一键检测」，它不受这个限制。\n- 说明：可直接覆盖安装，设置与观看记录都保留；本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。"
+      "size": 89327951,
+      "sha256": "c3e590b2146325be3813db7409013fb2680748f103f467aa8faffc9e0f43d4a8",
+      "notes": "**电脑版 2.0.13+89**\n\n- 修：**同一部剧的其它季不见了** —— 站里有些长剧是这么起名的：《抽象三国第一季》《抽象三国第二季：子龙很忙》《抽象三国第四季：群雄乱斗》。旧规则只把「第四季」这几个字去掉，剩下的「抽象三国：群雄乱斗」就被当成另一个剧名，跟《抽象三国第一季》对不上，于是同一部剧只显示一季，别的季在详情页里根本翻不到。现在改成从季号一路切到结尾，副标题不再干扰归并。\n- 说明：可直接覆盖安装，设置与观看记录都保留。本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。"
     },
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-2.0.12+88-windows-x64.zip",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.12-88/duanjuzhijia2-2.0.12%2B88-windows-x64.zip",
+      "name": "duanjuzhijia2-2.0.13+89-windows-x64.zip",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.13-89/duanjuzhijia2-2.0.13%2B89-windows-x64.zip",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.12-88/duanjuzhijia2-2.0.12%2B88-windows-x64.zip",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.12-88/duanjuzhijia2-2.0.12%2B88-windows-x64.zip",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.12-88/duanjuzhijia2-2.0.12%2B88-windows-x64.zip",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.12-88/duanjuzhijia2-2.0.12%2B88-windows-x64.zip"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.13-89/duanjuzhijia2-2.0.13%2B89-windows-x64.zip",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.13-89/duanjuzhijia2-2.0.13%2B89-windows-x64.zip",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.13-89/duanjuzhijia2-2.0.13%2B89-windows-x64.zip",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.13-89/duanjuzhijia2-2.0.13%2B89-windows-x64.zip"
       ],
-      "size": 123032765,
-      "sha256": "59a7ba015e71ec5514b4d52ffb87b4198fc820f5f10c1e4ef8d06b2dd73fcb73",
-      "notes": "**电脑版 2.0.11+87**\n\n- 新：**云预约** —— 详情页「预约」旁边多了一个「云预约」。勾上之后由服务端替你盯着（每 10 分钟一轮），软件关着也能收到上线提醒。单人在云端最多存 20 条，超了会提示你先删掉旧的。\n- 新：**云检测** —— 预约页右上角一键问云端，只要 1 个请求、大约 1 秒，不用逐条去站里搜。\n- 新：**预约页重新排版** —— 顶部加了一条概览（共几条 / 几条已上线 / 几条云端托管），每条卡片左边一道竖线标出状态，云端状态改成带字的徽章：**仅本机检测** / **待上报** / **云端托管**。以前只有一个小图标，分不出「点了但没报上去」和「云端真的收到了」。\n- 新：云预约需要一个访问密码（4 位数字，30 分钟内有效，用一次就作废）。点「云预约」或「云检测」时才会弹出来，弹窗里直接给了进群领密码的二维码和地址。\n- 新：WebDAV 备份现在也一起同步云预约的勾选状态 —— 换电脑之后不用重新勾一遍。\n- 改：**本地检测改成一天最多一次** —— 同一个自然日只自动查一次（当天第一次打开，或者过了 0 点之后的第一次）。以前每次把窗口切回来都会把站源逐条重搜一遍，现在不会了。想立刻查还是点「一键检测」，它不受这个限制。\n- 说明：可直接覆盖安装，设置与观看记录都保留；本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。"
+      "size": 123032812,
+      "sha256": "cde9a89f694d58ce6e7331747887682b81b6f89078aaf55e7469be1646eca412",
+      "notes": "**电脑版 2.0.13+89**\n\n- 修：**同一部剧的其它季不见了** —— 站里有些长剧是这么起名的：《抽象三国第一季》《抽象三国第二季：子龙很忙》《抽象三国第四季：群雄乱斗》。旧规则只把「第四季」这几个字去掉，剩下的「抽象三国：群雄乱斗」就被当成另一个剧名，跟《抽象三国第一季》对不上，于是同一部剧只显示一季，别的季在详情页里根本翻不到。现在改成从季号一路切到结尾，副标题不再干扰归并。\n- 说明：可直接覆盖安装，设置与观看记录都保留。本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。"
     }
   ]
 }
