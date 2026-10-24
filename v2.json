@@ -1,13 +1,13 @@
 {
-  "version": "2.0.15+91",
-  "versionName": "2.0.15",
-  "build": 91,
-  "versionCode": 20015,
+  "version": "2.0.16+92",
+  "versionName": "2.0.16",
+  "build": 92,
+  "versionCode": 20016,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-23T10:28:16Z",
-  "notes": "**电脑版 2.0.15+91**\n\n- 修：**搜索搜不到某些剧**。红果那边把搜索数据的接口换了，旧写法拿不到综合搜索的结果，只剩「名字差不多」的那一份，所以像《持械入宋超长版》这种只有综合搜索里才有的剧就搜不出来。现在按新接口取，搜什么出什么。\n- 修：**WebDAV 同步的文件位置**。之前「测试连接」会在你填的目录里建出 `duanjuapp-sync` 文件夹，但同步的文件却写在**上一层**，看着像没同步。现在会写进那个文件夹里；已经写在上一层的旧文件也照样能读到，不会丢数据。群晖（Synology）的用户请更新。\n- 说明：可直接覆盖安装，设置与观看记录都保留。本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v2.0.15-91",
+  "publishedAt": "2026-10-24T01:31:17Z",
+  "notes": "**电脑版 2.0.16+92**\n\n- 修复：**分类里的「漫剧」「AI 剧」点开是空的 / 报「红果 App 接口未返回有效数据」**。红果的 App 接口这两天回了空内容，而只有真人剧那条路带兜底，所以只有真人剧看着正常。现在三个题材都会自动改用网页版数据，列表能正常出来。\n- 说明：这也解释了另一件事 —— **「上线日期」排序最近点了没效果**。那个排序是 App 接口才给的，接口回空之后只能退到网页那份（按热度的固定清单），所以翻不到当天上新的剧。等红果那边恢复就正常，代码这边已经不会因此整页报错了。\n- 说明：可直接覆盖安装，设置与观看记录都保留。本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v2.0.16-92",
   "gate": {
     "salt": "djzj-2026-10-19-4f1a",
     "hash": "52a7781eed8e4dfb9dc20296e55dd8ad692e4461c86f7ffcafce105640283848",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-2.0.15+91-setup.exe",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.15-91/duanjuzhijia2-2.0.15%2B91-setup.exe",
+      "name": "duanjuzhijia2-2.0.16+92-setup.exe",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.16-92/duanjuzhijia2-2.0.16%2B92-setup.exe",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.15-91/duanjuzhijia2-2.0.15%2B91-setup.exe",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.15-91/duanjuzhijia2-2.0.15%2B91-setup.exe",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.15-91/duanjuzhijia2-2.0.15%2B91-setup.exe",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.15-91/duanjuzhijia2-2.0.15%2B91-setup.exe"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.16-92/duanjuzhijia2-2.0.16%2B92-setup.exe",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.16-92/duanjuzhijia2-2.0.16%2B92-setup.exe",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.16-92/duanjuzhijia2-2.0.16%2B92-setup.exe",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.16-92/duanjuzhijia2-2.0.16%2B92-setup.exe"
       ],
-      "size": 89324151,
-      "sha256": "fe1e4c2212bfbb70f3efa082fc53f095d50fb4a797b2ad849004b61f6ab268c5",
-      "notes": "**电脑版 2.0.15+91**\n\n- 修：**搜索搜不到某些剧**。红果那边把搜索数据的接口换了，旧写法拿不到综合搜索的结果，只剩「名字差不多」的那一份，所以像《持械入宋超长版》这种只有综合搜索里才有的剧就搜不出来。现在按新接口取，搜什么出什么。\n- 修：**WebDAV 同步的文件位置**。之前「测试连接」会在你填的目录里建出 `duanjuapp-sync` 文件夹，但同步的文件却写在**上一层**，看着像没同步。现在会写进那个文件夹里；已经写在上一层的旧文件也照样能读到，不会丢数据。群晖（Synology）的用户请更新。\n- 说明：可直接覆盖安装，设置与观看记录都保留。本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。"
+      "size": 89325376,
+      "sha256": "fcccd78a2e80315ba5d1a58b133a25402a400bae5a1fa474f19ee527cfc8ed02",
+      "notes": "**电脑版 2.0.16+92**\n\n- 修复：**分类里的「漫剧」「AI 剧」点开是空的 / 报「红果 App 接口未返回有效数据」**。红果的 App 接口这两天回了空内容，而只有真人剧那条路带兜底，所以只有真人剧看着正常。现在三个题材都会自动改用网页版数据，列表能正常出来。\n- 说明：这也解释了另一件事 —— **「上线日期」排序最近点了没效果**。那个排序是 App 接口才给的，接口回空之后只能退到网页那份（按热度的固定清单），所以翻不到当天上新的剧。等红果那边恢复就正常，代码这边已经不会因此整页报错了。\n- 说明：可直接覆盖安装，设置与观看记录都保留。本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。"
     },
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-2.0.15+91-windows-x64.zip",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.15-91/duanjuzhijia2-2.0.15%2B91-windows-x64.zip",
+      "name": "duanjuzhijia2-2.0.16+92-windows-x64.zip",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.16-92/duanjuzhijia2-2.0.16%2B92-windows-x64.zip",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.15-91/duanjuzhijia2-2.0.15%2B91-windows-x64.zip",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.15-91/duanjuzhijia2-2.0.15%2B91-windows-x64.zip",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.15-91/duanjuzhijia2-2.0.15%2B91-windows-x64.zip",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.15-91/duanjuzhijia2-2.0.15%2B91-windows-x64.zip"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.16-92/duanjuzhijia2-2.0.16%2B92-windows-x64.zip",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.16-92/duanjuzhijia2-2.0.16%2B92-windows-x64.zip",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.16-92/duanjuzhijia2-2.0.16%2B92-windows-x64.zip",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.16-92/duanjuzhijia2-2.0.16%2B92-windows-x64.zip"
       ],
-      "size": 123035435,
-      "sha256": "7f41d80c149a6aa4a770bd4b5f473bceee0bccbbb021a04a5e7b5a96d29d1c04",
-      "notes": "**电脑版 2.0.15+91**\n\n- 修：**搜索搜不到某些剧**。红果那边把搜索数据的接口换了，旧写法拿不到综合搜索的结果，只剩「名字差不多」的那一份，所以像《持械入宋超长版》这种只有综合搜索里才有的剧就搜不出来。现在按新接口取，搜什么出什么。\n- 修：**WebDAV 同步的文件位置**。之前「测试连接」会在你填的目录里建出 `duanjuapp-sync` 文件夹，但同步的文件却写在**上一层**，看着像没同步。现在会写进那个文件夹里；已经写在上一层的旧文件也照样能读到，不会丢数据。群晖（Synology）的用户请更新。\n- 说明：可直接覆盖安装，设置与观看记录都保留。本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。"
+      "size": 123036026,
+      "sha256": "39c95e667ee20bc7cc3fc6bed12ee402aeb93f28abe7e5ac47fdf5a951620f76",
+      "notes": "**电脑版 2.0.16+92**\n\n- 修复：**分类里的「漫剧」「AI 剧」点开是空的 / 报「红果 App 接口未返回有效数据」**。红果的 App 接口这两天回了空内容，而只有真人剧那条路带兜底，所以只有真人剧看着正常。现在三个题材都会自动改用网页版数据，列表能正常出来。\n- 说明：这也解释了另一件事 —— **「上线日期」排序最近点了没效果**。那个排序是 App 接口才给的，接口回空之后只能退到网页那份（按热度的固定清单），所以翻不到当天上新的剧。等红果那边恢复就正常，代码这边已经不会因此整页报错了。\n- 说明：可直接覆盖安装，设置与观看记录都保留。本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。"
     }
   ]
 }
