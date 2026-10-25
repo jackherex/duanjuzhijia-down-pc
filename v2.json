@@ -1,13 +1,13 @@
 {
-  "version": "2.0.16+92",
-  "versionName": "2.0.16",
-  "build": 92,
-  "versionCode": 20016,
+  "version": "2.0.17+93",
+  "versionName": "2.0.17",
+  "build": 93,
+  "versionCode": 20017,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-24T01:31:17Z",
-  "notes": "**电脑版 2.0.16+92**\n\n- 修复：**分类里的「漫剧」「AI 剧」点开是空的 / 报「红果 App 接口未返回有效数据」**。红果的 App 接口这两天回了空内容，而只有真人剧那条路带兜底，所以只有真人剧看着正常。现在三个题材都会自动改用网页版数据，列表能正常出来。\n- 说明：这也解释了另一件事 —— **「上线日期」排序最近点了没效果**。那个排序是 App 接口才给的，接口回空之后只能退到网页那份（按热度的固定清单），所以翻不到当天上新的剧。等红果那边恢复就正常，代码这边已经不会因此整页报错了。\n- 说明：可直接覆盖安装，设置与观看记录都保留。本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v2.0.16-92",
+  "publishedAt": "2026-10-25T07:23:15Z",
+  "notes": "**电脑版 2.0.17+93**\n\n- 修复：**「打开下载页」之前点下去直接就开始下安装版**，想拿免安装的 portable 包根本没机会选。原因是那颗按钮给的是安装包直链，浏览器一收到就下了。现在改成打开 Release 页面，安装版和 portable 都在里面，自己挑。\n- 修改：**首页顶上那个推荐横幅，自动翻页从 6 秒放慢到 8 秒**。\n- 新增：**「设置 → 版本」里多了一个「接收测试版」开关**，默认是关的。开了之后有新测试版会先推给你，没开的人还是只收到正式版。\n- 说明：可直接覆盖安装，设置与观看记录都保留。本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v2.0.17-93",
   "gate": {
     "salt": "djzj-2026-10-19-4f1a",
     "hash": "52a7781eed8e4dfb9dc20296e55dd8ad692e4461c86f7ffcafce105640283848",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-2.0.16+92-setup.exe",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.16-92/duanjuzhijia2-2.0.16%2B92-setup.exe",
+      "name": "duanjuzhijia2-2.0.17+93-setup.exe",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.17-93/duanjuzhijia2-2.0.17%2B93-setup.exe",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.16-92/duanjuzhijia2-2.0.16%2B92-setup.exe",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.16-92/duanjuzhijia2-2.0.16%2B92-setup.exe",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.16-92/duanjuzhijia2-2.0.16%2B92-setup.exe",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.16-92/duanjuzhijia2-2.0.16%2B92-setup.exe"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.17-93/duanjuzhijia2-2.0.17%2B93-setup.exe",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.17-93/duanjuzhijia2-2.0.17%2B93-setup.exe",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.17-93/duanjuzhijia2-2.0.17%2B93-setup.exe",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.17-93/duanjuzhijia2-2.0.17%2B93-setup.exe"
       ],
-      "size": 89325376,
-      "sha256": "fcccd78a2e80315ba5d1a58b133a25402a400bae5a1fa474f19ee527cfc8ed02",
-      "notes": "**电脑版 2.0.16+92**\n\n- 修复：**分类里的「漫剧」「AI 剧」点开是空的 / 报「红果 App 接口未返回有效数据」**。红果的 App 接口这两天回了空内容，而只有真人剧那条路带兜底，所以只有真人剧看着正常。现在三个题材都会自动改用网页版数据，列表能正常出来。\n- 说明：这也解释了另一件事 —— **「上线日期」排序最近点了没效果**。那个排序是 App 接口才给的，接口回空之后只能退到网页那份（按热度的固定清单），所以翻不到当天上新的剧。等红果那边恢复就正常，代码这边已经不会因此整页报错了。\n- 说明：可直接覆盖安装，设置与观看记录都保留。本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。"
+      "size": 89317855,
+      "sha256": "46d3bfa33ae7b64d929888e0acb57d1025af018b4840a480ed30cd21bc482f45",
+      "notes": "**电脑版 2.0.17+93**\n\n- 修复：**「打开下载页」之前点下去直接就开始下安装版**，想拿免安装的 portable 包根本没机会选。原因是那颗按钮给的是安装包直链，浏览器一收到就下了。现在改成打开 Release 页面，安装版和 portable 都在里面，自己挑。\n- 修改：**首页顶上那个推荐横幅，自动翻页从 6 秒放慢到 8 秒**。\n- 新增：**「设置 → 版本」里多了一个「接收测试版」开关**，默认是关的。开了之后有新测试版会先推给你，没开的人还是只收到正式版。\n- 说明：可直接覆盖安装，设置与观看记录都保留。本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。"
     },
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-2.0.16+92-windows-x64.zip",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.16-92/duanjuzhijia2-2.0.16%2B92-windows-x64.zip",
+      "name": "duanjuzhijia2-2.0.17+93-windows-x64.zip",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.17-93/duanjuzhijia2-2.0.17%2B93-windows-x64.zip",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.16-92/duanjuzhijia2-2.0.16%2B92-windows-x64.zip",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.16-92/duanjuzhijia2-2.0.16%2B92-windows-x64.zip",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.16-92/duanjuzhijia2-2.0.16%2B92-windows-x64.zip",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.16-92/duanjuzhijia2-2.0.16%2B92-windows-x64.zip"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.17-93/duanjuzhijia2-2.0.17%2B93-windows-x64.zip",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.17-93/duanjuzhijia2-2.0.17%2B93-windows-x64.zip",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.17-93/duanjuzhijia2-2.0.17%2B93-windows-x64.zip",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.17-93/duanjuzhijia2-2.0.17%2B93-windows-x64.zip"
       ],
-      "size": 123036026,
-      "sha256": "39c95e667ee20bc7cc3fc6bed12ee402aeb93f28abe7e5ac47fdf5a951620f76",
-      "notes": "**电脑版 2.0.16+92**\n\n- 修复：**分类里的「漫剧」「AI 剧」点开是空的 / 报「红果 App 接口未返回有效数据」**。红果的 App 接口这两天回了空内容，而只有真人剧那条路带兜底，所以只有真人剧看着正常。现在三个题材都会自动改用网页版数据，列表能正常出来。\n- 说明：这也解释了另一件事 —— **「上线日期」排序最近点了没效果**。那个排序是 App 接口才给的，接口回空之后只能退到网页那份（按热度的固定清单），所以翻不到当天上新的剧。等红果那边恢复就正常，代码这边已经不会因此整页报错了。\n- 说明：可直接覆盖安装，设置与观看记录都保留。本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。"
+      "size": 123036302,
+      "sha256": "6529846744fd984bdc745f82f77d89a3b58168fb72da79cd5506bd111267bd11",
+      "notes": "**电脑版 2.0.17+93**\n\n- 修复：**「打开下载页」之前点下去直接就开始下安装版**，想拿免安装的 portable 包根本没机会选。原因是那颗按钮给的是安装包直链，浏览器一收到就下了。现在改成打开 Release 页面，安装版和 portable 都在里面，自己挑。\n- 修改：**首页顶上那个推荐横幅，自动翻页从 6 秒放慢到 8 秒**。\n- 新增：**「设置 → 版本」里多了一个「接收测试版」开关**，默认是关的。开了之后有新测试版会先推给你，没开的人还是只收到正式版。\n- 说明：可直接覆盖安装，设置与观看记录都保留。本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。"
     }
   ]
 }
