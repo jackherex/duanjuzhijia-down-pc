@@ -1,0 +1,50 @@
+{
+  "version": "2.0.18+94",
+  "versionName": "2.0.18",
+  "build": 94,
+  "versionCode": 20018,
+  "minVersion": "",
+  "force": false,
+  "publishedAt": "2026-10-26T12:54:07Z",
+  "notes": "**电脑版 2.0.18+94**\n\n- 新增：**观看统计**。「设置 → 设备与同步 → 观看统计」里能看到今天看了多久、近 7 天看了多久、一共看了多久；还有近 14 天的柱状图和最近 12 周的观看日历。\n- 新增：**看了哪些剧、哪台设备看的**。统计页里有「常看剧集」排行（近 30 天），还有设备排行 —— 手机、电脑、电视各自看了多久都分开算。\n- 新增：**点开「观看日历」能看到那天是哪台设备看的**。比如「10-26　1 小时 20 分 / 客厅电视 50 分 · 手机 30 分」。\n- 新增：**观看时长会跟着 WebDAV 同步走**。开了 WebDAV 同步的话，三端看到的是同一份总数。\n- 说明：**只算真正在播的时间**。暂停、缓冲、拖动进度条都不算；投屏的时候那段时长记在电视那台设备上，电脑不会重复算。\n- 说明：这个版本是测试版。可直接覆盖安装，设置与观看记录都保留。本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v2.0.18-94-beta",
+  "gate": {
+    "salt": "djzj-2115cfea85b3",
+    "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
+    "iterations": 2000,
+    "group": "https://t.me/duanjuzhijia",
+    "hint": "4 位数字"
+  },
+  "assets": [
+    {
+      "edition": "duanjuzhijia2",
+      "abi": "windows-x64",
+      "name": "duanjuzhijia2-2.0.18+94-setup.exe",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.18-94-beta/duanjuzhijia2-2.0.18%2B94-setup.exe",
+      "urls": [
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.18-94-beta/duanjuzhijia2-2.0.18%2B94-setup.exe",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.18-94-beta/duanjuzhijia2-2.0.18%2B94-setup.exe",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.18-94-beta/duanjuzhijia2-2.0.18%2B94-setup.exe",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.18-94-beta/duanjuzhijia2-2.0.18%2B94-setup.exe"
+      ],
+      "size": 89342113,
+      "sha256": "e27da9aa5fc5c5b63c9148a6aca2eb583bce403b7504aaaf573241aea516c851",
+      "notes": "**电脑版 2.0.18+94**\n\n- 新增：**观看统计**。「设置 → 设备与同步 → 观看统计」里能看到今天看了多久、近 7 天看了多久、一共看了多久；还有近 14 天的柱状图和最近 12 周的观看日历。\n- 新增：**看了哪些剧、哪台设备看的**。统计页里有「常看剧集」排行（近 30 天），还有设备排行 —— 手机、电脑、电视各自看了多久都分开算。\n- 新增：**点开「观看日历」能看到那天是哪台设备看的**。比如「10-26　1 小时 20 分 / 客厅电视 50 分 · 手机 30 分」。\n- 新增：**观看时长会跟着 WebDAV 同步走**。开了 WebDAV 同步的话，三端看到的是同一份总数。\n- 说明：**只算真正在播的时间**。暂停、缓冲、拖动进度条都不算；投屏的时候那段时长记在电视那台设备上，电脑不会重复算。\n- 说明：这个版本是测试版。可直接覆盖安装，设置与观看记录都保留。本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。"
+    },
+    {
+      "edition": "duanjuzhijia2",
+      "abi": "windows-x64",
+      "name": "duanjuzhijia2-2.0.18+94-windows-x64.zip",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.18-94-beta/duanjuzhijia2-2.0.18%2B94-windows-x64.zip",
+      "urls": [
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.18-94-beta/duanjuzhijia2-2.0.18%2B94-windows-x64.zip",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.18-94-beta/duanjuzhijia2-2.0.18%2B94-windows-x64.zip",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.18-94-beta/duanjuzhijia2-2.0.18%2B94-windows-x64.zip",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.18-94-beta/duanjuzhijia2-2.0.18%2B94-windows-x64.zip"
+      ],
+      "size": 123065392,
+      "sha256": "4ff5f71cbeca2a9aaf9c3f511c867a657ec1710a60e132e6aa30d919cc491a61",
+      "notes": "**电脑版 2.0.18+94**\n\n- 新增：**观看统计**。「设置 → 设备与同步 → 观看统计」里能看到今天看了多久、近 7 天看了多久、一共看了多久；还有近 14 天的柱状图和最近 12 周的观看日历。\n- 新增：**看了哪些剧、哪台设备看的**。统计页里有「常看剧集」排行（近 30 天），还有设备排行 —— 手机、电脑、电视各自看了多久都分开算。\n- 新增：**点开「观看日历」能看到那天是哪台设备看的**。比如「10-26　1 小时 20 分 / 客厅电视 50 分 · 手机 30 分」。\n- 新增：**观看时长会跟着 WebDAV 同步走**。开了 WebDAV 同步的话，三端看到的是同一份总数。\n- 说明：**只算真正在播的时间**。暂停、缓冲、拖动进度条都不算；投屏的时候那段时长记在电视那台设备上，电脑不会重复算。\n- 说明：这个版本是测试版。可直接覆盖安装，设置与观看记录都保留。本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。"
+    }
+  ]
+}
