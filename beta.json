@@ -1,13 +1,13 @@
 {
-  "version": "2.0.20+96",
-  "versionName": "2.0.20",
-  "build": 96,
-  "versionCode": 20020,
+  "version": "2.0.21+97",
+  "versionName": "2.0.21",
+  "build": 97,
+  "versionCode": 20021,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-27T01:37:13Z",
-  "notes": "**电脑版 2.0.20+96**\n\n- 修复：**「暂时无法播放」的误报**。以前点播放偶尔会弹这个框（写着 App 接口没返回有效数据、网页取流失败 404、备用取流失败），手动点一下「重试播放」又好了。原因是取流有多条线路，主线路当时只剩 1/4 的成功率，而「换到备用线路」这段代码里少写了 `https://`，等于**从来没生效过** —— 主线路一抖就只能报错。已修好，现在会自动换线路重试。\n- 修复：接口返回 200 但内容为空时，以前直接当成「这一集没有数据」报错，现在会换一条线路再试。\n- 调整：**去掉了「网页播放页」那条取流通道**。它最高只给 480p，画质明显不如主通道（实测主通道是 1080p），而且官网那边早就关了这个入口，留着只是每次多等半秒。现在只走 App 接口和备用接口。\n- 实测：同一集连续点 6 次播放，6 次全部成功、画质均为 1080p；多数情况 0.3～1.9 秒出画面。\n- 保留：**观看统计**（顶部「分类」旁边那个按钮）、今天 / 近 7 天 / 累计时长、常看剧集、观看日历、哪台设备看的、**WebDAV 同步**。\n- 说明：这个版本是测试版。可直接覆盖安装，设置与观看记录都保留。本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v2.0.20-96-beta",
+  "publishedAt": "2026-10-27T09:44:38Z",
+  "notes": "**电脑版 2.0.21+97**\n\n这一版主要是把**红果账号**那套东西跟手机版对齐（手机版前几版已经改完，电脑版一直落后）。\n\n- 修复：**红果观看历史进页面卡住**。以前一进历史页就去抓每部剧的网页详情页补剧名封面，一部约 160 KB，几十部就是好几 MB，慢的时候页面一直转圈。现在进页面**一个请求都不发**，只读本地已有的剧名封面，秒开。\n- 新增：历史页右上角**「拉取剧名封面」按钮**。想补剧名和封面就点它（最多 25 秒、一次补 40 部），补完进 6 小时缓存，下次打开还是秒开。列表上方会提示还剩几部没补上。\n- 新增：**详情页的红果收藏爱心**。只对红果来源的剧显示，且必须已登录。注意这颗爱心写的是**红果账号**，跟旁边那颗「加入追剧」（写本机）是两套东西，互不影响。\n- 修复：**红果预约页不再假装「你没有预约」**。红果那一栏偶尔会回 200 但内容是空的，以前会直接显示「没有待上线的预约」，现在如实说「红果这次没有返回预约列表」，并给一个「重试」。\n- 修复：红果登录态失效时，列表页以前会停在「已登录 + 一行红字错误」，现在会自动重新问一次登录状态，直接换成登录卡。\n- 说明：这个版本是测试版。可直接覆盖安装，设置与观看记录都保留。本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。\n\n已知问题：红果收藏这颗爱心**可能仍提示风控**（红果那边的风控校验），这一版还没解决，正在继续查。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v2.0.21-97-beta",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-2.0.20+96-setup.exe",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.20-96-beta/duanjuzhijia2-2.0.20%2B96-setup.exe",
+      "name": "duanjuzhijia2-2.0.21+97-setup.exe",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.21-97-beta/duanjuzhijia2-2.0.21%2B97-setup.exe",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.20-96-beta/duanjuzhijia2-2.0.20%2B96-setup.exe",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.20-96-beta/duanjuzhijia2-2.0.20%2B96-setup.exe",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.20-96-beta/duanjuzhijia2-2.0.20%2B96-setup.exe",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.20-96-beta/duanjuzhijia2-2.0.20%2B96-setup.exe"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.21-97-beta/duanjuzhijia2-2.0.21%2B97-setup.exe",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.21-97-beta/duanjuzhijia2-2.0.21%2B97-setup.exe",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.21-97-beta/duanjuzhijia2-2.0.21%2B97-setup.exe",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.21-97-beta/duanjuzhijia2-2.0.21%2B97-setup.exe"
       ],
-      "size": 89343717,
-      "sha256": "c57e1d7b894b4dedc9ee25a1542a9706026421ac8bc3a4fb32a00a0bbea93f56",
-      "notes": "**电脑版 2.0.20+96**\n\n- 修复：**「暂时无法播放」的误报**。以前点播放偶尔会弹这个框（写着 App 接口没返回有效数据、网页取流失败 404、备用取流失败），手动点一下「重试播放」又好了。原因是取流有多条线路，主线路当时只剩 1/4 的成功率，而「换到备用线路」这段代码里少写了 `https://`，等于**从来没生效过** —— 主线路一抖就只能报错。已修好，现在会自动换线路重试。\n- 修复：接口返回 200 但内容为空时，以前直接当成「这一集没有数据」报错，现在会换一条线路再试。\n- 调整：**去掉了「网页播放页」那条取流通道**。它最高只给 480p，画质明显不如主通道（实测主通道是 1080p），而且官网那边早就关了这个入口，留着只是每次多等半秒。现在只走 App 接口和备用接口。\n- 实测：同一集连续点 6 次播放，6 次全部成功、画质均为 1080p；多数情况 0.3～1.9 秒出画面。\n- 保留：**观看统计**（顶部「分类」旁边那个按钮）、今天 / 近 7 天 / 累计时长、常看剧集、观看日历、哪台设备看的、**WebDAV 同步**。\n- 说明：这个版本是测试版。可直接覆盖安装，设置与观看记录都保留。本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。"
+      "size": 89445593,
+      "sha256": "9ea37c2570f7743f08f4ad8030ef7407f9e0293024ce4de8cb03c21b32db5bcb",
+      "notes": "**电脑版 2.0.21+97**\n\n这一版主要是把**红果账号**那套东西跟手机版对齐（手机版前几版已经改完，电脑版一直落后）。\n\n- 修复：**红果观看历史进页面卡住**。以前一进历史页就去抓每部剧的网页详情页补剧名封面，一部约 160 KB，几十部就是好几 MB，慢的时候页面一直转圈。现在进页面**一个请求都不发**，只读本地已有的剧名封面，秒开。\n- 新增：历史页右上角**「拉取剧名封面」按钮**。想补剧名和封面就点它（最多 25 秒、一次补 40 部），补完进 6 小时缓存，下次打开还是秒开。列表上方会提示还剩几部没补上。\n- 新增：**详情页的红果收藏爱心**。只对红果来源的剧显示，且必须已登录。注意这颗爱心写的是**红果账号**，跟旁边那颗「加入追剧」（写本机）是两套东西，互不影响。\n- 修复：**红果预约页不再假装「你没有预约」**。红果那一栏偶尔会回 200 但内容是空的，以前会直接显示「没有待上线的预约」，现在如实说「红果这次没有返回预约列表」，并给一个「重试」。\n- 修复：红果登录态失效时，列表页以前会停在「已登录 + 一行红字错误」，现在会自动重新问一次登录状态，直接换成登录卡。\n- 说明：这个版本是测试版。可直接覆盖安装，设置与观看记录都保留。本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。\n\n已知问题：红果收藏这颗爱心**可能仍提示风控**（红果那边的风控校验），这一版还没解决，正在继续查。"
     },
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-2.0.20+96-windows-x64.zip",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.20-96-beta/duanjuzhijia2-2.0.20%2B96-windows-x64.zip",
+      "name": "duanjuzhijia2-2.0.21+97-windows-x64.zip",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.21-97-beta/duanjuzhijia2-2.0.21%2B97-windows-x64.zip",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.20-96-beta/duanjuzhijia2-2.0.20%2B96-windows-x64.zip",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.20-96-beta/duanjuzhijia2-2.0.20%2B96-windows-x64.zip",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.20-96-beta/duanjuzhijia2-2.0.20%2B96-windows-x64.zip",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.20-96-beta/duanjuzhijia2-2.0.20%2B96-windows-x64.zip"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.21-97-beta/duanjuzhijia2-2.0.21%2B97-windows-x64.zip",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.21-97-beta/duanjuzhijia2-2.0.21%2B97-windows-x64.zip",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.21-97-beta/duanjuzhijia2-2.0.21%2B97-windows-x64.zip",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.21-97-beta/duanjuzhijia2-2.0.21%2B97-windows-x64.zip"
       ],
-      "size": 123064992,
-      "sha256": "f038fea68bbe319c40caa7dc65cb4aa21dcd8b7c6c3bd83d00df8e0f386108ce",
-      "notes": "**电脑版 2.0.20+96**\n\n- 修复：**「暂时无法播放」的误报**。以前点播放偶尔会弹这个框（写着 App 接口没返回有效数据、网页取流失败 404、备用取流失败），手动点一下「重试播放」又好了。原因是取流有多条线路，主线路当时只剩 1/4 的成功率，而「换到备用线路」这段代码里少写了 `https://`，等于**从来没生效过** —— 主线路一抖就只能报错。已修好，现在会自动换线路重试。\n- 修复：接口返回 200 但内容为空时，以前直接当成「这一集没有数据」报错，现在会换一条线路再试。\n- 调整：**去掉了「网页播放页」那条取流通道**。它最高只给 480p，画质明显不如主通道（实测主通道是 1080p），而且官网那边早就关了这个入口，留着只是每次多等半秒。现在只走 App 接口和备用接口。\n- 实测：同一集连续点 6 次播放，6 次全部成功、画质均为 1080p；多数情况 0.3～1.9 秒出画面。\n- 保留：**观看统计**（顶部「分类」旁边那个按钮）、今天 / 近 7 天 / 累计时长、常看剧集、观看日历、哪台设备看的、**WebDAV 同步**。\n- 说明：这个版本是测试版。可直接覆盖安装，设置与观看记录都保留。本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。"
+      "size": 123216250,
+      "sha256": "4dcdf63e6864d3f846615053607edbb3a52683895e957c546f0352e8cd20cd65",
+      "notes": "**电脑版 2.0.21+97**\n\n这一版主要是把**红果账号**那套东西跟手机版对齐（手机版前几版已经改完，电脑版一直落后）。\n\n- 修复：**红果观看历史进页面卡住**。以前一进历史页就去抓每部剧的网页详情页补剧名封面，一部约 160 KB，几十部就是好几 MB，慢的时候页面一直转圈。现在进页面**一个请求都不发**，只读本地已有的剧名封面，秒开。\n- 新增：历史页右上角**「拉取剧名封面」按钮**。想补剧名和封面就点它（最多 25 秒、一次补 40 部），补完进 6 小时缓存，下次打开还是秒开。列表上方会提示还剩几部没补上。\n- 新增：**详情页的红果收藏爱心**。只对红果来源的剧显示，且必须已登录。注意这颗爱心写的是**红果账号**，跟旁边那颗「加入追剧」（写本机）是两套东西，互不影响。\n- 修复：**红果预约页不再假装「你没有预约」**。红果那一栏偶尔会回 200 但内容是空的，以前会直接显示「没有待上线的预约」，现在如实说「红果这次没有返回预约列表」，并给一个「重试」。\n- 修复：红果登录态失效时，列表页以前会停在「已登录 + 一行红字错误」，现在会自动重新问一次登录状态，直接换成登录卡。\n- 说明：这个版本是测试版。可直接覆盖安装，设置与观看记录都保留。本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。\n\n已知问题：红果收藏这颗爱心**可能仍提示风控**（红果那边的风控校验），这一版还没解决，正在继续查。"
     }
   ]
 }
