@@ -1,13 +1,13 @@
 {
-  "version": "2.0.19+95",
-  "versionName": "2.0.19",
-  "build": 95,
-  "versionCode": 20019,
+  "version": "2.0.20+96",
+  "versionName": "2.0.20",
+  "build": 96,
+  "versionCode": 20020,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-26T13:21:12Z",
-  "notes": "**电脑版 2.0.19+95**\n\n- 改进：**观看统计页重新做了一遍**。以前三块数字挤在一行、看着费劲；现在「今天看了多久」单独占一行大字，近 7 天和累计收在下面一行小字里，扫一眼就知道重点。\n- 改进：**近 14 天改成柱状图**，哪几天看多、哪几天没看，形状直接看得出来；柱子下面标了起止日期和「今天」。\n- 改进：**观看日历加了星期刻度**（一 / 三 / 五 / 日），最近 12 周的热力图现在能对上号 —— 以前一片方块，看不出哪列是周末。\n- 改进：**常看剧集和常用设备各占一张卡**。剧集排行带进度条，一眼看出哪部占得多；设备那栏每台设备分开列「今天 / 近 7 天 / 最后看过」。\n- 调整：**入口从设置里挪出来了**。现在在顶部「分类」旁边多了一个「观看统计」按钮，点一下直接进。\n- 保留：**今天 / 近 7 天 / 累计时长**、**看了哪些剧**、**观看日历**、**哪台设备看的**，以及 **WebDAV 同步** —— 开了同步的话，三端看到的是同一份总数。\n- 说明：**只算真正在播的时间**。暂停、缓冲、拖动进度条都不算；投屏的时候那段时长记在电视那台设备上，电脑不会重复算。\n- 说明：这个版本是测试版。可直接覆盖安装，设置与观看记录都保留。本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v2.0.19-95-beta",
+  "publishedAt": "2026-10-27T01:37:13Z",
+  "notes": "**电脑版 2.0.20+96**\n\n- 修复：**「暂时无法播放」的误报**。以前点播放偶尔会弹这个框（写着 App 接口没返回有效数据、网页取流失败 404、备用取流失败），手动点一下「重试播放」又好了。原因是取流有多条线路，主线路当时只剩 1/4 的成功率，而「换到备用线路」这段代码里少写了 `https://`，等于**从来没生效过** —— 主线路一抖就只能报错。已修好，现在会自动换线路重试。\n- 修复：接口返回 200 但内容为空时，以前直接当成「这一集没有数据」报错，现在会换一条线路再试。\n- 调整：**去掉了「网页播放页」那条取流通道**。它最高只给 480p，画质明显不如主通道（实测主通道是 1080p），而且官网那边早就关了这个入口，留着只是每次多等半秒。现在只走 App 接口和备用接口。\n- 实测：同一集连续点 6 次播放，6 次全部成功、画质均为 1080p；多数情况 0.3～1.9 秒出画面。\n- 保留：**观看统计**（顶部「分类」旁边那个按钮）、今天 / 近 7 天 / 累计时长、常看剧集、观看日历、哪台设备看的、**WebDAV 同步**。\n- 说明：这个版本是测试版。可直接覆盖安装，设置与观看记录都保留。本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v2.0.20-96-beta",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-2.0.19+95-setup.exe",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.19-95-beta/duanjuzhijia2-2.0.19%2B95-setup.exe",
+      "name": "duanjuzhijia2-2.0.20+96-setup.exe",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.20-96-beta/duanjuzhijia2-2.0.20%2B96-setup.exe",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.19-95-beta/duanjuzhijia2-2.0.19%2B95-setup.exe",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.19-95-beta/duanjuzhijia2-2.0.19%2B95-setup.exe",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.19-95-beta/duanjuzhijia2-2.0.19%2B95-setup.exe",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.19-95-beta/duanjuzhijia2-2.0.19%2B95-setup.exe"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.20-96-beta/duanjuzhijia2-2.0.20%2B96-setup.exe",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.20-96-beta/duanjuzhijia2-2.0.20%2B96-setup.exe",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.20-96-beta/duanjuzhijia2-2.0.20%2B96-setup.exe",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.20-96-beta/duanjuzhijia2-2.0.20%2B96-setup.exe"
       ],
-      "size": 89343124,
-      "sha256": "deba74ae7224d83acd1d7e8588e9a1550ef69c14850c718403f72a9ad7e6f96b",
-      "notes": "**电脑版 2.0.19+95**\n\n- 改进：**观看统计页重新做了一遍**。以前三块数字挤在一行、看着费劲；现在「今天看了多久」单独占一行大字，近 7 天和累计收在下面一行小字里，扫一眼就知道重点。\n- 改进：**近 14 天改成柱状图**，哪几天看多、哪几天没看，形状直接看得出来；柱子下面标了起止日期和「今天」。\n- 改进：**观看日历加了星期刻度**（一 / 三 / 五 / 日），最近 12 周的热力图现在能对上号 —— 以前一片方块，看不出哪列是周末。\n- 改进：**常看剧集和常用设备各占一张卡**。剧集排行带进度条，一眼看出哪部占得多；设备那栏每台设备分开列「今天 / 近 7 天 / 最后看过」。\n- 调整：**入口从设置里挪出来了**。现在在顶部「分类」旁边多了一个「观看统计」按钮，点一下直接进。\n- 保留：**今天 / 近 7 天 / 累计时长**、**看了哪些剧**、**观看日历**、**哪台设备看的**，以及 **WebDAV 同步** —— 开了同步的话，三端看到的是同一份总数。\n- 说明：**只算真正在播的时间**。暂停、缓冲、拖动进度条都不算；投屏的时候那段时长记在电视那台设备上，电脑不会重复算。\n- 说明：这个版本是测试版。可直接覆盖安装，设置与观看记录都保留。本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。"
+      "size": 89343717,
+      "sha256": "c57e1d7b894b4dedc9ee25a1542a9706026421ac8bc3a4fb32a00a0bbea93f56",
+      "notes": "**电脑版 2.0.20+96**\n\n- 修复：**「暂时无法播放」的误报**。以前点播放偶尔会弹这个框（写着 App 接口没返回有效数据、网页取流失败 404、备用取流失败），手动点一下「重试播放」又好了。原因是取流有多条线路，主线路当时只剩 1/4 的成功率，而「换到备用线路」这段代码里少写了 `https://`，等于**从来没生效过** —— 主线路一抖就只能报错。已修好，现在会自动换线路重试。\n- 修复：接口返回 200 但内容为空时，以前直接当成「这一集没有数据」报错，现在会换一条线路再试。\n- 调整：**去掉了「网页播放页」那条取流通道**。它最高只给 480p，画质明显不如主通道（实测主通道是 1080p），而且官网那边早就关了这个入口，留着只是每次多等半秒。现在只走 App 接口和备用接口。\n- 实测：同一集连续点 6 次播放，6 次全部成功、画质均为 1080p；多数情况 0.3～1.9 秒出画面。\n- 保留：**观看统计**（顶部「分类」旁边那个按钮）、今天 / 近 7 天 / 累计时长、常看剧集、观看日历、哪台设备看的、**WebDAV 同步**。\n- 说明：这个版本是测试版。可直接覆盖安装，设置与观看记录都保留。本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。"
     },
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-2.0.19+95-windows-x64.zip",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.19-95-beta/duanjuzhijia2-2.0.19%2B95-windows-x64.zip",
+      "name": "duanjuzhijia2-2.0.20+96-windows-x64.zip",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.20-96-beta/duanjuzhijia2-2.0.20%2B96-windows-x64.zip",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.19-95-beta/duanjuzhijia2-2.0.19%2B95-windows-x64.zip",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.19-95-beta/duanjuzhijia2-2.0.19%2B95-windows-x64.zip",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.19-95-beta/duanjuzhijia2-2.0.19%2B95-windows-x64.zip",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.19-95-beta/duanjuzhijia2-2.0.19%2B95-windows-x64.zip"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.20-96-beta/duanjuzhijia2-2.0.20%2B96-windows-x64.zip",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.20-96-beta/duanjuzhijia2-2.0.20%2B96-windows-x64.zip",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.20-96-beta/duanjuzhijia2-2.0.20%2B96-windows-x64.zip",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.20-96-beta/duanjuzhijia2-2.0.20%2B96-windows-x64.zip"
       ],
-      "size": 123067917,
-      "sha256": "3e281342637c5c3e959a57003dd30318ab9c23f02a7b06f7870d1f7238462b45",
-      "notes": "**电脑版 2.0.19+95**\n\n- 改进：**观看统计页重新做了一遍**。以前三块数字挤在一行、看着费劲；现在「今天看了多久」单独占一行大字，近 7 天和累计收在下面一行小字里，扫一眼就知道重点。\n- 改进：**近 14 天改成柱状图**，哪几天看多、哪几天没看，形状直接看得出来；柱子下面标了起止日期和「今天」。\n- 改进：**观看日历加了星期刻度**（一 / 三 / 五 / 日），最近 12 周的热力图现在能对上号 —— 以前一片方块，看不出哪列是周末。\n- 改进：**常看剧集和常用设备各占一张卡**。剧集排行带进度条，一眼看出哪部占得多；设备那栏每台设备分开列「今天 / 近 7 天 / 最后看过」。\n- 调整：**入口从设置里挪出来了**。现在在顶部「分类」旁边多了一个「观看统计」按钮，点一下直接进。\n- 保留：**今天 / 近 7 天 / 累计时长**、**看了哪些剧**、**观看日历**、**哪台设备看的**，以及 **WebDAV 同步** —— 开了同步的话，三端看到的是同一份总数。\n- 说明：**只算真正在播的时间**。暂停、缓冲、拖动进度条都不算；投屏的时候那段时长记在电视那台设备上，电脑不会重复算。\n- 说明：这个版本是测试版。可直接覆盖安装，设置与观看记录都保留。本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。"
+      "size": 123064992,
+      "sha256": "f038fea68bbe319c40caa7dc65cb4aa21dcd8b7c6c3bd83d00df8e0f386108ce",
+      "notes": "**电脑版 2.0.20+96**\n\n- 修复：**「暂时无法播放」的误报**。以前点播放偶尔会弹这个框（写着 App 接口没返回有效数据、网页取流失败 404、备用取流失败），手动点一下「重试播放」又好了。原因是取流有多条线路，主线路当时只剩 1/4 的成功率，而「换到备用线路」这段代码里少写了 `https://`，等于**从来没生效过** —— 主线路一抖就只能报错。已修好，现在会自动换线路重试。\n- 修复：接口返回 200 但内容为空时，以前直接当成「这一集没有数据」报错，现在会换一条线路再试。\n- 调整：**去掉了「网页播放页」那条取流通道**。它最高只给 480p，画质明显不如主通道（实测主通道是 1080p），而且官网那边早就关了这个入口，留着只是每次多等半秒。现在只走 App 接口和备用接口。\n- 实测：同一集连续点 6 次播放，6 次全部成功、画质均为 1080p；多数情况 0.3～1.9 秒出画面。\n- 保留：**观看统计**（顶部「分类」旁边那个按钮）、今天 / 近 7 天 / 累计时长、常看剧集、观看日历、哪台设备看的、**WebDAV 同步**。\n- 说明：这个版本是测试版。可直接覆盖安装，设置与观看记录都保留。本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。"
     }
   ]
 }
