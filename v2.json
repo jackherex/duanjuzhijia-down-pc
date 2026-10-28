@@ -1,13 +1,13 @@
 {
-  "version": "2.0.26+102",
-  "versionName": "2.0.26",
-  "build": 102,
-  "versionCode": 20026,
+  "version": "4.5.0+130",
+  "versionName": "4.5.0",
+  "build": 130,
+  "versionCode": 130,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-28T02:49:51Z",
-  "notes": "**电脑版 2.0.26+102**\n\n这一版两件事：**详情页重新排版**、**补上手机号登录**。\n\n---\n\n### 1. 详情页排版\n\n上一版把按钮做成了等宽平分，那是照着手机改的，放到电脑上就出问题了 —— 窗口拉宽之后每颗按钮跟着变宽，四个字撑在 250px 的框里，中间全是空白。\n\n现在改成：\n\n- 按钮**按内容宽度排**，左边依次排开，放不下自动换行；\n- 窗口再宽，按钮也不会被拉长；\n- 「第 N 季待上线」那条也收窄了，不再横贯整行。\n\n另外**封面区的高度加了上限**：不超过窗口高度的 55%。\n\n之前是固定 560 起步，窗口拉矮一点，光封面就占掉九成屏幕，标题挤在左下角，按钮和选集全被推到下面要滚半天。现在窗口越矮，封面跟着收，按钮和选集能正常出现在第一屏。\n\n### 2. 手机号 + 验证码登录\n\n红果账号页之前只有扫码，现在扫码旁边多了「手机号 + 验证码登录」，和手机版一致。\n\n流程还是老规矩：验证码去红果 App 里取一条，填进来点登录。自动发码红果基本会拦，所以那边只是尽力而为，发不出去也不影响继续登录。\n\n---\n\n覆盖安装即可，登录态、观看记录、收藏都不受影响。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v2.0.26-102",
+  "publishedAt": "2026-10-28T14:53:05Z",
+  "notes": "**短剧之家 电脑版 4.5.0+130**\n\n本次更新：排行榜、找剧、新剧榜、详情页演职员、播放页评论区。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v4.5.0-130",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-2.0.26+102-setup.exe",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.26-102/duanjuzhijia2-2.0.26%2B102-setup.exe",
+      "name": "duanjuzhijia2-4.5.0+130-setup.exe",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.0-130/duanjuzhijia2-4.5.0%2B130-setup.exe",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.26-102/duanjuzhijia2-2.0.26%2B102-setup.exe",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.26-102/duanjuzhijia2-2.0.26%2B102-setup.exe",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.26-102/duanjuzhijia2-2.0.26%2B102-setup.exe",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.26-102/duanjuzhijia2-2.0.26%2B102-setup.exe"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.0-130/duanjuzhijia2-4.5.0%2B130-setup.exe",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.0-130/duanjuzhijia2-4.5.0%2B130-setup.exe",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.0-130/duanjuzhijia2-4.5.0%2B130-setup.exe",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.0-130/duanjuzhijia2-4.5.0%2B130-setup.exe"
       ],
-      "size": 89506520,
-      "sha256": "6a1f2e8c0cc5baa9fc768c8983b37a87aae09b78d3447c8761afa5e0d3101689",
-      "notes": "**电脑版 2.0.26+102**\n\n这一版两件事：**详情页重新排版**、**补上手机号登录**。\n\n---\n\n### 1. 详情页排版\n\n上一版把按钮做成了等宽平分，那是照着手机改的，放到电脑上就出问题了 —— 窗口拉宽之后每颗按钮跟着变宽，四个字撑在 250px 的框里，中间全是空白。\n\n现在改成：\n\n- 按钮**按内容宽度排**，左边依次排开，放不下自动换行；\n- 窗口再宽，按钮也不会被拉长；\n- 「第 N 季待上线」那条也收窄了，不再横贯整行。\n\n另外**封面区的高度加了上限**：不超过窗口高度的 55%。\n\n之前是固定 560 起步，窗口拉矮一点，光封面就占掉九成屏幕，标题挤在左下角，按钮和选集全被推到下面要滚半天。现在窗口越矮，封面跟着收，按钮和选集能正常出现在第一屏。\n\n### 2. 手机号 + 验证码登录\n\n红果账号页之前只有扫码，现在扫码旁边多了「手机号 + 验证码登录」，和手机版一致。\n\n流程还是老规矩：验证码去红果 App 里取一条，填进来点登录。自动发码红果基本会拦，所以那边只是尽力而为，发不出去也不影响继续登录。\n\n---\n\n覆盖安装即可，登录态、观看记录、收藏都不受影响。"
+      "size": 89587518,
+      "sha256": "52d3afba52bc49d8262da5680e6f5dd3e0087c730b66893194e5f68fee97ca0f",
+      "notes": "**短剧之家 电脑版 4.5.0+130**\n\n本次更新：排行榜、找剧、新剧榜、详情页演职员、播放页评论区。"
     },
     {
       "edition": "duanjuzhijia2",
-      "abi": "windows-x64",
-      "name": "duanjuzhijia2-2.0.26+102-windows-x64.zip",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.26-102/duanjuzhijia2-2.0.26%2B102-windows-x64.zip",
+      "abi": "windows-x64-portable",
+      "name": "duanjuzhijia2-4.5.0+130-windows-x64.zip",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.0-130/duanjuzhijia2-4.5.0%2B130-windows-x64.zip",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.26-102/duanjuzhijia2-2.0.26%2B102-windows-x64.zip",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.26-102/duanjuzhijia2-2.0.26%2B102-windows-x64.zip",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.26-102/duanjuzhijia2-2.0.26%2B102-windows-x64.zip",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.26-102/duanjuzhijia2-2.0.26%2B102-windows-x64.zip"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.0-130/duanjuzhijia2-4.5.0%2B130-windows-x64.zip",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.0-130/duanjuzhijia2-4.5.0%2B130-windows-x64.zip",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.0-130/duanjuzhijia2-4.5.0%2B130-windows-x64.zip",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.0-130/duanjuzhijia2-4.5.0%2B130-windows-x64.zip"
       ],
-      "size": 123293732,
-      "sha256": "0dd5278b0c2a2d1cec23664875d27659bc8373ad63a9b6745a338d4e43304112",
-      "notes": "**电脑版 2.0.26+102**\n\n这一版两件事：**详情页重新排版**、**补上手机号登录**。\n\n---\n\n### 1. 详情页排版\n\n上一版把按钮做成了等宽平分，那是照着手机改的，放到电脑上就出问题了 —— 窗口拉宽之后每颗按钮跟着变宽，四个字撑在 250px 的框里，中间全是空白。\n\n现在改成：\n\n- 按钮**按内容宽度排**，左边依次排开，放不下自动换行；\n- 窗口再宽，按钮也不会被拉长；\n- 「第 N 季待上线」那条也收窄了，不再横贯整行。\n\n另外**封面区的高度加了上限**：不超过窗口高度的 55%。\n\n之前是固定 560 起步，窗口拉矮一点，光封面就占掉九成屏幕，标题挤在左下角，按钮和选集全被推到下面要滚半天。现在窗口越矮，封面跟着收，按钮和选集能正常出现在第一屏。\n\n### 2. 手机号 + 验证码登录\n\n红果账号页之前只有扫码，现在扫码旁边多了「手机号 + 验证码登录」，和手机版一致。\n\n流程还是老规矩：验证码去红果 App 里取一条，填进来点登录。自动发码红果基本会拦，所以那边只是尽力而为，发不出去也不影响继续登录。\n\n---\n\n覆盖安装即可，登录态、观看记录、收藏都不受影响。"
+      "size": 123417385,
+      "sha256": "3cb6b6f177b6eed651fb9789384884accd4f2c9b051943ef00078ec415244b44",
+      "notes": "**短剧之家 电脑版 4.5.0+130**\n\n本次更新：排行榜、找剧、新剧榜、详情页演职员、播放页评论区。"
     }
   ]
 }
