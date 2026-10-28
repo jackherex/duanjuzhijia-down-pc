@@ -1,13 +1,13 @@
 {
-  "version": "2.0.24+100",
-  "versionName": "2.0.24",
-  "build": 100,
-  "versionCode": 20024,
+  "version": "2.0.25+101",
+  "versionName": "2.0.25",
+  "build": 101,
+  "versionCode": 20025,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-27T15:14:37Z",
-  "notes": "**电脑版 2.0.24+100**\n\n这一版只改**详情页按钮排版**，功能一个没少。\n\n---\n\n### 之前的问题\n\n按钮全塞在一个自动换行的容器里，最多 7 颗挤成 4 行，每行数量还不齐 —— 最后一行常常只剩一颗孤零零挂着，看着乱。\n\n### 现在：两行等宽 + 一条预约条\n\n```\n[ 在看 ⌄ ]                    [ 收藏到红果 ]\n[ 全 10 季 ]  [ 评论 ]  [ 查看剧评 ]  [ 相关作品 ]\n```\n\n- **第一行 2 颗**：最常用的追剧状态和收藏；\n- **第二行 4 颗**：季数、本集评论、剧评、相关作品；\n- 每颗**等宽同高**，不再是长短不一的胶囊。\n\n### 预约变成一条独立的「待上线」条\n\n```\n📅 第 11 季 · 待上线                    [预约] [☁]\n   上线后第一时间提醒你\n```\n\n- 只有**当前就是最后一季**时才会出现，判据和原来完全一样；\n- 以前两颗按钮混在按钮格里，一出现就把整排挤乱；现在有自己的位置和说明文字；\n- 右边云朵仍是**三态**：空心 = 没开，云+箭头 = 已开待上报，云+勾 = 已同步。\n\n### 说明\n\n- 这版只动电脑版。手机版同版本已发。TV 版是宽屏单排、本来就不换行，不受这个问题影响。\n- 覆盖安装即可，登录态、观看记录、收藏、预约都不受影响。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v2.0.24-100",
+  "publishedAt": "2026-10-28T02:41:38Z",
+  "notes": "**电脑版 2.0.25+101**\n\n修复红果历史的剧名与封面。\n\n---\n\n### 修了什么\n\n之前进红果历史，每行只显示「剧集 7687…」这种编号，没有剧名也没有封面；手动点一次「拉取剧名封面」能补上，但**退出再进来又得重新拉**。\n\n现在：\n\n- **进历史页自动补一次**，不用再手点；\n- 补到的剧名封面会**存到本地**，下次打开直接显示，不再重复拉取；\n- 缓存有效期 7 天，之后自动刷新一次。\n\n---\n\n覆盖安装即可，登录态、观看记录、收藏都不受影响。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v2.0.25-101",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-2.0.24+100-setup.exe",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.24-100/duanjuzhijia2-2.0.24%2B100-setup.exe",
+      "name": "duanjuzhijia2-2.0.25+101-setup.exe",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.25-101/duanjuzhijia2-2.0.25%2B101-setup.exe",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.24-100/duanjuzhijia2-2.0.24%2B100-setup.exe",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.24-100/duanjuzhijia2-2.0.24%2B100-setup.exe",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.24-100/duanjuzhijia2-2.0.24%2B100-setup.exe",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.24-100/duanjuzhijia2-2.0.24%2B100-setup.exe"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.25-101/duanjuzhijia2-2.0.25%2B101-setup.exe",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.25-101/duanjuzhijia2-2.0.25%2B101-setup.exe",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.25-101/duanjuzhijia2-2.0.25%2B101-setup.exe",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.25-101/duanjuzhijia2-2.0.25%2B101-setup.exe"
       ],
-      "size": 89499180,
-      "sha256": "599099cfef34a5577625f63029e3f3d218b8259d95540462a9949acf92212880",
-      "notes": "**电脑版 2.0.24+100**\n\n这一版只改**详情页按钮排版**，功能一个没少。\n\n---\n\n### 之前的问题\n\n按钮全塞在一个自动换行的容器里，最多 7 颗挤成 4 行，每行数量还不齐 —— 最后一行常常只剩一颗孤零零挂着，看着乱。\n\n### 现在：两行等宽 + 一条预约条\n\n```\n[ 在看 ⌄ ]                    [ 收藏到红果 ]\n[ 全 10 季 ]  [ 评论 ]  [ 查看剧评 ]  [ 相关作品 ]\n```\n\n- **第一行 2 颗**：最常用的追剧状态和收藏；\n- **第二行 4 颗**：季数、本集评论、剧评、相关作品；\n- 每颗**等宽同高**，不再是长短不一的胶囊。\n\n### 预约变成一条独立的「待上线」条\n\n```\n📅 第 11 季 · 待上线                    [预约] [☁]\n   上线后第一时间提醒你\n```\n\n- 只有**当前就是最后一季**时才会出现，判据和原来完全一样；\n- 以前两颗按钮混在按钮格里，一出现就把整排挤乱；现在有自己的位置和说明文字；\n- 右边云朵仍是**三态**：空心 = 没开，云+箭头 = 已开待上报，云+勾 = 已同步。\n\n### 说明\n\n- 这版只动电脑版。手机版同版本已发。TV 版是宽屏单排、本来就不换行，不受这个问题影响。\n- 覆盖安装即可，登录态、观看记录、收藏、预约都不受影响。"
+      "size": 89499653,
+      "sha256": "5c6ec9fde6f0873b9e6d9ace4f7a626e8ab43102c3e13d84f025d6e9ce9e05e7",
+      "notes": "**电脑版 2.0.25+101**\n\n修复红果历史的剧名与封面。\n\n---\n\n### 修了什么\n\n之前进红果历史，每行只显示「剧集 7687…」这种编号，没有剧名也没有封面；手动点一次「拉取剧名封面」能补上，但**退出再进来又得重新拉**。\n\n现在：\n\n- **进历史页自动补一次**，不用再手点；\n- 补到的剧名封面会**存到本地**，下次打开直接显示，不再重复拉取；\n- 缓存有效期 7 天，之后自动刷新一次。\n\n---\n\n覆盖安装即可，登录态、观看记录、收藏都不受影响。"
     },
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-2.0.24+100-windows-x64.zip",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.24-100/duanjuzhijia2-2.0.24%2B100-windows-x64.zip",
+      "name": "duanjuzhijia2-2.0.25+101-windows-x64.zip",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.25-101/duanjuzhijia2-2.0.25%2B101-windows-x64.zip",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.24-100/duanjuzhijia2-2.0.24%2B100-windows-x64.zip",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.24-100/duanjuzhijia2-2.0.24%2B100-windows-x64.zip",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.24-100/duanjuzhijia2-2.0.24%2B100-windows-x64.zip",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.24-100/duanjuzhijia2-2.0.24%2B100-windows-x64.zip"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.25-101/duanjuzhijia2-2.0.25%2B101-windows-x64.zip",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.25-101/duanjuzhijia2-2.0.25%2B101-windows-x64.zip",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.25-101/duanjuzhijia2-2.0.25%2B101-windows-x64.zip",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.25-101/duanjuzhijia2-2.0.25%2B101-windows-x64.zip"
       ],
-      "size": 123282387,
-      "sha256": "38d2907471e8cd09e7cb5d8a5e09f781afc63e342004dac4040de245eeeb6bfe",
-      "notes": "**电脑版 2.0.24+100**\n\n这一版只改**详情页按钮排版**，功能一个没少。\n\n---\n\n### 之前的问题\n\n按钮全塞在一个自动换行的容器里，最多 7 颗挤成 4 行，每行数量还不齐 —— 最后一行常常只剩一颗孤零零挂着，看着乱。\n\n### 现在：两行等宽 + 一条预约条\n\n```\n[ 在看 ⌄ ]                    [ 收藏到红果 ]\n[ 全 10 季 ]  [ 评论 ]  [ 查看剧评 ]  [ 相关作品 ]\n```\n\n- **第一行 2 颗**：最常用的追剧状态和收藏；\n- **第二行 4 颗**：季数、本集评论、剧评、相关作品；\n- 每颗**等宽同高**，不再是长短不一的胶囊。\n\n### 预约变成一条独立的「待上线」条\n\n```\n📅 第 11 季 · 待上线                    [预约] [☁]\n   上线后第一时间提醒你\n```\n\n- 只有**当前就是最后一季**时才会出现，判据和原来完全一样；\n- 以前两颗按钮混在按钮格里，一出现就把整排挤乱；现在有自己的位置和说明文字；\n- 右边云朵仍是**三态**：空心 = 没开，云+箭头 = 已开待上报，云+勾 = 已同步。\n\n### 说明\n\n- 这版只动电脑版。手机版同版本已发。TV 版是宽屏单排、本来就不换行，不受这个问题影响。\n- 覆盖安装即可，登录态、观看记录、收藏、预约都不受影响。"
+      "size": 123285422,
+      "sha256": "92006ac0d8ffa26e3b89d67ae7ecdc69badaf9ec1be1e9ba1267203e95732c2f",
+      "notes": "**电脑版 2.0.25+101**\n\n修复红果历史的剧名与封面。\n\n---\n\n### 修了什么\n\n之前进红果历史，每行只显示「剧集 7687…」这种编号，没有剧名也没有封面；手动点一次「拉取剧名封面」能补上，但**退出再进来又得重新拉**。\n\n现在：\n\n- **进历史页自动补一次**，不用再手点；\n- 补到的剧名封面会**存到本地**，下次打开直接显示，不再重复拉取；\n- 缓存有效期 7 天，之后自动刷新一次。\n\n---\n\n覆盖安装即可，登录态、观看记录、收藏都不受影响。"
     }
   ]
 }
