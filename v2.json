@@ -1,13 +1,13 @@
 {
-  "version": "4.5.2+132",
-  "versionName": "4.5.2",
-  "build": 132,
-  "versionCode": 132,
+  "version": "4.5.3+133",
+  "versionName": "4.5.3",
+  "build": 133,
+  "versionCode": 133,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-30T12:53:53Z",
-  "notes": "## 本次更新\n\n### 修复\n\n- 修复「站源管理 → 重置设备 ID」在**手机版**和**电脑版**点击后提示「不支持的应用操作」的问题。\n  上一版这个功能只在 TV 版真正接通了，另外两端的界面在、但底层没有对应实现。\n- 取流失败自动重试、去掉没用的第三方备用取流源，这两项与上一版一致。\n\n### 说明\n\n这个按钮只在一种情况下需要点：点播放提示「红果 App 接口未返回有效数据」、换线路也没用、\n但卸载重装又能正常播放。重置后下一次播放会重新注册设备身份，收藏、观看记录和账号登录都不受影响。\n",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v4.5.2-132",
+  "publishedAt": "2026-10-31T11:52:55Z",
+  "notes": "## 本次更新\n\n### 修复\n\n- 修复电脑版按 F11（或系统全屏）进出全屏后，窗口**停在整屏尺寸**的问题。\n  之前会出现：任务栏被窗口盖住、右上角的最小化/关闭贴在屏幕最边缘点不到、\n  窗口右侧看起来\"少了一截\"。\n- 窗口位置恢复时改为**保证整窗可见**。原来只保证\"标题栏够得着\"，\n  允许窗口右边伸出屏幕 —— 而最小化/最大化/关闭都在窗口右边缘，于是点不到。\n- 退出全屏恢复尺寸时，额外把尺寸夹进工作区（不含任务栏），避免窗口比可用区域还高。\n",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v4.5.3-133",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-4.5.2+132-setup.exe",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.2-132/duanjuzhijia2-4.5.2%2B132-setup.exe",
+      "name": "duanjuzhijia2-4.5.3+133-setup.exe",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.3-133/duanjuzhijia2-4.5.3%2B133-setup.exe",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.2-132/duanjuzhijia2-4.5.2%2B132-setup.exe",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.2-132/duanjuzhijia2-4.5.2%2B132-setup.exe",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.2-132/duanjuzhijia2-4.5.2%2B132-setup.exe",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.2-132/duanjuzhijia2-4.5.2%2B132-setup.exe"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.3-133/duanjuzhijia2-4.5.3%2B133-setup.exe",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.3-133/duanjuzhijia2-4.5.3%2B133-setup.exe",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.3-133/duanjuzhijia2-4.5.3%2B133-setup.exe",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.3-133/duanjuzhijia2-4.5.3%2B133-setup.exe"
       ],
-      "size": 89590003,
-      "sha256": "af5c7a7a627065f018b67ce0d4e7bdf17c397a8d20ac20baaa5031b793ff5b63",
-      "notes": "## 本次更新\n\n### 修复\n\n- 修复「站源管理 → 重置设备 ID」在**手机版**和**电脑版**点击后提示「不支持的应用操作」的问题。\n  上一版这个功能只在 TV 版真正接通了，另外两端的界面在、但底层没有对应实现。\n- 取流失败自动重试、去掉没用的第三方备用取流源，这两项与上一版一致。\n\n### 说明\n\n这个按钮只在一种情况下需要点：点播放提示「红果 App 接口未返回有效数据」、换线路也没用、\n但卸载重装又能正常播放。重置后下一次播放会重新注册设备身份，收藏、观看记录和账号登录都不受影响。\n"
+      "size": 89587207,
+      "sha256": "4e3929a0c730cf77d67cfcebdd03974b3780aa4cdd1f125e4d966be5037a9326",
+      "notes": "## 本次更新\n\n### 修复\n\n- 修复电脑版按 F11（或系统全屏）进出全屏后，窗口**停在整屏尺寸**的问题。\n  之前会出现：任务栏被窗口盖住、右上角的最小化/关闭贴在屏幕最边缘点不到、\n  窗口右侧看起来\"少了一截\"。\n- 窗口位置恢复时改为**保证整窗可见**。原来只保证\"标题栏够得着\"，\n  允许窗口右边伸出屏幕 —— 而最小化/最大化/关闭都在窗口右边缘，于是点不到。\n- 退出全屏恢复尺寸时，额外把尺寸夹进工作区（不含任务栏），避免窗口比可用区域还高。\n"
     },
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64-portable",
-      "name": "duanjuzhijia2-4.5.2+132-windows-x64.zip",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.2-132/duanjuzhijia2-4.5.2%2B132-windows-x64.zip",
+      "name": "duanjuzhijia2-4.5.3+133-windows-x64.zip",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.3-133/duanjuzhijia2-4.5.3%2B133-windows-x64.zip",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.2-132/duanjuzhijia2-4.5.2%2B132-windows-x64.zip",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.2-132/duanjuzhijia2-4.5.2%2B132-windows-x64.zip",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.2-132/duanjuzhijia2-4.5.2%2B132-windows-x64.zip",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.2-132/duanjuzhijia2-4.5.2%2B132-windows-x64.zip"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.3-133/duanjuzhijia2-4.5.3%2B133-windows-x64.zip",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.3-133/duanjuzhijia2-4.5.3%2B133-windows-x64.zip",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.3-133/duanjuzhijia2-4.5.3%2B133-windows-x64.zip",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.3-133/duanjuzhijia2-4.5.3%2B133-windows-x64.zip"
       ],
-      "size": 123416796,
-      "sha256": "e88b4f85595937cca8ceba2ea9cef687ae2c4cca65f3bdfc2b06c46f0f25b3ca",
-      "notes": "## 本次更新\n\n### 修复\n\n- 修复「站源管理 → 重置设备 ID」在**手机版**和**电脑版**点击后提示「不支持的应用操作」的问题。\n  上一版这个功能只在 TV 版真正接通了，另外两端的界面在、但底层没有对应实现。\n- 取流失败自动重试、去掉没用的第三方备用取流源，这两项与上一版一致。\n\n### 说明\n\n这个按钮只在一种情况下需要点：点播放提示「红果 App 接口未返回有效数据」、换线路也没用、\n但卸载重装又能正常播放。重置后下一次播放会重新注册设备身份，收藏、观看记录和账号登录都不受影响。\n"
+      "size": 123417349,
+      "sha256": "07f442ffb44ade69a0ffd5c240833d0c555242ae9e66b08782201557a5f957d8",
+      "notes": "## 本次更新\n\n### 修复\n\n- 修复电脑版按 F11（或系统全屏）进出全屏后，窗口**停在整屏尺寸**的问题。\n  之前会出现：任务栏被窗口盖住、右上角的最小化/关闭贴在屏幕最边缘点不到、\n  窗口右侧看起来\"少了一截\"。\n- 窗口位置恢复时改为**保证整窗可见**。原来只保证\"标题栏够得着\"，\n  允许窗口右边伸出屏幕 —— 而最小化/最大化/关闭都在窗口右边缘，于是点不到。\n- 退出全屏恢复尺寸时，额外把尺寸夹进工作区（不含任务栏），避免窗口比可用区域还高。\n"
     }
   ]
 }
