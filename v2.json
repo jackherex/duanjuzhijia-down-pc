@@ -1,13 +1,13 @@
 {
-  "version": "4.5.3+133",
-  "versionName": "4.5.3",
-  "build": 133,
-  "versionCode": 133,
+  "version": "4.5.4+134",
+  "versionName": "4.5.4",
+  "build": 134,
+  "versionCode": 134,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-31T11:52:55Z",
-  "notes": "## 本次更新\n\n### 修复\n\n- 修复电脑版按 F11（或系统全屏）进出全屏后，窗口**停在整屏尺寸**的问题。\n  之前会出现：任务栏被窗口盖住、右上角的最小化/关闭贴在屏幕最边缘点不到、\n  窗口右侧看起来\"少了一截\"。\n- 窗口位置恢复时改为**保证整窗可见**。原来只保证\"标题栏够得着\"，\n  允许窗口右边伸出屏幕 —— 而最小化/最大化/关闭都在窗口右边缘，于是点不到。\n- 退出全屏恢复尺寸时，额外把尺寸夹进工作区（不含任务栏），避免窗口比可用区域还高。\n",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v4.5.3-133",
+  "publishedAt": "2026-10-31T12:10:02Z",
+  "notes": "## 本次更新\n\n### 界面调整\n\n- **「观看统计」从推荐页顶栏挪到左侧边栏**，位置在「下载管理」下面一格。\n  推荐页顶栏图标本来就多（观看统计 / 排序 / 多选下载 / 更新剧库 / 手机遥控 / 更多），\n  窗口一窄右边那几颗会被挤出去、点不到。现在侧边栏直接进，不用再翻菜单。\n- 手机（窄屏）没有侧边栏，所以「更多」菜单里仍然保留这一项。\n\n### 修复\n\n- 继续修正窗口位置恢复：保证整窗落在工作区内，不再出现窗口右边伸出屏幕、\n  右上角的最小化 / 最大化 / 关闭点不到。\n",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v4.5.4-134",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-4.5.3+133-setup.exe",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.3-133/duanjuzhijia2-4.5.3%2B133-setup.exe",
+      "name": "duanjuzhijia2-4.5.4+134-setup.exe",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.4-134/duanjuzhijia2-4.5.4%2B134-setup.exe",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.3-133/duanjuzhijia2-4.5.3%2B133-setup.exe",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.3-133/duanjuzhijia2-4.5.3%2B133-setup.exe",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.3-133/duanjuzhijia2-4.5.3%2B133-setup.exe",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.3-133/duanjuzhijia2-4.5.3%2B133-setup.exe"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.4-134/duanjuzhijia2-4.5.4%2B134-setup.exe",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.4-134/duanjuzhijia2-4.5.4%2B134-setup.exe",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.4-134/duanjuzhijia2-4.5.4%2B134-setup.exe",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.4-134/duanjuzhijia2-4.5.4%2B134-setup.exe"
       ],
-      "size": 89587207,
-      "sha256": "4e3929a0c730cf77d67cfcebdd03974b3780aa4cdd1f125e4d966be5037a9326",
-      "notes": "## 本次更新\n\n### 修复\n\n- 修复电脑版按 F11（或系统全屏）进出全屏后，窗口**停在整屏尺寸**的问题。\n  之前会出现：任务栏被窗口盖住、右上角的最小化/关闭贴在屏幕最边缘点不到、\n  窗口右侧看起来\"少了一截\"。\n- 窗口位置恢复时改为**保证整窗可见**。原来只保证\"标题栏够得着\"，\n  允许窗口右边伸出屏幕 —— 而最小化/最大化/关闭都在窗口右边缘，于是点不到。\n- 退出全屏恢复尺寸时，额外把尺寸夹进工作区（不含任务栏），避免窗口比可用区域还高。\n"
+      "size": 89586168,
+      "sha256": "cc12df1472ac440522c832187bfc8df91f15d68f53b776b38c39abd1a8006014",
+      "notes": "## 本次更新\n\n### 界面调整\n\n- **「观看统计」从推荐页顶栏挪到左侧边栏**，位置在「下载管理」下面一格。\n  推荐页顶栏图标本来就多（观看统计 / 排序 / 多选下载 / 更新剧库 / 手机遥控 / 更多），\n  窗口一窄右边那几颗会被挤出去、点不到。现在侧边栏直接进，不用再翻菜单。\n- 手机（窄屏）没有侧边栏，所以「更多」菜单里仍然保留这一项。\n\n### 修复\n\n- 继续修正窗口位置恢复：保证整窗落在工作区内，不再出现窗口右边伸出屏幕、\n  右上角的最小化 / 最大化 / 关闭点不到。\n"
     },
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64-portable",
-      "name": "duanjuzhijia2-4.5.3+133-windows-x64.zip",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.3-133/duanjuzhijia2-4.5.3%2B133-windows-x64.zip",
+      "name": "duanjuzhijia2-4.5.4+134-windows-x64.zip",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.4-134/duanjuzhijia2-4.5.4%2B134-windows-x64.zip",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.3-133/duanjuzhijia2-4.5.3%2B133-windows-x64.zip",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.3-133/duanjuzhijia2-4.5.3%2B133-windows-x64.zip",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.3-133/duanjuzhijia2-4.5.3%2B133-windows-x64.zip",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.3-133/duanjuzhijia2-4.5.3%2B133-windows-x64.zip"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.4-134/duanjuzhijia2-4.5.4%2B134-windows-x64.zip",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.4-134/duanjuzhijia2-4.5.4%2B134-windows-x64.zip",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.4-134/duanjuzhijia2-4.5.4%2B134-windows-x64.zip",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.4-134/duanjuzhijia2-4.5.4%2B134-windows-x64.zip"
       ],
-      "size": 123417349,
-      "sha256": "07f442ffb44ade69a0ffd5c240833d0c555242ae9e66b08782201557a5f957d8",
-      "notes": "## 本次更新\n\n### 修复\n\n- 修复电脑版按 F11（或系统全屏）进出全屏后，窗口**停在整屏尺寸**的问题。\n  之前会出现：任务栏被窗口盖住、右上角的最小化/关闭贴在屏幕最边缘点不到、\n  窗口右侧看起来\"少了一截\"。\n- 窗口位置恢复时改为**保证整窗可见**。原来只保证\"标题栏够得着\"，\n  允许窗口右边伸出屏幕 —— 而最小化/最大化/关闭都在窗口右边缘，于是点不到。\n- 退出全屏恢复尺寸时，额外把尺寸夹进工作区（不含任务栏），避免窗口比可用区域还高。\n"
+      "size": 123418532,
+      "sha256": "2209eb944c57937aa04e34947ce75dc2dc8d731480e9e8c2075c480750dfb540",
+      "notes": "## 本次更新\n\n### 界面调整\n\n- **「观看统计」从推荐页顶栏挪到左侧边栏**，位置在「下载管理」下面一格。\n  推荐页顶栏图标本来就多（观看统计 / 排序 / 多选下载 / 更新剧库 / 手机遥控 / 更多），\n  窗口一窄右边那几颗会被挤出去、点不到。现在侧边栏直接进，不用再翻菜单。\n- 手机（窄屏）没有侧边栏，所以「更多」菜单里仍然保留这一项。\n\n### 修复\n\n- 继续修正窗口位置恢复：保证整窗落在工作区内，不再出现窗口右边伸出屏幕、\n  右上角的最小化 / 最大化 / 关闭点不到。\n"
     }
   ]
 }
