@@ -1,13 +1,13 @@
 {
-  "version": "2.0.21+97",
-  "versionName": "2.0.21",
-  "build": 97,
-  "versionCode": 20021,
+  "version": "4.5.5+135",
+  "versionName": "4.5.5",
+  "build": 135,
+  "versionCode": 135,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-10-27T09:44:38Z",
-  "notes": "**电脑版 2.0.21+97**\n\n这一版主要是把**红果账号**那套东西跟手机版对齐（手机版前几版已经改完，电脑版一直落后）。\n\n- 修复：**红果观看历史进页面卡住**。以前一进历史页就去抓每部剧的网页详情页补剧名封面，一部约 160 KB，几十部就是好几 MB，慢的时候页面一直转圈。现在进页面**一个请求都不发**，只读本地已有的剧名封面，秒开。\n- 新增：历史页右上角**「拉取剧名封面」按钮**。想补剧名和封面就点它（最多 25 秒、一次补 40 部），补完进 6 小时缓存，下次打开还是秒开。列表上方会提示还剩几部没补上。\n- 新增：**详情页的红果收藏爱心**。只对红果来源的剧显示，且必须已登录。注意这颗爱心写的是**红果账号**，跟旁边那颗「加入追剧」（写本机）是两套东西，互不影响。\n- 修复：**红果预约页不再假装「你没有预约」**。红果那一栏偶尔会回 200 但内容是空的，以前会直接显示「没有待上线的预约」，现在如实说「红果这次没有返回预约列表」，并给一个「重试」。\n- 修复：红果登录态失效时，列表页以前会停在「已登录 + 一行红字错误」，现在会自动重新问一次登录状态，直接换成登录卡。\n- 说明：这个版本是测试版。可直接覆盖安装，设置与观看记录都保留。本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。\n\n已知问题：红果收藏这颗爱心**可能仍提示风控**（红果那边的风控校验），这一版还没解决，正在继续查。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v2.0.21-97-beta",
+  "publishedAt": "2026-11-01T02:34:26Z",
+  "notes": "**测试版（Beta）—— 请开了「接收测试版」的用户更新试用**\n\n## 这一版改了什么\n\n### 1. 取流失败（提示「红果 App 接口未返回有效数据」）的重试方式整个换了\n\n以前的做法是「换一台设备身份重试」—— 实测这条路对**真正的原因**无效（重置设备 ID 也没用，你们反馈的就是这个）。\n\n现在改成按实际测量到的规律处理：这类失败是**服务端短时间的异常窗口**，窗口内用同一条连接、同一台主机重试**一定还是失败**。所以现在：\n\n- 重试**换主机**（4 条不同线路轮换）\n- 每次重试**强制新建连接**，不再复用旧连接\n- 重试间隔拉长到 0.7 秒 / 1.5 秒 / 3 秒，整个过程约 7 秒\n\n多数情况下你只会觉得「点了播放多转了两秒」，然后正常播放。\n\n### 2. 播放页的自动恢复改成分两段\n\n- **快段**：1 秒 / 2.5 秒 / 5 秒各重试一次（原来的 3 次）\n- **慢段**：15 / 30 / 60 / 90 / 105 秒再各试一次，累计约 5 分钟\n\n等待时会显示「服务暂时没有响应，正在自动恢复（第 n/5 次）」，恢复成功会自己接着播。\n手动点「重试」、换集、退出播放页都会取消排队中的自动恢复。\n\n**为什么要这么久**：这类窗口有时是分钟级的，以前 3 次重试 2 秒内就烧完，用户怎么按「重试」都撞在窗口里。\n\n### 3. 取流请求补上了设备 Cookie\n\n红果的设备注册接口会在响应头里下发四条 cookie（`install_id` / `ttreq` / `store-region` / `store-region-src`），真机取流时会带上。我们以前只读响应内容、把这四条丢了，所以未登录用户的取流请求是「光着」发出去的。\n\n现在会保存并在取流时带上。**老用户第一次启动会自动补注册一次**（只补一次），拿到这四条。\n\n### 4. 清晰度供给改用更保守的一档\n\n部分剧集在原来的参数下，中低清晰度会被下发成一种 Android 播放器读不出视频轨的编码，结果那一集只剩 1080P —— 电视端解码不动就表现为「播放失败」。现在改用服务端最保守的那档供给，正常剧集的清晰度不受影响。\n\n## 请重点帮我们试这些\n\n1. 之前报「播放失败」的那几部剧，现在能不能播\n2. 网络切换（Wi-Fi ↔ 移动数据）后点播放\n3. 连续切集（尤其自动切下一集）\n4. 电视端：低配盒子上的 720P / 1080P 播放\n\n## 出问题时请提供\n\n错误页现在会先按上面的节奏自动重试，最后才给提示。如果仍然失败，请截图错误页并说明：**哪部剧、第几集、点了之后转了多久才报错**。这三点能直接区分是「窗口抖动」还是「这一集真的没有」。\n\n## 说明\n\n- 这是**测试版**，正式版号仍是上一版。没开「接收测试版」的用户看不到这个更新。\n- 设置 → 关于 → 「接收测试版」可以开关。\n",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v4.5.5-135-beta",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-2.0.21+97-setup.exe",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.21-97-beta/duanjuzhijia2-2.0.21%2B97-setup.exe",
+      "name": "duanjuzhijia2-4.5.5+135-setup.exe",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.5-135-beta/duanjuzhijia2-4.5.5%2B135-setup.exe",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.21-97-beta/duanjuzhijia2-2.0.21%2B97-setup.exe",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.21-97-beta/duanjuzhijia2-2.0.21%2B97-setup.exe",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.21-97-beta/duanjuzhijia2-2.0.21%2B97-setup.exe",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.21-97-beta/duanjuzhijia2-2.0.21%2B97-setup.exe"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.5-135-beta/duanjuzhijia2-4.5.5%2B135-setup.exe",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.5-135-beta/duanjuzhijia2-4.5.5%2B135-setup.exe",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.5-135-beta/duanjuzhijia2-4.5.5%2B135-setup.exe",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.5-135-beta/duanjuzhijia2-4.5.5%2B135-setup.exe"
       ],
-      "size": 89445593,
-      "sha256": "9ea37c2570f7743f08f4ad8030ef7407f9e0293024ce4de8cb03c21b32db5bcb",
-      "notes": "**电脑版 2.0.21+97**\n\n这一版主要是把**红果账号**那套东西跟手机版对齐（手机版前几版已经改完，电脑版一直落后）。\n\n- 修复：**红果观看历史进页面卡住**。以前一进历史页就去抓每部剧的网页详情页补剧名封面，一部约 160 KB，几十部就是好几 MB，慢的时候页面一直转圈。现在进页面**一个请求都不发**，只读本地已有的剧名封面，秒开。\n- 新增：历史页右上角**「拉取剧名封面」按钮**。想补剧名和封面就点它（最多 25 秒、一次补 40 部），补完进 6 小时缓存，下次打开还是秒开。列表上方会提示还剩几部没补上。\n- 新增：**详情页的红果收藏爱心**。只对红果来源的剧显示，且必须已登录。注意这颗爱心写的是**红果账号**，跟旁边那颗「加入追剧」（写本机）是两套东西，互不影响。\n- 修复：**红果预约页不再假装「你没有预约」**。红果那一栏偶尔会回 200 但内容是空的，以前会直接显示「没有待上线的预约」，现在如实说「红果这次没有返回预约列表」，并给一个「重试」。\n- 修复：红果登录态失效时，列表页以前会停在「已登录 + 一行红字错误」，现在会自动重新问一次登录状态，直接换成登录卡。\n- 说明：这个版本是测试版。可直接覆盖安装，设置与观看记录都保留。本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。\n\n已知问题：红果收藏这颗爱心**可能仍提示风控**（红果那边的风控校验），这一版还没解决，正在继续查。"
+      "size": 89588615,
+      "sha256": "4c6a935869d4d93be64b87df4aa42a7b5b48dbbcd92cb1133a550a17f53b97fc",
+      "notes": "**测试版（Beta）—— 请开了「接收测试版」的用户更新试用**\n\n## 这一版改了什么\n\n### 1. 取流失败（提示「红果 App 接口未返回有效数据」）的重试方式整个换了\n\n以前的做法是「换一台设备身份重试」—— 实测这条路对**真正的原因**无效（重置设备 ID 也没用，你们反馈的就是这个）。\n\n现在改成按实际测量到的规律处理：这类失败是**服务端短时间的异常窗口**，窗口内用同一条连接、同一台主机重试**一定还是失败**。所以现在：\n\n- 重试**换主机**（4 条不同线路轮换）\n- 每次重试**强制新建连接**，不再复用旧连接\n- 重试间隔拉长到 0.7 秒 / 1.5 秒 / 3 秒，整个过程约 7 秒\n\n多数情况下你只会觉得「点了播放多转了两秒」，然后正常播放。\n\n### 2. 播放页的自动恢复改成分两段\n\n- **快段**：1 秒 / 2.5 秒 / 5 秒各重试一次（原来的 3 次）\n- **慢段**：15 / 30 / 60 / 90 / 105 秒再各试一次，累计约 5 分钟\n\n等待时会显示「服务暂时没有响应，正在自动恢复（第 n/5 次）」，恢复成功会自己接着播。\n手动点「重试」、换集、退出播放页都会取消排队中的自动恢复。\n\n**为什么要这么久**：这类窗口有时是分钟级的，以前 3 次重试 2 秒内就烧完，用户怎么按「重试」都撞在窗口里。\n\n### 3. 取流请求补上了设备 Cookie\n\n红果的设备注册接口会在响应头里下发四条 cookie（`install_id` / `ttreq` / `store-region` / `store-region-src`），真机取流时会带上。我们以前只读响应内容、把这四条丢了，所以未登录用户的取流请求是「光着」发出去的。\n\n现在会保存并在取流时带上。**老用户第一次启动会自动补注册一次**（只补一次），拿到这四条。\n\n### 4. 清晰度供给改用更保守的一档\n\n部分剧集在原来的参数下，中低清晰度会被下发成一种 Android 播放器读不出视频轨的编码，结果那一集只剩 1080P —— 电视端解码不动就表现为「播放失败」。现在改用服务端最保守的那档供给，正常剧集的清晰度不受影响。\n\n## 请重点帮我们试这些\n\n1. 之前报「播放失败」的那几部剧，现在能不能播\n2. 网络切换（Wi-Fi ↔ 移动数据）后点播放\n3. 连续切集（尤其自动切下一集）\n4. 电视端：低配盒子上的 720P / 1080P 播放\n\n## 出问题时请提供\n\n错误页现在会先按上面的节奏自动重试，最后才给提示。如果仍然失败，请截图错误页并说明：**哪部剧、第几集、点了之后转了多久才报错**。这三点能直接区分是「窗口抖动」还是「这一集真的没有」。\n\n## 说明\n\n- 这是**测试版**，正式版号仍是上一版。没开「接收测试版」的用户看不到这个更新。\n- 设置 → 关于 → 「接收测试版」可以开关。\n"
     },
     {
       "edition": "duanjuzhijia2",
-      "abi": "windows-x64",
-      "name": "duanjuzhijia2-2.0.21+97-windows-x64.zip",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.21-97-beta/duanjuzhijia2-2.0.21%2B97-windows-x64.zip",
+      "abi": "windows-x64-portable",
+      "name": "duanjuzhijia2-4.5.5+135-windows-x64.zip",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.5-135-beta/duanjuzhijia2-4.5.5%2B135-windows-x64.zip",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.21-97-beta/duanjuzhijia2-2.0.21%2B97-windows-x64.zip",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.21-97-beta/duanjuzhijia2-2.0.21%2B97-windows-x64.zip",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.21-97-beta/duanjuzhijia2-2.0.21%2B97-windows-x64.zip",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v2.0.21-97-beta/duanjuzhijia2-2.0.21%2B97-windows-x64.zip"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.5-135-beta/duanjuzhijia2-4.5.5%2B135-windows-x64.zip",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.5-135-beta/duanjuzhijia2-4.5.5%2B135-windows-x64.zip",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.5-135-beta/duanjuzhijia2-4.5.5%2B135-windows-x64.zip",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.5-135-beta/duanjuzhijia2-4.5.5%2B135-windows-x64.zip"
       ],
-      "size": 123216250,
-      "sha256": "4dcdf63e6864d3f846615053607edbb3a52683895e957c546f0352e8cd20cd65",
-      "notes": "**电脑版 2.0.21+97**\n\n这一版主要是把**红果账号**那套东西跟手机版对齐（手机版前几版已经改完，电脑版一直落后）。\n\n- 修复：**红果观看历史进页面卡住**。以前一进历史页就去抓每部剧的网页详情页补剧名封面，一部约 160 KB，几十部就是好几 MB，慢的时候页面一直转圈。现在进页面**一个请求都不发**，只读本地已有的剧名封面，秒开。\n- 新增：历史页右上角**「拉取剧名封面」按钮**。想补剧名和封面就点它（最多 25 秒、一次补 40 部），补完进 6 小时缓存，下次打开还是秒开。列表上方会提示还剩几部没补上。\n- 新增：**详情页的红果收藏爱心**。只对红果来源的剧显示，且必须已登录。注意这颗爱心写的是**红果账号**，跟旁边那颗「加入追剧」（写本机）是两套东西，互不影响。\n- 修复：**红果预约页不再假装「你没有预约」**。红果那一栏偶尔会回 200 但内容是空的，以前会直接显示「没有待上线的预约」，现在如实说「红果这次没有返回预约列表」，并给一个「重试」。\n- 修复：红果登录态失效时，列表页以前会停在「已登录 + 一行红字错误」，现在会自动重新问一次登录状态，直接换成登录卡。\n- 说明：这个版本是测试版。可直接覆盖安装，设置与观看记录都保留。本软件**全免费、无捐赠、无隐藏收费**，花钱买的请举报。\n\n已知问题：红果收藏这颗爱心**可能仍提示风控**（红果那边的风控校验），这一版还没解决，正在继续查。"
+      "size": 123421648,
+      "sha256": "7e4d2bcddfcf6d98b0f8267267bd7a7226a36226f2604bf774a5ade8986f6486",
+      "notes": "**测试版（Beta）—— 请开了「接收测试版」的用户更新试用**\n\n## 这一版改了什么\n\n### 1. 取流失败（提示「红果 App 接口未返回有效数据」）的重试方式整个换了\n\n以前的做法是「换一台设备身份重试」—— 实测这条路对**真正的原因**无效（重置设备 ID 也没用，你们反馈的就是这个）。\n\n现在改成按实际测量到的规律处理：这类失败是**服务端短时间的异常窗口**，窗口内用同一条连接、同一台主机重试**一定还是失败**。所以现在：\n\n- 重试**换主机**（4 条不同线路轮换）\n- 每次重试**强制新建连接**，不再复用旧连接\n- 重试间隔拉长到 0.7 秒 / 1.5 秒 / 3 秒，整个过程约 7 秒\n\n多数情况下你只会觉得「点了播放多转了两秒」，然后正常播放。\n\n### 2. 播放页的自动恢复改成分两段\n\n- **快段**：1 秒 / 2.5 秒 / 5 秒各重试一次（原来的 3 次）\n- **慢段**：15 / 30 / 60 / 90 / 105 秒再各试一次，累计约 5 分钟\n\n等待时会显示「服务暂时没有响应，正在自动恢复（第 n/5 次）」，恢复成功会自己接着播。\n手动点「重试」、换集、退出播放页都会取消排队中的自动恢复。\n\n**为什么要这么久**：这类窗口有时是分钟级的，以前 3 次重试 2 秒内就烧完，用户怎么按「重试」都撞在窗口里。\n\n### 3. 取流请求补上了设备 Cookie\n\n红果的设备注册接口会在响应头里下发四条 cookie（`install_id` / `ttreq` / `store-region` / `store-region-src`），真机取流时会带上。我们以前只读响应内容、把这四条丢了，所以未登录用户的取流请求是「光着」发出去的。\n\n现在会保存并在取流时带上。**老用户第一次启动会自动补注册一次**（只补一次），拿到这四条。\n\n### 4. 清晰度供给改用更保守的一档\n\n部分剧集在原来的参数下，中低清晰度会被下发成一种 Android 播放器读不出视频轨的编码，结果那一集只剩 1080P —— 电视端解码不动就表现为「播放失败」。现在改用服务端最保守的那档供给，正常剧集的清晰度不受影响。\n\n## 请重点帮我们试这些\n\n1. 之前报「播放失败」的那几部剧，现在能不能播\n2. 网络切换（Wi-Fi ↔ 移动数据）后点播放\n3. 连续切集（尤其自动切下一集）\n4. 电视端：低配盒子上的 720P / 1080P 播放\n\n## 出问题时请提供\n\n错误页现在会先按上面的节奏自动重试，最后才给提示。如果仍然失败，请截图错误页并说明：**哪部剧、第几集、点了之后转了多久才报错**。这三点能直接区分是「窗口抖动」还是「这一集真的没有」。\n\n## 说明\n\n- 这是**测试版**，正式版号仍是上一版。没开「接收测试版」的用户看不到这个更新。\n- 设置 → 关于 → 「接收测试版」可以开关。\n"
     }
   ]
 }
