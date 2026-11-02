@@ -1,13 +1,13 @@
 {
-  "version": "4.5.5+135",
-  "versionName": "4.5.5",
-  "build": 135,
-  "versionCode": 135,
+  "version": "4.5.6+136",
+  "versionName": "4.5.6",
+  "build": 136,
+  "versionCode": 136,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-01T04:43:46Z",
-  "notes": "## 本次更新\n\n### 1. 取流失败的重试方式重做\n\n部分用户点播放会提示「红果 App 接口未返回有效数据」，换线路也没用。\n以前的做法是换一台设备身份重试 —— 实测无效（重置设备 ID 也救不回来）。\n\n现在按实际测量到的规律处理：这类失败是**服务端短时间的异常窗口**，\n窗口内用同一条连接、同一台主机重试一定还是失败。所以：\n\n- 重试**换主机**（4 条线路轮换）\n- 每次重试**强制新建连接**，不再复用旧连接\n- 重试间隔 0.7 / 1.5 / 3 秒，整个过程约 7 秒\n\n多数情况下只会觉得「点了播放多转了两秒」，然后正常播放。\n\n### 2. 播放页自动恢复改成分两段\n\n- **快段**：1 / 2.5 / 5 秒各重试一次\n- **慢段**：15 / 30 / 60 / 90 / 105 秒再各试一次，累计约 5 分钟\n\n等待时会显示「服务暂时没有响应，正在自动恢复（第 n/5 次）」，恢复成功自己接着播。\n手动点「重试」、换集、退出播放页都会取消排队中的自动恢复。\n\n### 3. 取流请求补上设备 Cookie\n\n红果的设备注册接口会在响应头下发四条 cookie（`install_id` / `ttreq` /\n`store-region` / `store-region-src`），真机取流时会带上。\n以前只读了响应内容、把这四条丢了，等于未登录用户的取流请求「光着」发出去。\n\n现在会保存并在取流时带上。**老用户第一次启动会自动补注册一次**（只补一次）。\n\n### 4. 清晰度供给改用更保守的一档\n\n部分剧集在原来的参数下，中低清晰度会被下发成一种播放器读不出视频轨的编码，\n结果那一集只剩 1080P，低配设备解码不动就表现为「播放失败」。\n现在改用服务端最保守的那档供给，正常剧集的清晰度不受影响。\n\n## 出问题时请提供\n\n如果仍然失败，请截图错误页并说明：哪部剧、第几集、点了之后转了多久才报错。\n这三点能直接区分是「服务端瞬时抖动」还是「这一集真的没有」。\n",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v4.5.5-135",
+  "publishedAt": "2026-11-02T10:06:28Z",
+  "notes": "修复播放接口失效。\n",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v4.5.6-136",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-4.5.5+135-setup.exe",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.5-135/duanjuzhijia2-4.5.5%2B135-setup.exe",
+      "name": "duanjuzhijia2-4.5.6+136-setup.exe",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.6-136/duanjuzhijia2-4.5.6%2B136-setup.exe",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.5-135/duanjuzhijia2-4.5.5%2B135-setup.exe",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.5-135/duanjuzhijia2-4.5.5%2B135-setup.exe",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.5-135/duanjuzhijia2-4.5.5%2B135-setup.exe",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.5-135/duanjuzhijia2-4.5.5%2B135-setup.exe"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.6-136/duanjuzhijia2-4.5.6%2B136-setup.exe",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.6-136/duanjuzhijia2-4.5.6%2B136-setup.exe",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.6-136/duanjuzhijia2-4.5.6%2B136-setup.exe",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.6-136/duanjuzhijia2-4.5.6%2B136-setup.exe"
       ],
-      "size": 89588810,
-      "sha256": "e52945bbd5c2536b60396ac36c8aa60f5b8fa6fc87d45f8feb0eeabdf30dcfe8",
-      "notes": "## 本次更新\n\n### 1. 取流失败的重试方式重做\n\n部分用户点播放会提示「红果 App 接口未返回有效数据」，换线路也没用。\n以前的做法是换一台设备身份重试 —— 实测无效（重置设备 ID 也救不回来）。\n\n现在按实际测量到的规律处理：这类失败是**服务端短时间的异常窗口**，\n窗口内用同一条连接、同一台主机重试一定还是失败。所以：\n\n- 重试**换主机**（4 条线路轮换）\n- 每次重试**强制新建连接**，不再复用旧连接\n- 重试间隔 0.7 / 1.5 / 3 秒，整个过程约 7 秒\n\n多数情况下只会觉得「点了播放多转了两秒」，然后正常播放。\n\n### 2. 播放页自动恢复改成分两段\n\n- **快段**：1 / 2.5 / 5 秒各重试一次\n- **慢段**：15 / 30 / 60 / 90 / 105 秒再各试一次，累计约 5 分钟\n\n等待时会显示「服务暂时没有响应，正在自动恢复（第 n/5 次）」，恢复成功自己接着播。\n手动点「重试」、换集、退出播放页都会取消排队中的自动恢复。\n\n### 3. 取流请求补上设备 Cookie\n\n红果的设备注册接口会在响应头下发四条 cookie（`install_id` / `ttreq` /\n`store-region` / `store-region-src`），真机取流时会带上。\n以前只读了响应内容、把这四条丢了，等于未登录用户的取流请求「光着」发出去。\n\n现在会保存并在取流时带上。**老用户第一次启动会自动补注册一次**（只补一次）。\n\n### 4. 清晰度供给改用更保守的一档\n\n部分剧集在原来的参数下，中低清晰度会被下发成一种播放器读不出视频轨的编码，\n结果那一集只剩 1080P，低配设备解码不动就表现为「播放失败」。\n现在改用服务端最保守的那档供给，正常剧集的清晰度不受影响。\n\n## 出问题时请提供\n\n如果仍然失败，请截图错误页并说明：哪部剧、第几集、点了之后转了多久才报错。\n这三点能直接区分是「服务端瞬时抖动」还是「这一集真的没有」。\n"
+      "size": 89588876,
+      "sha256": "e9c5633e97141348c861484acc27fdc14678efc9d492d868936bd2faf3a130ba",
+      "notes": "修复播放接口失效。\n"
     },
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64-portable",
-      "name": "duanjuzhijia2-4.5.5+135-windows-x64.zip",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.5-135/duanjuzhijia2-4.5.5%2B135-windows-x64.zip",
+      "name": "duanjuzhijia2-4.5.6+136-windows-x64.zip",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.6-136/duanjuzhijia2-4.5.6%2B136-windows-x64.zip",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.5-135/duanjuzhijia2-4.5.5%2B135-windows-x64.zip",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.5-135/duanjuzhijia2-4.5.5%2B135-windows-x64.zip",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.5-135/duanjuzhijia2-4.5.5%2B135-windows-x64.zip",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.5-135/duanjuzhijia2-4.5.5%2B135-windows-x64.zip"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.6-136/duanjuzhijia2-4.5.6%2B136-windows-x64.zip",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.6-136/duanjuzhijia2-4.5.6%2B136-windows-x64.zip",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.6-136/duanjuzhijia2-4.5.6%2B136-windows-x64.zip",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.6-136/duanjuzhijia2-4.5.6%2B136-windows-x64.zip"
       ],
-      "size": 123421635,
-      "sha256": "edb6b3f19e0c13f88dcf188f9555224f3643bc1dbaa02105d84ea379b7182a6e",
-      "notes": "## 本次更新\n\n### 1. 取流失败的重试方式重做\n\n部分用户点播放会提示「红果 App 接口未返回有效数据」，换线路也没用。\n以前的做法是换一台设备身份重试 —— 实测无效（重置设备 ID 也救不回来）。\n\n现在按实际测量到的规律处理：这类失败是**服务端短时间的异常窗口**，\n窗口内用同一条连接、同一台主机重试一定还是失败。所以：\n\n- 重试**换主机**（4 条线路轮换）\n- 每次重试**强制新建连接**，不再复用旧连接\n- 重试间隔 0.7 / 1.5 / 3 秒，整个过程约 7 秒\n\n多数情况下只会觉得「点了播放多转了两秒」，然后正常播放。\n\n### 2. 播放页自动恢复改成分两段\n\n- **快段**：1 / 2.5 / 5 秒各重试一次\n- **慢段**：15 / 30 / 60 / 90 / 105 秒再各试一次，累计约 5 分钟\n\n等待时会显示「服务暂时没有响应，正在自动恢复（第 n/5 次）」，恢复成功自己接着播。\n手动点「重试」、换集、退出播放页都会取消排队中的自动恢复。\n\n### 3. 取流请求补上设备 Cookie\n\n红果的设备注册接口会在响应头下发四条 cookie（`install_id` / `ttreq` /\n`store-region` / `store-region-src`），真机取流时会带上。\n以前只读了响应内容、把这四条丢了，等于未登录用户的取流请求「光着」发出去。\n\n现在会保存并在取流时带上。**老用户第一次启动会自动补注册一次**（只补一次）。\n\n### 4. 清晰度供给改用更保守的一档\n\n部分剧集在原来的参数下，中低清晰度会被下发成一种播放器读不出视频轨的编码，\n结果那一集只剩 1080P，低配设备解码不动就表现为「播放失败」。\n现在改用服务端最保守的那档供给，正常剧集的清晰度不受影响。\n\n## 出问题时请提供\n\n如果仍然失败，请截图错误页并说明：哪部剧、第几集、点了之后转了多久才报错。\n这三点能直接区分是「服务端瞬时抖动」还是「这一集真的没有」。\n"
+      "size": 123421971,
+      "sha256": "5114262c632a4c7b34626f65acaee77e54685773ffe805ee386aa788b53ef0de",
+      "notes": "修复播放接口失效。\n"
     }
   ]
 }
