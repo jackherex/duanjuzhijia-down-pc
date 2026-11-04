@@ -2,7 +2,7 @@
 
 在 Windows 电脑上找剧、接着上次看。**内容来自红果**，支持搜索、收藏、选集、倍速、自动连播、下载缓存，也能和手机版互相同步收藏与观看进度。
 
-**免费使用 · 当前版本 4.5.12+142**
+**免费使用 · 当前版本 4.5.13+143**
 
 [**⬇ 下载 Windows 安装程序（推荐）**](https://github.com/jackherex/duanjuzhijia-down-pc/releases/latest)　｜　[全部版本](https://github.com/jackherex/duanjuzhijia-down-pc/releases)
 
@@ -13,7 +13,7 @@
 
 ## 演示页面
 
-电脑版 4.5.12 全新界面：
+电脑版 4.5.13 全新界面：
 
 **首页轮播**
 
@@ -70,20 +70,20 @@
 
 ## 下载与安装说明
 
-### `duanjuzhijia2-4.5.12+142-setup.exe`（安装程序，推荐）
+### `duanjuzhijia2-4.5.13+143-setup.exe`（安装程序，推荐）
 
-大小 `89638500` 字节。SHA-256：
-
-```
-8e9199ef9a4ce514742565d43e49924a4b7182eb94757058e744827217f39c5e
-```
-
-### `duanjuzhijia2-4.5.12+142-windows-x64.zip`（免安装版）
-
-大小 `123502444` 字节。SHA-256：
+大小 `89651337` 字节。SHA-256：
 
 ```
-11913a342f2ace8b54a94b884a7f1b22f2ecb977ceb804cb7f903826a76a9986
+f24ae0e112b448f5cbf60f17144a706fdcf7de724833d90fcf905508e7361081
+```
+
+### `duanjuzhijia2-4.5.13+143-windows-x64.zip`（免安装版）
+
+大小 `123505665` 字节。SHA-256：
+
+```
+a56942a80b27ab93401b0ec30a8dd3e1414dfd5167b1ae342dea2f60a8335589
 ```
 
 这两串数字用来核对文件有没有下载完整，**不能代替身份认证**。
