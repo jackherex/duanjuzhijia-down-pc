@@ -2,14 +2,46 @@
 
 在 Windows 电脑上找剧、接着上次看。**内容来自红果**，支持搜索、收藏、选集、倍速、自动连播、下载缓存，也能和手机版互相同步收藏与观看进度。
 
-**免费使用 · 当前版本 2.0.3+79**
+**免费使用 · 当前版本 4.5.12+142**
 
 [**⬇ 下载 Windows 安装程序（推荐）**](https://github.com/jackherex/duanjuzhijia-down-pc/releases/latest)　｜　[全部版本](https://github.com/jackherex/duanjuzhijia-down-pc/releases)
 
-适用于 **Windows 10 / 11（64 位）**，安装程序约 **85.1 MB**，免安装版约 **117.2 MB**。
+适用于 **Windows 10 / 11（64 位）**，安装程序约 **85.5 MB**，免安装版约 **117.8 MB**。
 普通使用**只需要下载 `.exe`**（或 `.zip`），不需要下载页面里的其它文件。
 
 > 上面的按钮**始终指向最新版**，以后发新版不用回来改链接。
+
+## 演示页面
+
+电脑版 4.5.12 全新界面：
+
+**首页轮播**
+
+![首页轮播](screenshots/pc-01-home.jpg)
+
+**推荐：热门剧 / 漫剧 / 真人剧 / AI 剧分类**
+
+![推荐：热门剧 / 漫剧 / 真人剧 / AI 剧分类](screenshots/pc-02-recommend.jpg)
+
+**剧集详情与选集**
+
+![剧集详情与选集](screenshots/pc-03-detail.jpg)
+
+**找剧：按体裁、主题、设定筛选**
+
+![找剧：按体裁、主题、设定筛选](screenshots/pc-04-browse.jpg)
+
+**排行榜**
+
+![排行榜](screenshots/pc-05-rank.jpg)
+
+**预约下一季，上线自动提醒**
+
+![预约下一季，上线自动提醒](screenshots/pc-06-reserve.jpg)
+
+**设置**
+
+![设置](screenshots/pc-07-settings.jpg)
 
 ## 三步开始使用
 
@@ -38,20 +70,20 @@
 
 ## 下载与安装说明
 
-### `duanjuzhijia2-2.0.3+79-setup.exe`（安装程序，推荐）
+### `duanjuzhijia2-4.5.12+142-setup.exe`（安装程序，推荐）
 
-大小 `89193561` 字节。SHA-256：
-
-```
-c58779de9fab1ea68e0f2b79a6f7260db50747a526c329c9ce24a4a2497bacb9
-```
-
-### `duanjuzhijia2-2.0.3+79-windows-x64.zip`（免安装版）
-
-大小 `122852796` 字节。SHA-256：
+大小 `89638500` 字节。SHA-256：
 
 ```
-cb45e552f75ebb66158ef726fa78b62285a0e05407a44f66b0f6abce58eb0461
+8e9199ef9a4ce514742565d43e49924a4b7182eb94757058e744827217f39c5e
+```
+
+### `duanjuzhijia2-4.5.12+142-windows-x64.zip`（免安装版）
+
+大小 `123502444` 字节。SHA-256：
+
+```
+11913a342f2ace8b54a94b884a7f1b22f2ecb977ceb804cb7f903826a76a9986
 ```
 
 这两串数字用来核对文件有没有下载完整，**不能代替身份认证**。
