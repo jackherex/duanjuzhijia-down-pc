@@ -1,13 +1,13 @@
 {
-  "version": "4.5.9+139",
-  "versionName": "4.5.9",
-  "build": 139,
-  "versionCode": 139,
+  "version": "4.5.10+140",
+  "versionName": "4.5.10",
+  "build": 140,
+  "versionCode": 140,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-04T06:51:15Z",
-  "notes": "- 界面全新改版：首页大图轮播单独一屏，往下滑进入按热门剧、漫剧、真人剧、AI 剧分类的推荐页\n- 封面悬停显示剧名和简介，追剧状态改成角标小图标；分类行和继续观看可直接用鼠标拖动翻看\n- 窗口缩小时顶栏、文字和封面会跟着缩放，按钮不再被挤出窗口\n- 播放页选集默认收起，竖屏视频可一键旋转画面；退出播放后保持原来的全屏状态\n- 修复详情页封面出现明显边线、滚动时出现白条的问题\n",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v4.5.9-139",
+  "publishedAt": "2026-11-04T07:14:52Z",
+  "notes": "- 修复详情页封面左侧出现竖线的问题，恢复封面渐隐到深色背景的样式\n- 旋转画面时弹幕跟着一起旋转\n- 右上角最小化、全屏、关闭按钮改为玻璃胶囊样式，在亮色封面上也看得清\n",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v4.5.10-140",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-4.5.9+139-setup.exe",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.9-139/duanjuzhijia2-4.5.9%2B139-setup.exe",
+      "name": "duanjuzhijia2-4.5.10+140-setup.exe",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.10-140/duanjuzhijia2-4.5.10%2B140-setup.exe",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.9-139/duanjuzhijia2-4.5.9%2B139-setup.exe",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.9-139/duanjuzhijia2-4.5.9%2B139-setup.exe",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.9-139/duanjuzhijia2-4.5.9%2B139-setup.exe",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.9-139/duanjuzhijia2-4.5.9%2B139-setup.exe"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.10-140/duanjuzhijia2-4.5.10%2B140-setup.exe",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.10-140/duanjuzhijia2-4.5.10%2B140-setup.exe",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.10-140/duanjuzhijia2-4.5.10%2B140-setup.exe",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.10-140/duanjuzhijia2-4.5.10%2B140-setup.exe"
       ],
-      "size": 89645782,
-      "sha256": "e291861ce2a1e1a2711749edff76fef7a8d1618c31f3706fb2a973b49b5d64f9",
-      "notes": "- 界面全新改版：首页大图轮播单独一屏，往下滑进入按热门剧、漫剧、真人剧、AI 剧分类的推荐页\n- 封面悬停显示剧名和简介，追剧状态改成角标小图标；分类行和继续观看可直接用鼠标拖动翻看\n- 窗口缩小时顶栏、文字和封面会跟着缩放，按钮不再被挤出窗口\n- 播放页选集默认收起，竖屏视频可一键旋转画面；退出播放后保持原来的全屏状态\n- 修复详情页封面出现明显边线、滚动时出现白条的问题\n"
+      "size": 89645199,
+      "sha256": "2d7199de406033dfda95368c83896a340870733b253bf79e37bb2ed9823dd8c0",
+      "notes": "- 修复详情页封面左侧出现竖线的问题，恢复封面渐隐到深色背景的样式\n- 旋转画面时弹幕跟着一起旋转\n- 右上角最小化、全屏、关闭按钮改为玻璃胶囊样式，在亮色封面上也看得清\n"
     },
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64-portable",
-      "name": "duanjuzhijia2-4.5.9+139-windows-x64.zip",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.9-139/duanjuzhijia2-4.5.9%2B139-windows-x64.zip",
+      "name": "duanjuzhijia2-4.5.10+140-windows-x64.zip",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.10-140/duanjuzhijia2-4.5.10%2B140-windows-x64.zip",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.9-139/duanjuzhijia2-4.5.9%2B139-windows-x64.zip",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.9-139/duanjuzhijia2-4.5.9%2B139-windows-x64.zip",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.9-139/duanjuzhijia2-4.5.9%2B139-windows-x64.zip",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.9-139/duanjuzhijia2-4.5.9%2B139-windows-x64.zip"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.10-140/duanjuzhijia2-4.5.10%2B140-windows-x64.zip",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.10-140/duanjuzhijia2-4.5.10%2B140-windows-x64.zip",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.10-140/duanjuzhijia2-4.5.10%2B140-windows-x64.zip",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.10-140/duanjuzhijia2-4.5.10%2B140-windows-x64.zip"
       ],
-      "size": 123502338,
-      "sha256": "c8d8a4a4a8a03cda70df7862465b9db1893837f55a378ec233ba59075736d9dc",
-      "notes": "- 界面全新改版：首页大图轮播单独一屏，往下滑进入按热门剧、漫剧、真人剧、AI 剧分类的推荐页\n- 封面悬停显示剧名和简介，追剧状态改成角标小图标；分类行和继续观看可直接用鼠标拖动翻看\n- 窗口缩小时顶栏、文字和封面会跟着缩放，按钮不再被挤出窗口\n- 播放页选集默认收起，竖屏视频可一键旋转画面；退出播放后保持原来的全屏状态\n- 修复详情页封面出现明显边线、滚动时出现白条的问题\n"
+      "size": 123501991,
+      "sha256": "7c1247fc6ee193a4b54e7be6c5f9f8e41aedc8677288fe45844d351f55311bee",
+      "notes": "- 修复详情页封面左侧出现竖线的问题，恢复封面渐隐到深色背景的样式\n- 旋转画面时弹幕跟着一起旋转\n- 右上角最小化、全屏、关闭按钮改为玻璃胶囊样式，在亮色封面上也看得清\n"
     }
   ]
 }
