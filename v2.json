@@ -1,13 +1,13 @@
 {
-  "version": "4.5.16+146",
-  "versionName": "4.5.16",
-  "build": 146,
-  "versionCode": 146,
+  "version": "4.5.17+147",
+  "versionName": "4.5.17",
+  "build": 147,
+  "versionCode": 147,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-06T12:16:33Z",
-  "notes": "- 详情页换成封面虚化背景，和手机版一致\n- 选集改成「1-30、31-60…」分组按钮，翻集更快\n- 错误日志自动附上系统记录的闪退原因和当时的内存，反馈问题更准\n",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v4.5.16-146",
+  "publishedAt": "2026-11-06T12:50:21Z",
+  "notes": "- 闪退和报错会自动上报给作者，方便更快修复问题\n- 新增匿名使用统计，不带账号、IP 等任何个人信息\n- 「设置 → 匿名统计与错误上报」可以随时关闭\n",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v4.5.17-147",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-4.5.16+146-setup.exe",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.16-146/duanjuzhijia2-4.5.16%2B146-setup.exe",
+      "name": "duanjuzhijia2-4.5.17+147-setup.exe",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.17-147/duanjuzhijia2-4.5.17%2B147-setup.exe",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.16-146/duanjuzhijia2-4.5.16%2B146-setup.exe",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.16-146/duanjuzhijia2-4.5.16%2B146-setup.exe",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.16-146/duanjuzhijia2-4.5.16%2B146-setup.exe",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.16-146/duanjuzhijia2-4.5.16%2B146-setup.exe"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.17-147/duanjuzhijia2-4.5.17%2B147-setup.exe",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.17-147/duanjuzhijia2-4.5.17%2B147-setup.exe",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.17-147/duanjuzhijia2-4.5.17%2B147-setup.exe",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.17-147/duanjuzhijia2-4.5.17%2B147-setup.exe"
       ],
-      "size": 88996957,
-      "sha256": "8ac1e854815418902263f261686d11b0674d3eb957ce30a5f6cecbfe23d90055",
-      "notes": "- 详情页换成封面虚化背景，和手机版一致\n- 选集改成「1-30、31-60…」分组按钮，翻集更快\n- 错误日志自动附上系统记录的闪退原因和当时的内存，反馈问题更准\n"
+      "size": 89005706,
+      "sha256": "5167abafd7981fe6ed251cbd4ebe31dee85270194e4d6cf4ca186f895d083b9c",
+      "notes": "- 闪退和报错会自动上报给作者，方便更快修复问题\n- 新增匿名使用统计，不带账号、IP 等任何个人信息\n- 「设置 → 匿名统计与错误上报」可以随时关闭\n"
     },
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64-portable",
-      "name": "duanjuzhijia2-4.5.16+146-windows-x64.zip",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.16-146/duanjuzhijia2-4.5.16%2B146-windows-x64.zip",
+      "name": "duanjuzhijia2-4.5.17+147-windows-x64.zip",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.17-147/duanjuzhijia2-4.5.17%2B147-windows-x64.zip",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.16-146/duanjuzhijia2-4.5.16%2B146-windows-x64.zip",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.16-146/duanjuzhijia2-4.5.16%2B146-windows-x64.zip",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.16-146/duanjuzhijia2-4.5.16%2B146-windows-x64.zip",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.16-146/duanjuzhijia2-4.5.16%2B146-windows-x64.zip"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.17-147/duanjuzhijia2-4.5.17%2B147-windows-x64.zip",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.17-147/duanjuzhijia2-4.5.17%2B147-windows-x64.zip",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.17-147/duanjuzhijia2-4.5.17%2B147-windows-x64.zip",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.17-147/duanjuzhijia2-4.5.17%2B147-windows-x64.zip"
       ],
-      "size": 122548110,
-      "sha256": "9d98240636e126a36f52716277aaa7895682b70b93af253979450f97bebe6cc9",
-      "notes": "- 详情页换成封面虚化背景，和手机版一致\n- 选集改成「1-30、31-60…」分组按钮，翻集更快\n- 错误日志自动附上系统记录的闪退原因和当时的内存，反馈问题更准\n"
+      "size": 122555639,
+      "sha256": "c61934d050958c59737858efa5b6c82616f060c6833312a79a0c91d0b19b88c7",
+      "notes": "- 闪退和报错会自动上报给作者，方便更快修复问题\n- 新增匿名使用统计，不带账号、IP 等任何个人信息\n- 「设置 → 匿名统计与错误上报」可以随时关闭\n"
     }
   ]
 }
