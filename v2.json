@@ -1,13 +1,13 @@
 {
-  "version": "4.5.15+145",
-  "versionName": "4.5.15",
-  "build": 145,
-  "versionCode": 145,
+  "version": "4.5.16+146",
+  "versionName": "4.5.16",
+  "build": 146,
+  "versionCode": 146,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-06T05:30:39Z",
-  "notes": "- 新增「设置 → 错误日志」：闪退、播放失败会自动记录，可一键复制发给作者\n- 上次播放时程序意外退出，再次打开会提示，并可直接复制日志\n- 修复追剧、历史页搜索打一个字就无法继续输入的问题\n",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v4.5.15-145",
+  "publishedAt": "2026-11-06T12:16:33Z",
+  "notes": "- 详情页换成封面虚化背景，和手机版一致\n- 选集改成「1-30、31-60…」分组按钮，翻集更快\n- 错误日志自动附上系统记录的闪退原因和当时的内存，反馈问题更准\n",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v4.5.16-146",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-4.5.15+145-setup.exe",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.15-145/duanjuzhijia2-4.5.15%2B145-setup.exe",
+      "name": "duanjuzhijia2-4.5.16+146-setup.exe",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.16-146/duanjuzhijia2-4.5.16%2B146-setup.exe",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.15-145/duanjuzhijia2-4.5.15%2B145-setup.exe",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.15-145/duanjuzhijia2-4.5.15%2B145-setup.exe",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.15-145/duanjuzhijia2-4.5.15%2B145-setup.exe",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.15-145/duanjuzhijia2-4.5.15%2B145-setup.exe"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.16-146/duanjuzhijia2-4.5.16%2B146-setup.exe",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.16-146/duanjuzhijia2-4.5.16%2B146-setup.exe",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.16-146/duanjuzhijia2-4.5.16%2B146-setup.exe",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.16-146/duanjuzhijia2-4.5.16%2B146-setup.exe"
       ],
-      "size": 89666226,
-      "sha256": "7866096f92088c39057df449aeee7b45cae42981fdbb5c306140e8651b4728ea",
-      "notes": "- 新增「设置 → 错误日志」：闪退、播放失败会自动记录，可一键复制发给作者\n- 上次播放时程序意外退出，再次打开会提示，并可直接复制日志\n- 修复追剧、历史页搜索打一个字就无法继续输入的问题\n"
+      "size": 88996957,
+      "sha256": "8ac1e854815418902263f261686d11b0674d3eb957ce30a5f6cecbfe23d90055",
+      "notes": "- 详情页换成封面虚化背景，和手机版一致\n- 选集改成「1-30、31-60…」分组按钮，翻集更快\n- 错误日志自动附上系统记录的闪退原因和当时的内存，反馈问题更准\n"
     },
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64-portable",
-      "name": "duanjuzhijia2-4.5.15+145-windows-x64.zip",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.15-145/duanjuzhijia2-4.5.15%2B145-windows-x64.zip",
+      "name": "duanjuzhijia2-4.5.16+146-windows-x64.zip",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.16-146/duanjuzhijia2-4.5.16%2B146-windows-x64.zip",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.15-145/duanjuzhijia2-4.5.15%2B145-windows-x64.zip",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.15-145/duanjuzhijia2-4.5.15%2B145-windows-x64.zip",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.15-145/duanjuzhijia2-4.5.15%2B145-windows-x64.zip",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.15-145/duanjuzhijia2-4.5.15%2B145-windows-x64.zip"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.16-146/duanjuzhijia2-4.5.16%2B146-windows-x64.zip",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.16-146/duanjuzhijia2-4.5.16%2B146-windows-x64.zip",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.16-146/duanjuzhijia2-4.5.16%2B146-windows-x64.zip",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.16-146/duanjuzhijia2-4.5.16%2B146-windows-x64.zip"
       ],
-      "size": 123530498,
-      "sha256": "04889d45ad6119be3d348cc20bc59d7b8bb7b73376b5e06bea232ac7e96b61c6",
-      "notes": "- 新增「设置 → 错误日志」：闪退、播放失败会自动记录，可一键复制发给作者\n- 上次播放时程序意外退出，再次打开会提示，并可直接复制日志\n- 修复追剧、历史页搜索打一个字就无法继续输入的问题\n"
+      "size": 122548110,
+      "sha256": "9d98240636e126a36f52716277aaa7895682b70b93af253979450f97bebe6cc9",
+      "notes": "- 详情页换成封面虚化背景，和手机版一致\n- 选集改成「1-30、31-60…」分组按钮，翻集更快\n- 错误日志自动附上系统记录的闪退原因和当时的内存，反馈问题更准\n"
     }
   ]
 }
