@@ -1,13 +1,13 @@
 {
-  "version": "4.5.14+144",
-  "versionName": "4.5.14",
-  "build": 144,
-  "versionCode": 144,
+  "version": "4.5.15+145",
+  "versionName": "4.5.15",
+  "build": 145,
+  "versionCode": 145,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-04T12:28:27Z",
-  "notes": "- 全新界面：首页大图轮播单独一屏，往下滑进入按热门剧、漫剧、真人剧、AI 剧分类的推荐页\n- 封面悬停显示剧名和简介，分类行和继续观看可用鼠标拖动翻看，两侧虚化\n- 窗口缩小时顶栏、文字和封面跟着缩放；右上角按钮改为玻璃胶囊样式\n- 播放页选集默认收起，竖屏视频可旋转画面；在线更新换线路时接着下\n- 修复用拼音输入法搜索时打一个字就跳到搜索结果页的问题\n",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v4.5.14-144",
+  "publishedAt": "2026-11-06T05:30:39Z",
+  "notes": "- 新增「设置 → 错误日志」：闪退、播放失败会自动记录，可一键复制发给作者\n- 上次播放时程序意外退出，再次打开会提示，并可直接复制日志\n- 修复追剧、历史页搜索打一个字就无法继续输入的问题\n",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v4.5.15-145",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-4.5.14+144-setup.exe",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.14-144/duanjuzhijia2-4.5.14%2B144-setup.exe",
+      "name": "duanjuzhijia2-4.5.15+145-setup.exe",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.15-145/duanjuzhijia2-4.5.15%2B145-setup.exe",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.14-144/duanjuzhijia2-4.5.14%2B144-setup.exe",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.14-144/duanjuzhijia2-4.5.14%2B144-setup.exe",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.14-144/duanjuzhijia2-4.5.14%2B144-setup.exe",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.14-144/duanjuzhijia2-4.5.14%2B144-setup.exe"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.15-145/duanjuzhijia2-4.5.15%2B145-setup.exe",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.15-145/duanjuzhijia2-4.5.15%2B145-setup.exe",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.15-145/duanjuzhijia2-4.5.15%2B145-setup.exe",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.15-145/duanjuzhijia2-4.5.15%2B145-setup.exe"
       ],
-      "size": 89647493,
-      "sha256": "0e986055d29bc85fd8c4a385cf480b925725403b9d820ca35aedca9db58426eb",
-      "notes": "- 全新界面：首页大图轮播单独一屏，往下滑进入按热门剧、漫剧、真人剧、AI 剧分类的推荐页\n- 封面悬停显示剧名和简介，分类行和继续观看可用鼠标拖动翻看，两侧虚化\n- 窗口缩小时顶栏、文字和封面跟着缩放；右上角按钮改为玻璃胶囊样式\n- 播放页选集默认收起，竖屏视频可旋转画面；在线更新换线路时接着下\n- 修复用拼音输入法搜索时打一个字就跳到搜索结果页的问题\n"
+      "size": 89666226,
+      "sha256": "7866096f92088c39057df449aeee7b45cae42981fdbb5c306140e8651b4728ea",
+      "notes": "- 新增「设置 → 错误日志」：闪退、播放失败会自动记录，可一键复制发给作者\n- 上次播放时程序意外退出，再次打开会提示，并可直接复制日志\n- 修复追剧、历史页搜索打一个字就无法继续输入的问题\n"
     },
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64-portable",
-      "name": "duanjuzhijia2-4.5.14+144-windows-x64.zip",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.14-144/duanjuzhijia2-4.5.14%2B144-windows-x64.zip",
+      "name": "duanjuzhijia2-4.5.15+145-windows-x64.zip",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.15-145/duanjuzhijia2-4.5.15%2B145-windows-x64.zip",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.14-144/duanjuzhijia2-4.5.14%2B144-windows-x64.zip",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.14-144/duanjuzhijia2-4.5.14%2B144-windows-x64.zip",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.14-144/duanjuzhijia2-4.5.14%2B144-windows-x64.zip",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.14-144/duanjuzhijia2-4.5.14%2B144-windows-x64.zip"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.15-145/duanjuzhijia2-4.5.15%2B145-windows-x64.zip",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.15-145/duanjuzhijia2-4.5.15%2B145-windows-x64.zip",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.15-145/duanjuzhijia2-4.5.15%2B145-windows-x64.zip",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.15-145/duanjuzhijia2-4.5.15%2B145-windows-x64.zip"
       ],
-      "size": 123507325,
-      "sha256": "cd503b03440ae879d8620e1d0ab70ca6a330006333843c0e4f28500a610ba707",
-      "notes": "- 全新界面：首页大图轮播单独一屏，往下滑进入按热门剧、漫剧、真人剧、AI 剧分类的推荐页\n- 封面悬停显示剧名和简介，分类行和继续观看可用鼠标拖动翻看，两侧虚化\n- 窗口缩小时顶栏、文字和封面跟着缩放；右上角按钮改为玻璃胶囊样式\n- 播放页选集默认收起，竖屏视频可旋转画面；在线更新换线路时接着下\n- 修复用拼音输入法搜索时打一个字就跳到搜索结果页的问题\n"
+      "size": 123530498,
+      "sha256": "04889d45ad6119be3d348cc20bc59d7b8bb7b73376b5e06bea232ac7e96b61c6",
+      "notes": "- 新增「设置 → 错误日志」：闪退、播放失败会自动记录，可一键复制发给作者\n- 上次播放时程序意外退出，再次打开会提示，并可直接复制日志\n- 修复追剧、历史页搜索打一个字就无法继续输入的问题\n"
     }
   ]
 }
