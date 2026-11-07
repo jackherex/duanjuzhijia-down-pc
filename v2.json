@@ -1,13 +1,13 @@
 {
-  "version": "4.5.18+148",
-  "versionName": "4.5.18",
-  "build": 148,
-  "versionCode": 148,
+  "version": "4.5.19+149",
+  "versionName": "4.5.19",
+  "build": 149,
+  "versionCode": 149,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-06T14:14:31Z",
-  "notes": "- 查全季支持按「期」更新的剧，看完一期能直接接着看下一期\n",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v4.5.18-148",
+  "publishedAt": "2026-11-07T03:55:09Z",
+  "notes": "- 换上全新图标和启动动画\n",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v4.5.19-149",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-4.5.18+148-setup.exe",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.18-148/duanjuzhijia2-4.5.18%2B148-setup.exe",
+      "name": "duanjuzhijia2-4.5.19+149-setup.exe",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.19-149/duanjuzhijia2-4.5.19%2B149-setup.exe",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.18-148/duanjuzhijia2-4.5.18%2B148-setup.exe",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.18-148/duanjuzhijia2-4.5.18%2B148-setup.exe",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.18-148/duanjuzhijia2-4.5.18%2B148-setup.exe",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.18-148/duanjuzhijia2-4.5.18%2B148-setup.exe"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.19-149/duanjuzhijia2-4.5.19%2B149-setup.exe",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.19-149/duanjuzhijia2-4.5.19%2B149-setup.exe",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.19-149/duanjuzhijia2-4.5.19%2B149-setup.exe",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.19-149/duanjuzhijia2-4.5.19%2B149-setup.exe"
       ],
-      "size": 89000219,
-      "sha256": "8ac49c181810cc29e11a326c458828802511ea4c3ad5835a8a3ffed161142781",
-      "notes": "- 查全季支持按「期」更新的剧，看完一期能直接接着看下一期\n"
+      "size": 89040090,
+      "sha256": "5681c8237b34cc245cabafcedd0775e256c6fb7721f7923152d4ae96d8753609",
+      "notes": "- 换上全新图标和启动动画\n"
     },
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64-portable",
-      "name": "duanjuzhijia2-4.5.18+148-windows-x64.zip",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.18-148/duanjuzhijia2-4.5.18%2B148-windows-x64.zip",
+      "name": "duanjuzhijia2-4.5.19+149-windows-x64.zip",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.19-149/duanjuzhijia2-4.5.19%2B149-windows-x64.zip",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.18-148/duanjuzhijia2-4.5.18%2B148-windows-x64.zip",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.18-148/duanjuzhijia2-4.5.18%2B148-windows-x64.zip",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.18-148/duanjuzhijia2-4.5.18%2B148-windows-x64.zip",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.18-148/duanjuzhijia2-4.5.18%2B148-windows-x64.zip"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.19-149/duanjuzhijia2-4.5.19%2B149-windows-x64.zip",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.19-149/duanjuzhijia2-4.5.19%2B149-windows-x64.zip",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.19-149/duanjuzhijia2-4.5.19%2B149-windows-x64.zip",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.19-149/duanjuzhijia2-4.5.19%2B149-windows-x64.zip"
       ],
-      "size": 122556259,
-      "sha256": "a24234ba6829d4263b874d06cc18a6d68f06ecb86bf36a370e8bc97249b43b75",
-      "notes": "- 查全季支持按「期」更新的剧，看完一期能直接接着看下一期\n"
+      "size": 122604968,
+      "sha256": "524151bd1c857cd322b63bfbb46497441315b6d3de09ceebdaa83f02aaa9d94f",
+      "notes": "- 换上全新图标和启动动画\n"
     }
   ]
 }
