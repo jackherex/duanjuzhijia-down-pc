@@ -1,5 +1,9 @@
 # 短剧之家 v2（红果）｜Windows 下载
 
+<!-- platforms:start -->
+> **其他版本下载：** [安卓手机 / 平板](https://github.com/jackherex/duanjuzhijia-down-phone)　｜　[iPhone / iPad](https://github.com/jackherex/duanjuzhijia-down-ios)　｜　**Windows 电脑（本页）**　｜　[安卓电视 / 盒子](https://github.com/jackherex/duanjuzhijia-down-tv)　｜　[Apple TV](https://github.com/jackherex/duanjuzhijia-down-tvos)
+<!-- platforms:end -->
+
 在 Windows 电脑上找剧、接着上次看。**内容来自红果**，支持搜索、收藏、选集、倍速、自动连播、下载缓存，也能和手机版互相同步收藏与观看进度。
 
 **免费使用 · 当前版本 4.5.14+144**
