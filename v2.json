@@ -1,13 +1,13 @@
 {
-  "version": "4.5.20+150",
-  "versionName": "4.5.20",
-  "build": 150,
-  "versionCode": 40520,
+  "version": "4.5.21+151",
+  "versionName": "4.5.21",
+  "build": 151,
+  "versionCode": 40521,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-12T13:47:48Z",
-  "notes": "**电脑版 4.5.20+150**\n\n---\n\n### 1. 修「红果 App 未返回兼容的媒体，已跳过不支持的编码」\n\n部分剧集点开就报这句话、整集播不了。原因是红果给这些剧下发的片源全是它自家的私有编码，\n播放器读不出视频轨，只能整集跳过。\n\n现在改成向红果要**通用编码（H.265）**的片源。清晰度档位没变 —— 360P / 480P / 540P /\n720P / 1080P 五档都在，1080P 照常可选。实测 9 部剧、41 个剧集样本，全部都能取到可播片源。\n\n排查时发现这不只是一部剧的问题：「霍总别撩了」「战神，我从北境归来」这类剧的部分集数\n以前也是同一个毛病，这次一起好了。\n\n### 2. 开屏进首页更顺\n\n退场不再固定停 0.25 秒，改成**看帧率**：等首页那一阵（排轨道、解封面、糊背景）\n真的忙完再淡出，最多等 1.6 秒。以前淡出正好压在卡顿上，看起来像「开屏卡一下」。\n\n---\n\n覆盖安装即可，登录态、观看记录、收藏都不受影响。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v4.5.20-150",
+  "publishedAt": "2026-11-13T10:10:11Z",
+  "notes": "**电脑版 4.5.21+151（临时紧急更新）**\n\n- 修复：红果接口调整后，所有剧集都播放不了（提示「红果 App 接口未返回有效数据」）\n- 极少数只提供新编码的剧集暂时仍播不了，会提示「未返回兼容的媒体」，可以先看其他集\n- 同时带上：弹幕字号最大 400%、选集自动定位到当前集、画面比例、全季下载\n\n---\n\n覆盖安装即可，登录态、观看记录、收藏都不受影响。",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v4.5.21-151",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-4.5.20+150-setup.exe",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.20-150/duanjuzhijia2-4.5.20%2B150-setup.exe",
+      "name": "duanjuzhijia2-4.5.21+151-setup.exe",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.21-151/duanjuzhijia2-4.5.21%2B151-setup.exe",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.20-150/duanjuzhijia2-4.5.20%2B150-setup.exe",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.20-150/duanjuzhijia2-4.5.20%2B150-setup.exe",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.20-150/duanjuzhijia2-4.5.20%2B150-setup.exe",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.20-150/duanjuzhijia2-4.5.20%2B150-setup.exe"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.21-151/duanjuzhijia2-4.5.21%2B151-setup.exe",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.21-151/duanjuzhijia2-4.5.21%2B151-setup.exe",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.21-151/duanjuzhijia2-4.5.21%2B151-setup.exe",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.21-151/duanjuzhijia2-4.5.21%2B151-setup.exe"
       ],
-      "size": 89052081,
-      "sha256": "422ac6d2bbbddb471bb080af4615a276426b55419a3e3d85b6df335ad5ce8b99",
-      "notes": "**电脑版 4.5.20+150**\n\n---\n\n### 1. 修「红果 App 未返回兼容的媒体，已跳过不支持的编码」\n\n部分剧集点开就报这句话、整集播不了。原因是红果给这些剧下发的片源全是它自家的私有编码，\n播放器读不出视频轨，只能整集跳过。\n\n现在改成向红果要**通用编码（H.265）**的片源。清晰度档位没变 —— 360P / 480P / 540P /\n720P / 1080P 五档都在，1080P 照常可选。实测 9 部剧、41 个剧集样本，全部都能取到可播片源。\n\n排查时发现这不只是一部剧的问题：「霍总别撩了」「战神，我从北境归来」这类剧的部分集数\n以前也是同一个毛病，这次一起好了。\n\n### 2. 开屏进首页更顺\n\n退场不再固定停 0.25 秒，改成**看帧率**：等首页那一阵（排轨道、解封面、糊背景）\n真的忙完再淡出，最多等 1.6 秒。以前淡出正好压在卡顿上，看起来像「开屏卡一下」。\n\n---\n\n覆盖安装即可，登录态、观看记录、收藏都不受影响。"
+      "size": 89067954,
+      "sha256": "e8366cacdd1af02082cf0b27b6ebf62b91fcf1b4cf9c85b43d4b050f36462e43",
+      "notes": "**电脑版 4.5.21+151（临时紧急更新）**\n\n- 修复：红果接口调整后，所有剧集都播放不了（提示「红果 App 接口未返回有效数据」）\n- 极少数只提供新编码的剧集暂时仍播不了，会提示「未返回兼容的媒体」，可以先看其他集\n- 同时带上：弹幕字号最大 400%、选集自动定位到当前集、画面比例、全季下载\n\n---\n\n覆盖安装即可，登录态、观看记录、收藏都不受影响。"
     },
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-4.5.20+150-windows-x64.zip",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.20-150/duanjuzhijia2-4.5.20%2B150-windows-x64.zip",
+      "name": "duanjuzhijia2-4.5.21+151-windows-x64.zip",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.21-151/duanjuzhijia2-4.5.21%2B151-windows-x64.zip",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.20-150/duanjuzhijia2-4.5.20%2B150-windows-x64.zip",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.20-150/duanjuzhijia2-4.5.20%2B150-windows-x64.zip",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.20-150/duanjuzhijia2-4.5.20%2B150-windows-x64.zip",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.20-150/duanjuzhijia2-4.5.20%2B150-windows-x64.zip"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.21-151/duanjuzhijia2-4.5.21%2B151-windows-x64.zip",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.21-151/duanjuzhijia2-4.5.21%2B151-windows-x64.zip",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.21-151/duanjuzhijia2-4.5.21%2B151-windows-x64.zip",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.21-151/duanjuzhijia2-4.5.21%2B151-windows-x64.zip"
       ],
-      "size": 122605640,
-      "sha256": "ea6a6c599ddafd35aaf3736049388f7065b512c7135afa67a3896ecbc46429d6",
-      "notes": "**电脑版 4.5.20+150**\n\n---\n\n### 1. 修「红果 App 未返回兼容的媒体，已跳过不支持的编码」\n\n部分剧集点开就报这句话、整集播不了。原因是红果给这些剧下发的片源全是它自家的私有编码，\n播放器读不出视频轨，只能整集跳过。\n\n现在改成向红果要**通用编码（H.265）**的片源。清晰度档位没变 —— 360P / 480P / 540P /\n720P / 1080P 五档都在，1080P 照常可选。实测 9 部剧、41 个剧集样本，全部都能取到可播片源。\n\n排查时发现这不只是一部剧的问题：「霍总别撩了」「战神，我从北境归来」这类剧的部分集数\n以前也是同一个毛病，这次一起好了。\n\n### 2. 开屏进首页更顺\n\n退场不再固定停 0.25 秒，改成**看帧率**：等首页那一阵（排轨道、解封面、糊背景）\n真的忙完再淡出，最多等 1.6 秒。以前淡出正好压在卡顿上，看起来像「开屏卡一下」。\n\n---\n\n覆盖安装即可，登录态、观看记录、收藏都不受影响。"
+      "size": 122626041,
+      "sha256": "4b0c5a3be06dd605a8a7760f4685aa66899c521386480fedcf56cd4bc53e3d86",
+      "notes": "**电脑版 4.5.21+151（临时紧急更新）**\n\n- 修复：红果接口调整后，所有剧集都播放不了（提示「红果 App 接口未返回有效数据」）\n- 极少数只提供新编码的剧集暂时仍播不了，会提示「未返回兼容的媒体」，可以先看其他集\n- 同时带上：弹幕字号最大 400%、选集自动定位到当前集、画面比例、全季下载\n\n---\n\n覆盖安装即可，登录态、观看记录、收藏都不受影响。"
     }
   ]
 }
