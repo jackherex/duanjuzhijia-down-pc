@@ -1,13 +1,13 @@
 {
-  "version": "4.5.23+153",
-  "versionName": "4.5.23",
-  "build": 153,
-  "versionCode": 153,
+  "version": "4.5.24+154",
+  "versionName": "4.5.24",
+  "build": 154,
+  "versionCode": 154,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-14T00:12:21Z",
-  "notes": "- 修复红果接口调整后播放不了；播放更快，换集基本秒开\n- 新增画面比例、全季下载（可选一季或全部下载）\n- 弹幕显示真实表情，重复弹幕合并；弹幕铺满播放区\n- 字幕最大可调到 400%；打开选集自动定位到正在看的那一集\n- 开屏动画可在设置里关闭，点一下就能跳过\n- 修复部分电脑启动报 FormatException 打不开；不再触发安全软件的 PowerShell 拦截提示\n",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v4.5.23-153",
+  "publishedAt": "2026-11-14T06:19:14Z",
+  "notes": "- 播放器记住上次的音量，下次打开不用再调\n- 修复烧录弹幕的字号调了不生效\n- 红果暂时只给新编码版本的剧集，提示改为「过一会儿再试」，不再像是软件出错\n",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v4.5.24-154",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-4.5.23+153-setup.exe",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.23-153/duanjuzhijia2-4.5.23%2B153-setup.exe",
+      "name": "duanjuzhijia2-4.5.24+154-setup.exe",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.24-154/duanjuzhijia2-4.5.24%2B154-setup.exe",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.23-153/duanjuzhijia2-4.5.23%2B153-setup.exe",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.23-153/duanjuzhijia2-4.5.23%2B153-setup.exe",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.23-153/duanjuzhijia2-4.5.23%2B153-setup.exe",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.23-153/duanjuzhijia2-4.5.23%2B153-setup.exe"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.24-154/duanjuzhijia2-4.5.24%2B154-setup.exe",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.24-154/duanjuzhijia2-4.5.24%2B154-setup.exe",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.24-154/duanjuzhijia2-4.5.24%2B154-setup.exe",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.24-154/duanjuzhijia2-4.5.24%2B154-setup.exe"
       ],
-      "size": 89056896,
-      "sha256": "6a7b02681cb741c6ada0ba29df6cf906eb9aa30520f2c05cf22842f6a4c2002e",
-      "notes": "- 修复红果接口调整后播放不了；播放更快，换集基本秒开\n- 新增画面比例、全季下载（可选一季或全部下载）\n- 弹幕显示真实表情，重复弹幕合并；弹幕铺满播放区\n- 字幕最大可调到 400%；打开选集自动定位到正在看的那一集\n- 开屏动画可在设置里关闭，点一下就能跳过\n- 修复部分电脑启动报 FormatException 打不开；不再触发安全软件的 PowerShell 拦截提示\n"
+      "size": 89060373,
+      "sha256": "0f351642b98c7b5e7c8ece8b7843a0611905e8c7fe4bbe640768f3d8c0ad7e4a",
+      "notes": "- 播放器记住上次的音量，下次打开不用再调\n- 修复烧录弹幕的字号调了不生效\n- 红果暂时只给新编码版本的剧集，提示改为「过一会儿再试」，不再像是软件出错\n"
     },
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64-portable",
-      "name": "duanjuzhijia2-4.5.23+153-windows-x64.zip",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.23-153/duanjuzhijia2-4.5.23%2B153-windows-x64.zip",
+      "name": "duanjuzhijia2-4.5.24+154-windows-x64.zip",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.24-154/duanjuzhijia2-4.5.24%2B154-windows-x64.zip",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.23-153/duanjuzhijia2-4.5.23%2B153-windows-x64.zip",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.23-153/duanjuzhijia2-4.5.23%2B153-windows-x64.zip",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.23-153/duanjuzhijia2-4.5.23%2B153-windows-x64.zip",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.23-153/duanjuzhijia2-4.5.23%2B153-windows-x64.zip"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.24-154/duanjuzhijia2-4.5.24%2B154-windows-x64.zip",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.24-154/duanjuzhijia2-4.5.24%2B154-windows-x64.zip",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.24-154/duanjuzhijia2-4.5.24%2B154-windows-x64.zip",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.24-154/duanjuzhijia2-4.5.24%2B154-windows-x64.zip"
       ],
-      "size": 122627099,
-      "sha256": "3067eddd0fd1cf225faabfaaf10d3980286163f69af17852591b23909ff4fd20",
-      "notes": "- 修复红果接口调整后播放不了；播放更快，换集基本秒开\n- 新增画面比例、全季下载（可选一季或全部下载）\n- 弹幕显示真实表情，重复弹幕合并；弹幕铺满播放区\n- 字幕最大可调到 400%；打开选集自动定位到正在看的那一集\n- 开屏动画可在设置里关闭，点一下就能跳过\n- 修复部分电脑启动报 FormatException 打不开；不再触发安全软件的 PowerShell 拦截提示\n"
+      "size": 122627717,
+      "sha256": "e56a5399aea29e5aaedc5c096cda5bce28296b4ee18f1ea595559fe82e7474fb",
+      "notes": "- 播放器记住上次的音量，下次打开不用再调\n- 修复烧录弹幕的字号调了不生效\n- 红果暂时只给新编码版本的剧集，提示改为「过一会儿再试」，不再像是软件出错\n"
     }
   ]
 }
