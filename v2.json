@@ -1,13 +1,13 @@
 {
-  "version": "4.5.22+152",
-  "versionName": "4.5.22",
-  "build": 152,
-  "versionCode": 40522,
+  "version": "4.5.23+153",
+  "versionName": "4.5.23",
+  "build": 153,
+  "versionCode": 153,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-13T12:13:38Z",
-  "notes": "**电脑版 4.5.22+152（临时修复）**\n\n修复部分剧集**点开提示「红果 App 未返回兼容的媒体，已跳过不支持的编码」、整集播不了**。\n\n---\n\n### 修了什么\n\n红果的取流接口这两天在切换：先后有两套接口可用，而且**谁通谁不通一直在变**。\n\n上一版只走新接口。新接口对一部分剧集只给私有编码的片源（播放器读不出视频轨），\n而且没有回头去试另一套 —— 于是就播不了。\n\n现在改成**两套接口都试，优先用能给出通用编码（H.265）的那套**。\n实测 3 部剧 × 3 集（含《觉醒吧斩魄刀》第二季第 19 集）全部能取到可播片源，\n1080P 照常可选。\n\n---\n\n覆盖安装即可，登录态、观看记录、收藏都不受影响。",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v4.5.22-152",
+  "publishedAt": "2026-11-14T00:12:21Z",
+  "notes": "- 播放更快：换集基本秒开\n- 修复部分电脑启动时报 FormatException、打不开\n- 不再触发安全软件「PowerShell 执行可疑脚本」的拦截提示\n- 弹幕铺满整个播放区\n",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v4.5.23-153",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-4.5.22+152-setup.exe",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.22-152/duanjuzhijia2-4.5.22%2B152-setup.exe",
+      "name": "duanjuzhijia2-4.5.23+153-setup.exe",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.23-153/duanjuzhijia2-4.5.23%2B153-setup.exe",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.22-152/duanjuzhijia2-4.5.22%2B152-setup.exe",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.22-152/duanjuzhijia2-4.5.22%2B152-setup.exe",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.22-152/duanjuzhijia2-4.5.22%2B152-setup.exe",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.22-152/duanjuzhijia2-4.5.22%2B152-setup.exe"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.23-153/duanjuzhijia2-4.5.23%2B153-setup.exe",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.23-153/duanjuzhijia2-4.5.23%2B153-setup.exe",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.23-153/duanjuzhijia2-4.5.23%2B153-setup.exe",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.23-153/duanjuzhijia2-4.5.23%2B153-setup.exe"
       ],
-      "size": 89067057,
-      "sha256": "c6e7370d28e804c13951b10c3ae1f06861aad930ee5282303474a783e8da795e",
-      "notes": "**电脑版 4.5.22+152（临时修复）**\n\n修复部分剧集**点开提示「红果 App 未返回兼容的媒体，已跳过不支持的编码」、整集播不了**。\n\n---\n\n### 修了什么\n\n红果的取流接口这两天在切换：先后有两套接口可用，而且**谁通谁不通一直在变**。\n\n上一版只走新接口。新接口对一部分剧集只给私有编码的片源（播放器读不出视频轨），\n而且没有回头去试另一套 —— 于是就播不了。\n\n现在改成**两套接口都试，优先用能给出通用编码（H.265）的那套**。\n实测 3 部剧 × 3 集（含《觉醒吧斩魄刀》第二季第 19 集）全部能取到可播片源，\n1080P 照常可选。\n\n---\n\n覆盖安装即可，登录态、观看记录、收藏都不受影响。"
+      "size": 89056896,
+      "sha256": "6a7b02681cb741c6ada0ba29df6cf906eb9aa30520f2c05cf22842f6a4c2002e",
+      "notes": "- 播放更快：换集基本秒开\n- 修复部分电脑启动时报 FormatException、打不开\n- 不再触发安全软件「PowerShell 执行可疑脚本」的拦截提示\n- 弹幕铺满整个播放区\n"
     },
     {
       "edition": "duanjuzhijia2",
-      "abi": "windows-x64",
-      "name": "duanjuzhijia2-4.5.22+152-windows-x64.zip",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.22-152/duanjuzhijia2-4.5.22%2B152-windows-x64.zip",
+      "abi": "windows-x64-portable",
+      "name": "duanjuzhijia2-4.5.23+153-windows-x64.zip",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.23-153/duanjuzhijia2-4.5.23%2B153-windows-x64.zip",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.22-152/duanjuzhijia2-4.5.22%2B152-windows-x64.zip",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.22-152/duanjuzhijia2-4.5.22%2B152-windows-x64.zip",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.22-152/duanjuzhijia2-4.5.22%2B152-windows-x64.zip",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.22-152/duanjuzhijia2-4.5.22%2B152-windows-x64.zip"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.23-153/duanjuzhijia2-4.5.23%2B153-windows-x64.zip",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.23-153/duanjuzhijia2-4.5.23%2B153-windows-x64.zip",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.23-153/duanjuzhijia2-4.5.23%2B153-windows-x64.zip",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.23-153/duanjuzhijia2-4.5.23%2B153-windows-x64.zip"
       ],
-      "size": 122626009,
-      "sha256": "a9a4a834785cc3b03b1979b25b6f90915a8eacca255260d63c435841c7e095b7",
-      "notes": "**电脑版 4.5.22+152（临时修复）**\n\n修复部分剧集**点开提示「红果 App 未返回兼容的媒体，已跳过不支持的编码」、整集播不了**。\n\n---\n\n### 修了什么\n\n红果的取流接口这两天在切换：先后有两套接口可用，而且**谁通谁不通一直在变**。\n\n上一版只走新接口。新接口对一部分剧集只给私有编码的片源（播放器读不出视频轨），\n而且没有回头去试另一套 —— 于是就播不了。\n\n现在改成**两套接口都试，优先用能给出通用编码（H.265）的那套**。\n实测 3 部剧 × 3 集（含《觉醒吧斩魄刀》第二季第 19 集）全部能取到可播片源，\n1080P 照常可选。\n\n---\n\n覆盖安装即可，登录态、观看记录、收藏都不受影响。"
+      "size": 122627099,
+      "sha256": "3067eddd0fd1cf225faabfaaf10d3980286163f69af17852591b23909ff4fd20",
+      "notes": "- 播放更快：换集基本秒开\n- 修复部分电脑启动时报 FormatException、打不开\n- 不再触发安全软件「PowerShell 执行可疑脚本」的拦截提示\n- 弹幕铺满整个播放区\n"
     }
   ]
 }
