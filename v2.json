@@ -6,7 +6,7 @@
   "minVersion": "",
   "force": false,
   "publishedAt": "2026-11-14T00:12:21Z",
-  "notes": "- 播放更快：换集基本秒开\n- 修复部分电脑启动时报 FormatException、打不开\n- 不再触发安全软件「PowerShell 执行可疑脚本」的拦截提示\n- 弹幕铺满整个播放区\n",
+  "notes": "- 修复红果接口调整后播放不了；播放更快，换集基本秒开\n- 修复部分电脑启动时报 FormatException、打不开\n- 不再触发安全软件「PowerShell 执行可疑脚本」的拦截提示\n- 弹幕铺满整个播放区；选「满屏」时弹幕跟着铺开\n",
   "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v4.5.23-153",
   "gate": {
     "salt": "djzj-2115cfea85b3",
@@ -29,7 +29,7 @@
       ],
       "size": 89056896,
       "sha256": "6a7b02681cb741c6ada0ba29df6cf906eb9aa30520f2c05cf22842f6a4c2002e",
-      "notes": "- 播放更快：换集基本秒开\n- 修复部分电脑启动时报 FormatException、打不开\n- 不再触发安全软件「PowerShell 执行可疑脚本」的拦截提示\n- 弹幕铺满整个播放区\n"
+      "notes": "- 修复红果接口调整后播放不了；播放更快，换集基本秒开\n- 修复部分电脑启动时报 FormatException、打不开\n- 不再触发安全软件「PowerShell 执行可疑脚本」的拦截提示\n- 弹幕铺满整个播放区；选「满屏」时弹幕跟着铺开\n"
     },
     {
       "edition": "duanjuzhijia2",
@@ -44,7 +44,7 @@
       ],
       "size": 122627099,
       "sha256": "3067eddd0fd1cf225faabfaaf10d3980286163f69af17852591b23909ff4fd20",
-      "notes": "- 播放更快：换集基本秒开\n- 修复部分电脑启动时报 FormatException、打不开\n- 不再触发安全软件「PowerShell 执行可疑脚本」的拦截提示\n- 弹幕铺满整个播放区\n"
+      "notes": "- 修复红果接口调整后播放不了；播放更快，换集基本秒开\n- 修复部分电脑启动时报 FormatException、打不开\n- 不再触发安全软件「PowerShell 执行可疑脚本」的拦截提示\n- 弹幕铺满整个播放区；选「满屏」时弹幕跟着铺开\n"
     }
   ]
 }
