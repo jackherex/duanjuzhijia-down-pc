@@ -1,13 +1,13 @@
 {
-  "version": "4.5.24+154",
-  "versionName": "4.5.24",
-  "build": 154,
-  "versionCode": 154,
+  "version": "4.5.25+155",
+  "versionName": "4.5.25",
+  "build": 155,
+  "versionCode": 155,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-14T06:19:14Z",
-  "notes": "- 播放器记住上次的音量，下次打开不用再调\n- 修复烧录弹幕的字号调了不生效\n- 红果暂时只给新编码版本的剧集，提示改为「过一会儿再试」，不再像是软件出错\n",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v4.5.24-154",
+  "publishedAt": "2026-11-14T15:48:32Z",
+  "notes": "- 红果只给新编码版本（ByteVC2）的剧集现在也能播了，首次播放会先在本机转码，稍等几秒\n- 「关于短剧之家」新增「开源组件」，列出用到的开源工具和链接\n",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v4.5.25-155",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-4.5.24+154-setup.exe",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.24-154/duanjuzhijia2-4.5.24%2B154-setup.exe",
+      "name": "duanjuzhijia2-4.5.25+155-setup.exe",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.25-155/duanjuzhijia2-4.5.25%2B155-setup.exe",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.24-154/duanjuzhijia2-4.5.24%2B154-setup.exe",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.24-154/duanjuzhijia2-4.5.24%2B154-setup.exe",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.24-154/duanjuzhijia2-4.5.24%2B154-setup.exe",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.24-154/duanjuzhijia2-4.5.24%2B154-setup.exe"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.25-155/duanjuzhijia2-4.5.25%2B155-setup.exe",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.25-155/duanjuzhijia2-4.5.25%2B155-setup.exe",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.25-155/duanjuzhijia2-4.5.25%2B155-setup.exe",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.25-155/duanjuzhijia2-4.5.25%2B155-setup.exe"
       ],
-      "size": 89060373,
-      "sha256": "0f351642b98c7b5e7c8ece8b7843a0611905e8c7fe4bbe640768f3d8c0ad7e4a",
-      "notes": "- 播放器记住上次的音量，下次打开不用再调\n- 修复烧录弹幕的字号调了不生效\n- 红果暂时只给新编码版本的剧集，提示改为「过一会儿再试」，不再像是软件出错\n"
+      "size": 92394837,
+      "sha256": "11f62a62c9c5911f441a227ef664522944b98da374be432ccba45194555a7224",
+      "notes": "- 红果只给新编码版本（ByteVC2）的剧集现在也能播了，首次播放会先在本机转码，稍等几秒\n- 「关于短剧之家」新增「开源组件」，列出用到的开源工具和链接\n"
     },
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64-portable",
-      "name": "duanjuzhijia2-4.5.24+154-windows-x64.zip",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.24-154/duanjuzhijia2-4.5.24%2B154-windows-x64.zip",
+      "name": "duanjuzhijia2-4.5.25+155-windows-x64.zip",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.25-155/duanjuzhijia2-4.5.25%2B155-windows-x64.zip",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.24-154/duanjuzhijia2-4.5.24%2B154-windows-x64.zip",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.24-154/duanjuzhijia2-4.5.24%2B154-windows-x64.zip",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.24-154/duanjuzhijia2-4.5.24%2B154-windows-x64.zip",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.24-154/duanjuzhijia2-4.5.24%2B154-windows-x64.zip"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.25-155/duanjuzhijia2-4.5.25%2B155-windows-x64.zip",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.25-155/duanjuzhijia2-4.5.25%2B155-windows-x64.zip",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.25-155/duanjuzhijia2-4.5.25%2B155-windows-x64.zip",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.25-155/duanjuzhijia2-4.5.25%2B155-windows-x64.zip"
       ],
-      "size": 122627717,
-      "sha256": "e56a5399aea29e5aaedc5c096cda5bce28296b4ee18f1ea595559fe82e7474fb",
-      "notes": "- 播放器记住上次的音量，下次打开不用再调\n- 修复烧录弹幕的字号调了不生效\n- 红果暂时只给新编码版本的剧集，提示改为「过一会儿再试」，不再像是软件出错\n"
+      "size": 127395937,
+      "sha256": "9530d86c1d84fa8f25dbf3e18fda75b0413fd497cbde2146f441aac0726d0be4",
+      "notes": "- 红果只给新编码版本（ByteVC2）的剧集现在也能播了，首次播放会先在本机转码，稍等几秒\n- 「关于短剧之家」新增「开源组件」，列出用到的开源工具和链接\n"
     }
   ]
 }
