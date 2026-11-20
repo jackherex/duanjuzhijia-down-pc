@@ -1,13 +1,13 @@
 {
-  "version": "4.5.33+163",
-  "versionName": "4.5.33",
-  "build": 163,
-  "versionCode": 163,
+  "version": "4.5.37+167",
+  "versionName": "4.5.37",
+  "build": 167,
+  "versionCode": 167,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-16T13:47:31Z",
-  "notes": "- 修复：新剧日历、找剧打不开（空白）的问题\n",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v4.5.33-163",
+  "publishedAt": "2026-11-20T02:50:33Z",
+  "notes": "- 新增：红果观看记录同步开关\n- 修复：红果观看历史记录问题\n- 优化：播放画面渲染更稳定\n",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v4.5.37-167",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-4.5.33+163-setup.exe",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.33-163/duanjuzhijia2-4.5.33%2B163-setup.exe",
+      "name": "duanjuzhijia2-4.5.37+167-setup.exe",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.37-167/duanjuzhijia2-4.5.37%2B167-setup.exe",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.33-163/duanjuzhijia2-4.5.33%2B163-setup.exe",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.33-163/duanjuzhijia2-4.5.33%2B163-setup.exe",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.33-163/duanjuzhijia2-4.5.33%2B163-setup.exe",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.33-163/duanjuzhijia2-4.5.33%2B163-setup.exe"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.37-167/duanjuzhijia2-4.5.37%2B167-setup.exe",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.37-167/duanjuzhijia2-4.5.37%2B167-setup.exe",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.37-167/duanjuzhijia2-4.5.37%2B167-setup.exe",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.37-167/duanjuzhijia2-4.5.37%2B167-setup.exe"
       ],
-      "size": 92428793,
-      "sha256": "f304aaf31436d2ba7452fd9afcc215cd2ede223546364688498ca587416acdff",
-      "notes": "- 修复：新剧日历、找剧打不开（空白）的问题\n"
+      "size": 92431214,
+      "sha256": "f9311a64cef65e6b01226dd8faf7bc6091452f0185af0c17a5903eaf209a7154",
+      "notes": "- 新增：红果观看记录同步开关\n- 修复：红果观看历史记录问题\n- 优化：播放画面渲染更稳定\n"
     },
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64-portable",
-      "name": "duanjuzhijia2-4.5.33+163-windows-x64.zip",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.33-163/duanjuzhijia2-4.5.33%2B163-windows-x64.zip",
+      "name": "duanjuzhijia2-4.5.37+167-windows-x64.zip",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.37-167/duanjuzhijia2-4.5.37%2B167-windows-x64.zip",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.33-163/duanjuzhijia2-4.5.33%2B163-windows-x64.zip",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.33-163/duanjuzhijia2-4.5.33%2B163-windows-x64.zip",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.33-163/duanjuzhijia2-4.5.33%2B163-windows-x64.zip",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.33-163/duanjuzhijia2-4.5.33%2B163-windows-x64.zip"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.37-167/duanjuzhijia2-4.5.37%2B167-windows-x64.zip",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.37-167/duanjuzhijia2-4.5.37%2B167-windows-x64.zip",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.37-167/duanjuzhijia2-4.5.37%2B167-windows-x64.zip",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.37-167/duanjuzhijia2-4.5.37%2B167-windows-x64.zip"
       ],
-      "size": 127444594,
-      "sha256": "dc13356b4a857ae2c692df2e284ea04a5ae6dce1f04bf331c9ec93c636be41ff",
-      "notes": "- 修复：新剧日历、找剧打不开（空白）的问题\n"
+      "size": 127459754,
+      "sha256": "b98afe8630592ebed4ada0f665bb39efa7399d582a0b2cdd096ce2e8a0d8118f",
+      "notes": "- 新增：红果观看记录同步开关\n- 修复：红果观看历史记录问题\n- 优化：播放画面渲染更稳定\n"
     }
   ]
 }
