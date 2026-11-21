@@ -1,13 +1,13 @@
 {
-  "version": "4.5.38+168",
-  "versionName": "4.5.38",
-  "build": 168,
-  "versionCode": 168,
+  "version": "4.5.39+169",
+  "versionName": "4.5.39",
+  "build": 169,
+  "versionCode": 169,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-21T05:26:46Z",
-  "notes": "- 新增：红果登录框「手机扫码授权」，用已登录的手机扫码即可登录\n- 优化：查全季优先使用红果官方数据\n- 修复：下载目录所在磁盘写满或打不开时，无法更换下载目录的问题\n> 测试版，正式版用户不受影响\n",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v4.5.38-168-beta",
+  "publishedAt": "2026-11-21T15:19:12Z",
+  "notes": "- 新增：设置里增加「下载管理」入口，随时查看、播放已下载的剧集\n- 优化：下载遇到只有新编码的集，下载时先处理成可播放的格式，离线也能播\n> 测试版，正式版用户不受影响\n",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v4.5.39-169-beta",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-4.5.38+168-setup.exe",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.38-168-beta/duanjuzhijia2-4.5.38%2B168-setup.exe",
+      "name": "duanjuzhijia2-4.5.39+169-setup.exe",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.39-169-beta/duanjuzhijia2-4.5.39%2B169-setup.exe",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.38-168-beta/duanjuzhijia2-4.5.38%2B168-setup.exe",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.38-168-beta/duanjuzhijia2-4.5.38%2B168-setup.exe",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.38-168-beta/duanjuzhijia2-4.5.38%2B168-setup.exe",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.38-168-beta/duanjuzhijia2-4.5.38%2B168-setup.exe"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.39-169-beta/duanjuzhijia2-4.5.39%2B169-setup.exe",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.39-169-beta/duanjuzhijia2-4.5.39%2B169-setup.exe",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.39-169-beta/duanjuzhijia2-4.5.39%2B169-setup.exe",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.39-169-beta/duanjuzhijia2-4.5.39%2B169-setup.exe"
       ],
-      "size": 92464734,
-      "sha256": "e370141d77b83291011d15e279ce90d267ddf7bd63bd0a9ac0f1217114c825c4",
-      "notes": "- 新增：红果登录框「手机扫码授权」，用已登录的手机扫码即可登录\n- 优化：查全季优先使用红果官方数据\n- 修复：下载目录所在磁盘写满或打不开时，无法更换下载目录的问题\n> 测试版，正式版用户不受影响\n"
+      "size": 92482512,
+      "sha256": "27731f3596e65efaf197c58ffbbea77f978addd75a4cd3b2e2ffb996003dffde",
+      "notes": "- 新增：设置里增加「下载管理」入口，随时查看、播放已下载的剧集\n- 优化：下载遇到只有新编码的集，下载时先处理成可播放的格式，离线也能播\n> 测试版，正式版用户不受影响\n"
     },
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64-portable",
-      "name": "duanjuzhijia2-4.5.38+168-windows-x64.zip",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.38-168-beta/duanjuzhijia2-4.5.38%2B168-windows-x64.zip",
+      "name": "duanjuzhijia2-4.5.39+169-windows-x64.zip",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.39-169-beta/duanjuzhijia2-4.5.39%2B169-windows-x64.zip",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.38-168-beta/duanjuzhijia2-4.5.38%2B168-windows-x64.zip",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.38-168-beta/duanjuzhijia2-4.5.38%2B168-windows-x64.zip",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.38-168-beta/duanjuzhijia2-4.5.38%2B168-windows-x64.zip",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.38-168-beta/duanjuzhijia2-4.5.38%2B168-windows-x64.zip"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.39-169-beta/duanjuzhijia2-4.5.39%2B169-windows-x64.zip",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.39-169-beta/duanjuzhijia2-4.5.39%2B169-windows-x64.zip",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.39-169-beta/duanjuzhijia2-4.5.39%2B169-windows-x64.zip",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.39-169-beta/duanjuzhijia2-4.5.39%2B169-windows-x64.zip"
       ],
-      "size": 127521517,
-      "sha256": "f6c9d5709e67f899f9a7e8cd4834d7c4c3d98f4245aab50a3b3aab8ee622117d",
-      "notes": "- 新增：红果登录框「手机扫码授权」，用已登录的手机扫码即可登录\n- 优化：查全季优先使用红果官方数据\n- 修复：下载目录所在磁盘写满或打不开时，无法更换下载目录的问题\n> 测试版，正式版用户不受影响\n"
+      "size": 127525799,
+      "sha256": "ef82f91f07cb2cde1e5dda00cb1f4289b2e9bb67a8bdd4251b20f8f5b80d913c",
+      "notes": "- 新增：设置里增加「下载管理」入口，随时查看、播放已下载的剧集\n- 优化：下载遇到只有新编码的集，下载时先处理成可播放的格式，离线也能播\n> 测试版，正式版用户不受影响\n"
     }
   ]
 }
