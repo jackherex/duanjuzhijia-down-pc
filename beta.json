@@ -1,13 +1,13 @@
 {
-  "version": "4.5.39+179",
-  "versionName": "4.5.39",
-  "build": 179,
-  "versionCode": 179,
+  "version": "4.5.41+181",
+  "versionName": "4.5.41",
+  "build": 181,
+  "versionCode": 181,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-22T10:50:22Z",
-  "notes": "- 优化：封面加载更快，首页滑动更流畅；轮播、继续观看和详情页的封面优先加载\n- 新增：封面还没加载出来时，显示短剧之家图标动画\n- 修复：封面一直转圈或显示「重试」的问题\n- 修复：预约列表里海报全是同一张的问题\n> 测试版，正式版用户不受影响\n",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v4.5.39-179-beta",
+  "publishedAt": "2026-11-22T13:21:22Z",
+  "notes": "- 新增：手机号登录红果遇到滑块验证时，可以直接在应用里完成（需要 Edge WebView2 运行时，Windows 11 自带）\n- 优化：封面加载更快，切换页面后立即获取新页面的封面，搜索结果的封面优先加载\n- 修复：红果登录要求验证时，不再提示「验证码已发送」但实际没发\n> 测试版，正式版用户不受影响\n",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v4.5.41-181-beta",
   "gate": {
     "salt": "djzj-2115cfea85b3",
     "hash": "bf8b120a8db6c635fa1766dbc228b3c9b842ea2bebe91bb5eb2d3f4f122daab0",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-4.5.39+179-setup.exe",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.39-179-beta/duanjuzhijia2-4.5.39%2B179-setup.exe",
+      "name": "duanjuzhijia2-4.5.41+181-setup.exe",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.41-181-beta/duanjuzhijia2-4.5.41%2B181-setup.exe",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.39-179-beta/duanjuzhijia2-4.5.39%2B179-setup.exe",
-        "https://gh-proxy.org/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.39-179-beta/duanjuzhijia2-4.5.39%2B179-setup.exe",
-        "https://ghm.078465.xyz/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.39-179-beta/duanjuzhijia2-4.5.39%2B179-setup.exe",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.39-179-beta/duanjuzhijia2-4.5.39%2B179-setup.exe"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.41-181-beta/duanjuzhijia2-4.5.41%2B181-setup.exe",
+        "https://gh-proxy.org/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.41-181-beta/duanjuzhijia2-4.5.41%2B181-setup.exe",
+        "https://ghm.078465.xyz/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.41-181-beta/duanjuzhijia2-4.5.41%2B181-setup.exe",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.41-181-beta/duanjuzhijia2-4.5.41%2B181-setup.exe"
       ],
-      "size": 92490491,
-      "sha256": "ad43e4d5443dd434a0b0bb59981d4b7d6690f841ad0e90c5fcc1bb035056d062",
-      "notes": "- 优化：封面加载更快，首页滑动更流畅；轮播、继续观看和详情页的封面优先加载\n- 新增：封面还没加载出来时，显示短剧之家图标动画\n- 修复：封面一直转圈或显示「重试」的问题\n- 修复：预约列表里海报全是同一张的问题\n> 测试版，正式版用户不受影响\n"
+      "size": 92654411,
+      "sha256": "4ff2cbfcd33aa5a69c52c31cbd2532e3bfae75975c5b3d210a543ed88c1d8cb1",
+      "notes": "- 新增：手机号登录红果遇到滑块验证时，可以直接在应用里完成（需要 Edge WebView2 运行时，Windows 11 自带）\n- 优化：封面加载更快，切换页面后立即获取新页面的封面，搜索结果的封面优先加载\n- 修复：红果登录要求验证时，不再提示「验证码已发送」但实际没发\n> 测试版，正式版用户不受影响\n"
     },
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64-portable",
-      "name": "duanjuzhijia2-4.5.39+179-windows-x64.zip",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.39-179-beta/duanjuzhijia2-4.5.39%2B179-windows-x64.zip",
+      "name": "duanjuzhijia2-4.5.41+181-windows-x64.zip",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.41-181-beta/duanjuzhijia2-4.5.41%2B181-windows-x64.zip",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.39-179-beta/duanjuzhijia2-4.5.39%2B179-windows-x64.zip",
-        "https://gh-proxy.org/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.39-179-beta/duanjuzhijia2-4.5.39%2B179-windows-x64.zip",
-        "https://ghm.078465.xyz/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.39-179-beta/duanjuzhijia2-4.5.39%2B179-windows-x64.zip",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.39-179-beta/duanjuzhijia2-4.5.39%2B179-windows-x64.zip"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.41-181-beta/duanjuzhijia2-4.5.41%2B181-windows-x64.zip",
+        "https://gh-proxy.org/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.41-181-beta/duanjuzhijia2-4.5.41%2B181-windows-x64.zip",
+        "https://ghm.078465.xyz/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.41-181-beta/duanjuzhijia2-4.5.41%2B181-windows-x64.zip",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.41-181-beta/duanjuzhijia2-4.5.41%2B181-windows-x64.zip"
       ],
-      "size": 127532513,
-      "sha256": "207e66552e7faf6a68d9fcf60aba08b381feee699b9dbd59f5d893b78382d8a9",
-      "notes": "- 优化：封面加载更快，首页滑动更流畅；轮播、继续观看和详情页的封面优先加载\n- 新增：封面还没加载出来时，显示短剧之家图标动画\n- 修复：封面一直转圈或显示「重试」的问题\n- 修复：预约列表里海报全是同一张的问题\n> 测试版，正式版用户不受影响\n"
+      "size": 127817022,
+      "sha256": "ea0a8185d05c976a03b0bcb58ce1c87f038e68e6602acb72cbf4a01f2fb221d0",
+      "notes": "- 新增：手机号登录红果遇到滑块验证时，可以直接在应用里完成（需要 Edge WebView2 运行时，Windows 11 自带）\n- 优化：封面加载更快，切换页面后立即获取新页面的封面，搜索结果的封面优先加载\n- 修复：红果登录要求验证时，不再提示「验证码已发送」但实际没发\n> 测试版，正式版用户不受影响\n"
     }
   ]
 }
