@@ -8,7 +8,7 @@
 
 **免费使用 · 当前版本 4.5.14+144**
 
-[**⬇ 下载 Windows 安装程序（推荐）**](https://github.com/jackherex/duanjuzhijia-down-pc/releases/latest)　｜　[全部版本](https://github.com/jackherex/duanjuzhijia-down-pc/releases)
+[**⬇ 下载 Windows 安装程序（推荐）**](https://github.com/jackherex/duanjuzhijia-down-pc/releases/latest)　｜　[全部版本](https://github.com/jackherex/duanjuzhijia-down-pc/releases)　｜　[❤️ 爱发电赞助支持](https://afdian.com/a/duanjuzhijia)
 
 适用于 **Windows 10 / 11（64 位）**，安装程序约 **85.5 MB**，免安装版约 **117.8 MB**。
 普通使用**只需要下载 `.exe`**（或 `.zip`），不需要下载页面里的其它文件。
@@ -96,6 +96,12 @@ cd503b03440ae879d8620e1d0ab70ca6a330006333843c0e4f28500a610ba707
 > 请以页面上的为准（按钮永远指向最新版）。
 
 [全部版本与更新内容](https://github.com/jackherex/duanjuzhijia-down-pc/releases)
+
+## 赞助支持
+
+如果觉得软件好用，欢迎通过爱发电赞助支持项目持续维护与更新（自愿支持，不影响免费使用）：
+
+- 爱发电主页：[**https://afdian.com/a/duanjuzhijia**](https://afdian.com/a/duanjuzhijia)
 
 ## 关于本仓库
 
