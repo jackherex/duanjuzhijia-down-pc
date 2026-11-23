@@ -1,13 +1,13 @@
 {
-  "version": "4.5.42+182",
-  "versionName": "4.5.42",
-  "build": 182,
-  "versionCode": 40542,
+  "version": "4.5.43+183",
+  "versionName": "4.5.43",
+  "build": 183,
+  "versionCode": 40543,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-23T02:40:07Z",
-  "notes": "## 电脑版 4.5.42+182 Beta\n\n- 新增：首页顶栏与设置页接入 **AI助手**（支持小智官方云端 6 位码激活、一键打开 `xiaozhi.me` 与 `ESP BOX 3` 标识上报）\n- 新增：Windows 原生麦克风 Opus 双向语音与「打电话」连续通话模式，同时支持回车文字找剧与剧集海报卡片直达\n- 新增：5 步配对使用教程与后台自动检测绑定上线\n- 新增：支持在播放窗口通过语音指令播控播放/暂停、切集与跳转进度",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v4.5.42-182-beta",
+  "publishedAt": "2026-11-23T03:11:30Z",
+  "notes": "电脑版 4.5.43+183 Beta\n\n- 新增：首页顶栏与设置页接入 AI助手（支持小智官方云端 6 位码激活、一键打开 xiaozhi.me，上报设备为 ESP BOX 3）\n- 新增：接入内置「查全季」接口（get_series_seasons），搜索多季系列剧自动补全全部季避免漏季\n- 新增：Windows 原生麦克风 Opus 双向语音与「打电话」连续通话模式，支持回车文字找剧与海报卡片直达播控\n- 新增：5 步配对教程与后台自动检测绑定上线",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v4.5.43-183-beta",
   "gate": {
     "salt": "djzj-2285498e2ed7",
     "hash": "d4e4fdd5e2e353de5b7ec05e9a401b93a6a40d96556afea405d574c3a40758bf",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-4.5.42+182-setup.exe",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.42-182-beta/duanjuzhijia2-4.5.42%2B182-setup.exe",
+      "name": "duanjuzhijia2-4.5.43+183-setup.exe",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.43-183-beta/duanjuzhijia2-4.5.43%2B183-setup.exe",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.42-182-beta/duanjuzhijia2-4.5.42%2B182-setup.exe",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.42-182-beta/duanjuzhijia2-4.5.42%2B182-setup.exe",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.42-182-beta/duanjuzhijia2-4.5.42%2B182-setup.exe",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.42-182-beta/duanjuzhijia2-4.5.42%2B182-setup.exe"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.43-183-beta/duanjuzhijia2-4.5.43%2B183-setup.exe",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.43-183-beta/duanjuzhijia2-4.5.43%2B183-setup.exe",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.43-183-beta/duanjuzhijia2-4.5.43%2B183-setup.exe",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.43-183-beta/duanjuzhijia2-4.5.43%2B183-setup.exe"
       ],
-      "size": 92722544,
-      "sha256": "050015b6b838de1039427cc194572566a70c0ba8ccbcb2d78fb7c674897bf1ba",
-      "notes": "## 电脑版 4.5.42+182 Beta\n\n- 新增：首页顶栏与设置页接入 **AI助手**（支持小智官方云端 6 位码激活、一键打开 `xiaozhi.me` 与 `ESP BOX 3` 标识上报）\n- 新增：Windows 原生麦克风 Opus 双向语音与「打电话」连续通话模式，同时支持回车文字找剧与剧集海报卡片直达\n- 新增：5 步配对使用教程与后台自动检测绑定上线\n- 新增：支持在播放窗口通过语音指令播控播放/暂停、切集与跳转进度"
+      "size": 92723183,
+      "sha256": "4a4ce9de870048520adc8d84ac0eddc081ee8b4a4c9199d99fc2729b8150491b",
+      "notes": "电脑版 4.5.43+183 Beta\n\n- 新增：首页顶栏与设置页接入 AI助手（支持小智官方云端 6 位码激活、一键打开 xiaozhi.me，上报设备为 ESP BOX 3）\n- 新增：接入内置「查全季」接口（get_series_seasons），搜索多季系列剧自动补全全部季避免漏季\n- 新增：Windows 原生麦克风 Opus 双向语音与「打电话」连续通话模式，支持回车文字找剧与海报卡片直达播控\n- 新增：5 步配对教程与后台自动检测绑定上线"
     },
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-4.5.42+182-windows-x64.zip",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.42-182-beta/duanjuzhijia2-4.5.42%2B182-windows-x64.zip",
+      "name": "duanjuzhijia2-4.5.43+183-windows-x64.zip",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.43-183-beta/duanjuzhijia2-4.5.43%2B183-windows-x64.zip",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.42-182-beta/duanjuzhijia2-4.5.42%2B182-windows-x64.zip",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.42-182-beta/duanjuzhijia2-4.5.42%2B182-windows-x64.zip",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.42-182-beta/duanjuzhijia2-4.5.42%2B182-windows-x64.zip",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.42-182-beta/duanjuzhijia2-4.5.42%2B182-windows-x64.zip"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.43-183-beta/duanjuzhijia2-4.5.43%2B183-windows-x64.zip",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.43-183-beta/duanjuzhijia2-4.5.43%2B183-windows-x64.zip",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.43-183-beta/duanjuzhijia2-4.5.43%2B183-windows-x64.zip",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.43-183-beta/duanjuzhijia2-4.5.43%2B183-windows-x64.zip"
       ],
-      "size": 127907295,
-      "sha256": "63fe3fee218e4f5da36a5f35859ddd501bf73328638c0c1dff44438f4b3ecb74",
-      "notes": "## 电脑版 4.5.42+182 Beta\n\n- 新增：首页顶栏与设置页接入 **AI助手**（支持小智官方云端 6 位码激活、一键打开 `xiaozhi.me` 与 `ESP BOX 3` 标识上报）\n- 新增：Windows 原生麦克风 Opus 双向语音与「打电话」连续通话模式，同时支持回车文字找剧与剧集海报卡片直达\n- 新增：5 步配对使用教程与后台自动检测绑定上线\n- 新增：支持在播放窗口通过语音指令播控播放/暂停、切集与跳转进度"
+      "size": 127908987,
+      "sha256": "0d4217cca67fccfd161faaaa132cf2c28487fb3f820ef4856c638e00da5fb82d",
+      "notes": "电脑版 4.5.43+183 Beta\n\n- 新增：首页顶栏与设置页接入 AI助手（支持小智官方云端 6 位码激活、一键打开 xiaozhi.me，上报设备为 ESP BOX 3）\n- 新增：接入内置「查全季」接口（get_series_seasons），搜索多季系列剧自动补全全部季避免漏季\n- 新增：Windows 原生麦克风 Opus 双向语音与「打电话」连续通话模式，支持回车文字找剧与海报卡片直达播控\n- 新增：5 步配对教程与后台自动检测绑定上线"
     }
   ]
 }
