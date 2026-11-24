@@ -1,13 +1,13 @@
 {
-  "version": "4.5.47+187",
-  "versionName": "4.5.47",
-  "build": 187,
-  "versionCode": 187,
+  "version": "4.5.48+188",
+  "versionName": "4.5.48",
+  "build": 188,
+  "versionCode": 188,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-24T12:26:25Z",
-  "notes": "修复播放失效\n",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v4.5.47-187",
+  "publishedAt": "2026-11-24T12:57:07Z",
+  "notes": "再次修复播放接口失效（再失效就倒闭吧）",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v4.5.48-188",
   "gate": {
     "salt": "djzj-2285498e2ed7",
     "hash": "d4e4fdd5e2e353de5b7ec05e9a401b93a6a40d96556afea405d574c3a40758bf",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-4.5.47+187-setup.exe",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.47-187/duanjuzhijia2-4.5.47%2B187-setup.exe",
+      "name": "duanjuzhijia2-4.5.48+188-setup.exe",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.48-188/duanjuzhijia2-4.5.48%2B188-setup.exe",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.47-187/duanjuzhijia2-4.5.47%2B187-setup.exe",
-        "https://gh-proxy.org/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.47-187/duanjuzhijia2-4.5.47%2B187-setup.exe",
-        "https://ghm.078465.xyz/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.47-187/duanjuzhijia2-4.5.47%2B187-setup.exe",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.47-187/duanjuzhijia2-4.5.47%2B187-setup.exe"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.48-188/duanjuzhijia2-4.5.48%2B188-setup.exe",
+        "https://gh-proxy.org/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.48-188/duanjuzhijia2-4.5.48%2B188-setup.exe",
+        "https://ghm.078465.xyz/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.48-188/duanjuzhijia2-4.5.48%2B188-setup.exe",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.48-188/duanjuzhijia2-4.5.48%2B188-setup.exe"
       ],
-      "size": 92769370,
-      "sha256": "198b199287716e1497c19c6e0ccdeb5da584eaaf889f076400c7981faf5e06db",
-      "notes": "修复播放失效\n"
+      "size": 92781851,
+      "sha256": "a83876d05068c03e618acc65f4e111f8406c97296078cfb6d737a4785edb208f",
+      "notes": "再次修复播放接口失效（再失效就倒闭吧）"
     },
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64-portable",
-      "name": "duanjuzhijia2-4.5.47+187-windows-x64.zip",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.47-187/duanjuzhijia2-4.5.47%2B187-windows-x64.zip",
+      "name": "duanjuzhijia2-4.5.48+188-windows-x64.zip",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.48-188/duanjuzhijia2-4.5.48%2B188-windows-x64.zip",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.47-187/duanjuzhijia2-4.5.47%2B187-windows-x64.zip",
-        "https://gh-proxy.org/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.47-187/duanjuzhijia2-4.5.47%2B187-windows-x64.zip",
-        "https://ghm.078465.xyz/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.47-187/duanjuzhijia2-4.5.47%2B187-windows-x64.zip",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.47-187/duanjuzhijia2-4.5.47%2B187-windows-x64.zip"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.48-188/duanjuzhijia2-4.5.48%2B188-windows-x64.zip",
+        "https://gh-proxy.org/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.48-188/duanjuzhijia2-4.5.48%2B188-windows-x64.zip",
+        "https://ghm.078465.xyz/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.48-188/duanjuzhijia2-4.5.48%2B188-windows-x64.zip",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.48-188/duanjuzhijia2-4.5.48%2B188-windows-x64.zip"
       ],
-      "size": 127966775,
-      "sha256": "0e89efc88e0b6a83839adc0a0dbd92f0e93bb896c9754e5a8fbe28dbfaa1ecb4",
-      "notes": "修复播放失效\n"
+      "size": 127976892,
+      "sha256": "ffdbd349ad74ea82ae34fe01904b09c0527ed6975dbd70cb87a812111e0fc18c",
+      "notes": "再次修复播放接口失效（再失效就倒闭吧）"
     }
   ]
 }
