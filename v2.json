@@ -1,13 +1,13 @@
 {
-  "version": "4.5.48+188",
-  "versionName": "4.5.48",
-  "build": 188,
-  "versionCode": 188,
+  "version": "4.5.50+190",
+  "versionName": "4.5.50",
+  "build": 190,
+  "versionCode": 40550,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-24T12:57:07Z",
-  "notes": "再次修复播放接口失效（再失效就倒闭吧）",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v4.5.48-188",
+  "publishedAt": "2026-11-25T12:41:52Z",
+  "notes": "- 优化：详情页「查全季」弹窗全新改版，展示各季封面卡片并新增云预约入口\n- 修复：本地下载合并队列偶发处理失败的问题，并全面美化合并队列界面\n- 优化：播放器播放稳定性、连播切集体验与云预约网络稳定性",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v4.5.50-190",
   "gate": {
     "salt": "djzj-2285498e2ed7",
     "hash": "d4e4fdd5e2e353de5b7ec05e9a401b93a6a40d96556afea405d574c3a40758bf",
@@ -19,32 +19,32 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-4.5.48+188-setup.exe",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.48-188/duanjuzhijia2-4.5.48%2B188-setup.exe",
+      "name": "duanjuzhijia2-4.5.50+190-setup.exe",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.50-190/duanjuzhijia2-4.5.50%2B190-setup.exe",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.48-188/duanjuzhijia2-4.5.48%2B188-setup.exe",
-        "https://gh-proxy.org/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.48-188/duanjuzhijia2-4.5.48%2B188-setup.exe",
-        "https://ghm.078465.xyz/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.48-188/duanjuzhijia2-4.5.48%2B188-setup.exe",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.48-188/duanjuzhijia2-4.5.48%2B188-setup.exe"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.50-190/duanjuzhijia2-4.5.50%2B190-setup.exe",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.50-190/duanjuzhijia2-4.5.50%2B190-setup.exe",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.50-190/duanjuzhijia2-4.5.50%2B190-setup.exe",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.50-190/duanjuzhijia2-4.5.50%2B190-setup.exe"
       ],
-      "size": 92781851,
-      "sha256": "a83876d05068c03e618acc65f4e111f8406c97296078cfb6d737a4785edb208f",
-      "notes": "再次修复播放接口失效（再失效就倒闭吧）"
+      "size": 92806991,
+      "sha256": "af8519a7ba83fbdac08eba01be1a07ca06eba327ea4a1970344de7a8f4148ad6",
+      "notes": "- 优化：详情页「查全季」弹窗全新改版，展示各季封面卡片并新增云预约入口\n- 修复：本地下载合并队列偶发处理失败的问题，并全面美化合并队列界面\n- 优化：播放器播放稳定性、连播切集体验与云预约网络稳定性"
     },
     {
       "edition": "duanjuzhijia2",
-      "abi": "windows-x64-portable",
-      "name": "duanjuzhijia2-4.5.48+188-windows-x64.zip",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.48-188/duanjuzhijia2-4.5.48%2B188-windows-x64.zip",
+      "abi": "windows-x64",
+      "name": "duanjuzhijia2-4.5.50+190-windows-x64.zip",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.50-190/duanjuzhijia2-4.5.50%2B190-windows-x64.zip",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.48-188/duanjuzhijia2-4.5.48%2B188-windows-x64.zip",
-        "https://gh-proxy.org/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.48-188/duanjuzhijia2-4.5.48%2B188-windows-x64.zip",
-        "https://ghm.078465.xyz/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.48-188/duanjuzhijia2-4.5.48%2B188-windows-x64.zip",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.48-188/duanjuzhijia2-4.5.48%2B188-windows-x64.zip"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.50-190/duanjuzhijia2-4.5.50%2B190-windows-x64.zip",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.50-190/duanjuzhijia2-4.5.50%2B190-windows-x64.zip",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.50-190/duanjuzhijia2-4.5.50%2B190-windows-x64.zip",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.50-190/duanjuzhijia2-4.5.50%2B190-windows-x64.zip"
       ],
-      "size": 127976892,
-      "sha256": "ffdbd349ad74ea82ae34fe01904b09c0527ed6975dbd70cb87a812111e0fc18c",
-      "notes": "再次修复播放接口失效（再失效就倒闭吧）"
+      "size": 128024861,
+      "sha256": "05e497e2db999bf82121f964df2fff37fdeca6f60a56640c6bf24f6448cda7ee",
+      "notes": "- 优化：详情页「查全季」弹窗全新改版，展示各季封面卡片并新增云预约入口\n- 修复：本地下载合并队列偶发处理失败的问题，并全面美化合并队列界面\n- 优化：播放器播放稳定性、连播切集体验与云预约网络稳定性"
     }
   ]
 }
