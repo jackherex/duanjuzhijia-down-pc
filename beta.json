@@ -6,7 +6,7 @@
   "minVersion": "",
   "force": false,
   "publishedAt": "2026-11-25T05:41:59Z",
-  "notes": "电脑版 4.5.43+183 Beta\n\n- 新增：首页顶栏与设置页接入 AI助手（支持小智官方云端 6 位码激活、一键打开 xiaozhi.me，上报设备为 ESP BOX 3）\n- 新增：接入内置「查全季」接口（get_series_seasons），搜索多季系列剧自动补全全部季避免漏季\n- 新增：Windows 原生麦克风 Opus 双向语音与「打电话」连续通话模式，支持回车文字找剧与海报卡片直达播控\n- 新增：5 步配对教程与后台自动检测绑定上线",
+  "notes": "- 修复：Windows 端播放中途闪退（修复 media_kit_video 纹理缩放竞态、未捕获异常终止进程、核显空指针与 GL 纹理句柄泄露）\n- 优化：画质增强默认关闭时彻底静默并降低 libmpv 日志回调开销，新增 Windows 解码线程与回溯缓存上限防止连播内存暴涨\n- 修复：Windows Release 环境下写 stdout 触发 errno=6 报错\n- 修复：红果综合搜索接口分页参数变更导致搜不到剧的问题\n- 同步：小智 AI 语音助手、WebDAV 提速与设备管理、封面与目录缓存优化",
   "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v4.5.49-189-beta",
   "gate": {
     "salt": "djzj-2285498e2ed7",
@@ -29,7 +29,7 @@
       ],
       "size": 92785082,
       "sha256": "73ac2e65cb2e92188fcca8127c43ea97a6934f65700585f2d7569406371a0679",
-      "notes": "电脑版 4.5.43+183 Beta\n\n- 新增：首页顶栏与设置页接入 AI助手（支持小智官方云端 6 位码激活、一键打开 xiaozhi.me，上报设备为 ESP BOX 3）\n- 新增：接入内置「查全季」接口（get_series_seasons），搜索多季系列剧自动补全全部季避免漏季\n- 新增：Windows 原生麦克风 Opus 双向语音与「打电话」连续通话模式，支持回车文字找剧与海报卡片直达播控\n- 新增：5 步配对教程与后台自动检测绑定上线"
+      "notes": "- 修复：Windows 端播放中途闪退（修复 media_kit_video 纹理缩放竞态、未捕获异常终止进程、核显空指针与 GL 纹理句柄泄露）\n- 优化：画质增强默认关闭时彻底静默并降低 libmpv 日志回调开销，新增 Windows 解码线程与回溯缓存上限防止连播内存暴涨\n- 修复：Windows Release 环境下写 stdout 触发 errno=6 报错\n- 修复：红果综合搜索接口分页参数变更导致搜不到剧的问题\n- 同步：小智 AI 语音助手、WebDAV 提速与设备管理、封面与目录缓存优化"
     },
     {
       "edition": "duanjuzhijia2",
@@ -44,7 +44,7 @@
       ],
       "size": 128004451,
       "sha256": "9e403a8d32c72520db22e877e6d1e76dd2192b81b513d8a78f075c50d5633391",
-      "notes": "电脑版 4.5.43+183 Beta\n\n- 新增：首页顶栏与设置页接入 AI助手（支持小智官方云端 6 位码激活、一键打开 xiaozhi.me，上报设备为 ESP BOX 3）\n- 新增：接入内置「查全季」接口（get_series_seasons），搜索多季系列剧自动补全全部季避免漏季\n- 新增：Windows 原生麦克风 Opus 双向语音与「打电话」连续通话模式，支持回车文字找剧与海报卡片直达播控\n- 新增：5 步配对教程与后台自动检测绑定上线"
+      "notes": "- 修复：Windows 端播放中途闪退（修复 media_kit_video 纹理缩放竞态、未捕获异常终止进程、核显空指针与 GL 纹理句柄泄露）\n- 优化：画质增强默认关闭时彻底静默并降低 libmpv 日志回调开销，新增 Windows 解码线程与回溯缓存上限防止连播内存暴涨\n- 修复：Windows Release 环境下写 stdout 触发 errno=6 报错\n- 修复：红果综合搜索接口分页参数变更导致搜不到剧的问题\n- 同步：小智 AI 语音助手、WebDAV 提速与设备管理、封面与目录缓存优化"
     }
   ]
 }
