@@ -1,13 +1,14 @@
 {
-  "version": "4.5.49+189",
-  "versionName": "4.5.49",
-  "build": 189,
-  "versionCode": 40549,
+  "version": "4.5.51+191",
+  "versionName": "4.5.51",
+  "build": 191,
+  "versionCode": 40551,
+  "beta": true,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-25T05:41:59Z",
-  "notes": "- 修复：Windows 端播放中途闪退（修复 media_kit_video 纹理缩放竞态、未捕获异常终止进程、核显空指针与 GL 纹理句柄泄露）\n- 优化：画质增强默认关闭时彻底静默并降低 libmpv 日志回调开销，新增 Windows 解码线程与回溯缓存上限防止连播内存暴涨\n- 修复：Windows Release 环境下写 stdout 触发 errno=6 报错\n- 修复：红果综合搜索接口分页参数变更导致搜不到剧的问题\n- 同步：小智 AI 语音助手、WebDAV 提速与设备管理、封面与目录缓存优化",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v4.5.49-189-beta",
+  "publishedAt": "2026-11-26T14:44:59Z",
+  "notes": "- 修复：升级红果三域名轮换与 V5 / ByteVC2 播放线路，提升解析稳定性与起播成功率\n- 同步：Windows 播放防闪退优化、小智 AI 语音助手、WebDAV 提速与设备管理\n> 测试版，正式版用户不受影响\n",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v4.5.51-191-beta",
   "gate": {
     "salt": "djzj-2285498e2ed7",
     "hash": "d4e4fdd5e2e353de5b7ec05e9a401b93a6a40d96556afea405d574c3a40758bf",
@@ -19,32 +20,32 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-4.5.49+189-setup.exe",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.49-189-beta/duanjuzhijia2-4.5.49%2B189-setup.exe",
+      "name": "duanjuzhijia2-4.5.51+191-setup.exe",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.51-191-beta/duanjuzhijia2-4.5.51%2B191-setup.exe",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.49-189-beta/duanjuzhijia2-4.5.49%2B189-setup.exe",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.49-189-beta/duanjuzhijia2-4.5.49%2B189-setup.exe",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.49-189-beta/duanjuzhijia2-4.5.49%2B189-setup.exe",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.49-189-beta/duanjuzhijia2-4.5.49%2B189-setup.exe"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.51-191-beta/duanjuzhijia2-4.5.51%2B191-setup.exe",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.51-191-beta/duanjuzhijia2-4.5.51%2B191-setup.exe",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.51-191-beta/duanjuzhijia2-4.5.51%2B191-setup.exe",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.51-191-beta/duanjuzhijia2-4.5.51%2B191-setup.exe"
       ],
-      "size": 92785082,
-      "sha256": "73ac2e65cb2e92188fcca8127c43ea97a6934f65700585f2d7569406371a0679",
-      "notes": "- 修复：Windows 端播放中途闪退（修复 media_kit_video 纹理缩放竞态、未捕获异常终止进程、核显空指针与 GL 纹理句柄泄露）\n- 优化：画质增强默认关闭时彻底静默并降低 libmpv 日志回调开销，新增 Windows 解码线程与回溯缓存上限防止连播内存暴涨\n- 修复：Windows Release 环境下写 stdout 触发 errno=6 报错\n- 修复：红果综合搜索接口分页参数变更导致搜不到剧的问题\n- 同步：小智 AI 语音助手、WebDAV 提速与设备管理、封面与目录缓存优化"
+      "size": 92823352,
+      "sha256": "ba41ff8616a59c8ce07accf14fe37a67709f105215b99b659ffc15fb7f1814ee",
+      "notes": "- 修复：升级红果三域名轮换与 V5 / ByteVC2 播放线路，提升解析稳定性与起播成功率\n- 同步：Windows 播放防闪退优化、小智 AI 语音助手、WebDAV 提速与设备管理\n> 测试版，正式版用户不受影响\n"
     },
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-4.5.49+189-windows-x64.zip",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.49-189-beta/duanjuzhijia2-4.5.49%2B189-windows-x64.zip",
+      "name": "duanjuzhijia2-4.5.51+191-windows-x64.zip",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.51-191-beta/duanjuzhijia2-4.5.51%2B191-windows-x64.zip",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.49-189-beta/duanjuzhijia2-4.5.49%2B189-windows-x64.zip",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.49-189-beta/duanjuzhijia2-4.5.49%2B189-windows-x64.zip",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.49-189-beta/duanjuzhijia2-4.5.49%2B189-windows-x64.zip",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.49-189-beta/duanjuzhijia2-4.5.49%2B189-windows-x64.zip"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.51-191-beta/duanjuzhijia2-4.5.51%2B191-windows-x64.zip",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.51-191-beta/duanjuzhijia2-4.5.51%2B191-windows-x64.zip",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.51-191-beta/duanjuzhijia2-4.5.51%2B191-windows-x64.zip",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.51-191-beta/duanjuzhijia2-4.5.51%2B191-windows-x64.zip"
       ],
-      "size": 128004451,
-      "sha256": "9e403a8d32c72520db22e877e6d1e76dd2192b81b513d8a78f075c50d5633391",
-      "notes": "- 修复：Windows 端播放中途闪退（修复 media_kit_video 纹理缩放竞态、未捕获异常终止进程、核显空指针与 GL 纹理句柄泄露）\n- 优化：画质增强默认关闭时彻底静默并降低 libmpv 日志回调开销，新增 Windows 解码线程与回溯缓存上限防止连播内存暴涨\n- 修复：Windows Release 环境下写 stdout 触发 errno=6 报错\n- 修复：红果综合搜索接口分页参数变更导致搜不到剧的问题\n- 同步：小智 AI 语音助手、WebDAV 提速与设备管理、封面与目录缓存优化"
+      "size": 128025781,
+      "sha256": "34417ccd762073162c1ad24f44b2e7ec54cc40eb11ea482e037bbaae632f1b4b",
+      "notes": "- 修复：升级红果三域名轮换与 V5 / ByteVC2 播放线路，提升解析稳定性与起播成功率\n- 同步：Windows 播放防闪退优化、小智 AI 语音助手、WebDAV 提速与设备管理\n> 测试版，正式版用户不受影响\n"
     }
   ]
 }
