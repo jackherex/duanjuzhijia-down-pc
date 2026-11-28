@@ -1,13 +1,13 @@
 {
-  "version": "4.5.50+190",
-  "versionName": "4.5.50",
-  "build": 190,
-  "versionCode": 40550,
+  "version": "4.5.52+192",
+  "versionName": "4.5.52",
+  "build": 192,
+  "versionCode": 40552,
   "minVersion": "",
   "force": false,
-  "publishedAt": "2026-11-25T12:41:52Z",
-  "notes": "- 优化：详情页「查全季」弹窗全新改版，展示各季封面卡片并新增云预约入口\n- 修复：本地下载合并队列偶发处理失败的问题，并全面美化合并队列界面\n- 优化：播放器播放稳定性、连播切集体验与云预约网络稳定性",
-  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v4.5.50-190",
+  "publishedAt": "2026-11-28T09:34:43Z",
+  "notes": "- 修复：红果账号旧登录态风控不再连累匿名播放取流（彻底解决退出红果账号后才能播的问题），重置设备 ID 同步清空主力播放设备缓存与域名熔断记录\n- 修复：排行榜翻页滑过第 10 名后名次重回 1 的问题，现已正确递增显示 11、12、13…\n- 优化：播放器与红果站源取流稳定性进一步提升",
+  "releaseUrl": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/tag/pc-app-v4.5.52-192",
   "gate": {
     "salt": "djzj-2285498e2ed7",
     "hash": "d4e4fdd5e2e353de5b7ec05e9a401b93a6a40d96556afea405d574c3a40758bf",
@@ -19,32 +19,17 @@
     {
       "edition": "duanjuzhijia2",
       "abi": "windows-x64",
-      "name": "duanjuzhijia2-4.5.50+190-setup.exe",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.50-190/duanjuzhijia2-4.5.50%2B190-setup.exe",
+      "name": "duanjuzhijia2-4.5.52+192-windows-x64.zip",
+      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.52-192/duanjuzhijia2-4.5.52%2B192-windows-x64.zip",
       "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.50-190/duanjuzhijia2-4.5.50%2B190-setup.exe",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.50-190/duanjuzhijia2-4.5.50%2B190-setup.exe",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.50-190/duanjuzhijia2-4.5.50%2B190-setup.exe",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.50-190/duanjuzhijia2-4.5.50%2B190-setup.exe"
+        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.52-192/duanjuzhijia2-4.5.52%2B192-windows-x64.zip",
+        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.52-192/duanjuzhijia2-4.5.52%2B192-windows-x64.zip",
+        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.52-192/duanjuzhijia2-4.5.52%2B192-windows-x64.zip",
+        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.52-192/duanjuzhijia2-4.5.52%2B192-windows-x64.zip"
       ],
-      "size": 92806991,
-      "sha256": "af8519a7ba83fbdac08eba01be1a07ca06eba327ea4a1970344de7a8f4148ad6",
-      "notes": "- 优化：详情页「查全季」弹窗全新改版，展示各季封面卡片并新增云预约入口\n- 修复：本地下载合并队列偶发处理失败的问题，并全面美化合并队列界面\n- 优化：播放器播放稳定性、连播切集体验与云预约网络稳定性"
-    },
-    {
-      "edition": "duanjuzhijia2",
-      "abi": "windows-x64",
-      "name": "duanjuzhijia2-4.5.50+190-windows-x64.zip",
-      "url": "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.50-190/duanjuzhijia2-4.5.50%2B190-windows-x64.zip",
-      "urls": [
-        "https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.50-190/duanjuzhijia2-4.5.50%2B190-windows-x64.zip",
-        "https://ghproxy.net/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.50-190/duanjuzhijia2-4.5.50%2B190-windows-x64.zip",
-        "https://gh-proxy.com/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.50-190/duanjuzhijia2-4.5.50%2B190-windows-x64.zip",
-        "https://ghfast.top/https://github.com/jackherex/duanjuzhijia-down-pc/releases/download/pc-app-v4.5.50-190/duanjuzhijia2-4.5.50%2B190-windows-x64.zip"
-      ],
-      "size": 128024861,
-      "sha256": "05e497e2db999bf82121f964df2fff37fdeca6f60a56640c6bf24f6448cda7ee",
-      "notes": "- 优化：详情页「查全季」弹窗全新改版，展示各季封面卡片并新增云预约入口\n- 修复：本地下载合并队列偶发处理失败的问题，并全面美化合并队列界面\n- 优化：播放器播放稳定性、连播切集体验与云预约网络稳定性"
+      "size": 128027081,
+      "sha256": "e066b3e1e777894636ea1c3f77788161456fdcb07edfafd34b03c340772d9a10",
+      "notes": "- 修复：红果账号旧登录态风控不再连累匿名播放取流（彻底解决退出红果账号后才能播的问题），重置设备 ID 同步清空主力播放设备缓存与域名熔断记录\n- 修复：排行榜翻页滑过第 10 名后名次重回 1 的问题，现已正确递增显示 11、12、13…\n- 优化：播放器与红果站源取流稳定性进一步提升"
     }
   ]
 }
